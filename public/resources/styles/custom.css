@@ -2,7 +2,7 @@ body {
     padding-top: 70px;
 }
 
-img {
+.img-thumbnail {
     max-width: 250px;
     max-height: 250px;
     margin-left: auto;
@@ -11,4 +11,27 @@ img {
     padding-left: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.img-project {
+    max-width: 420px;
+    max-height: 420px;
+}
+
+.row-spacer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#workspace {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+[class*="col-"] {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: middle;
 }
