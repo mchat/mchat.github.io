@@ -24,10 +24,6 @@ body {
     -webkit-filter: blur(25px);
 }
 
-.contact a {
-    color: #00a8c6;
-}
-
 .img-thumbnail {
     max-width: 250px;
     max-height: 250px;
