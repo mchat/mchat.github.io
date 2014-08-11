@@ -34,28 +34,15 @@ require(['router'], function (Router) {
         pushState: true
     });
 
-    $(document).ready(function () {
+    // Route local links through Backbone Router.
+    $('a[view]').on('click', function (event) {
+        var target = $(event.target).attr('view');
 
-        // Route local links through Backbone Router
-        // instead of creating a separate http request.
-        $(document).on('click', 'a[href^="/"]', function (event) {
-            // Prevents http request, but also navbar link functionality
-            event.preventDefault();
+        // Replace this URI with target URI
+        router.navigate(target);
 
-            var target = $(event.target).attr('href').slice(1);
-
-            // Replace this URI with target URI
-            router.navigate(target);
-
-            // Render target view
-            router.load(target);
-        });
-
-        // Restore navbar link functionality
-        $(".navbar-nav li a").click(function (event) {
-            $(".navbar-collapse").collapse('hide');
-        });
-
+        // Render target view
+        router.load(target);
     });
 
 });

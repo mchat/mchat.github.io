@@ -54,6 +54,11 @@ body {
     vertical-align: middle;
 }
 
+a[view] {
+    cursor: pointer;
+    cursor: hand;
+}
+
 /*********************************************************/
 /* From http://avexdesigns.com/responsive-youtube-embed/ */
 
