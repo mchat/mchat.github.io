@@ -20,6 +20,7 @@ function(Backbone, $, config) {
          */
         initialize: function (options) {
             this.name = options.name;
+            this.div = options.div;
         },
 
         /**

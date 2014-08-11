@@ -1,8 +1,9 @@
 define([
     'backbone',
-    'jquery'
+    'jquery',
+    'config'
 ],
-function(Backbone, $) {
+function(Backbone, $, config) {
 
     'use strict';
 
@@ -30,6 +31,29 @@ function(Backbone, $) {
          */
         render: function () {
             this.$el.html(this.model.html);
+
+            // Route local links through Backbone Router.
+            $('a[view]').on('click', function (event) {
+
+                if (findBootstrapEnvironment() === 'xs') {
+                    $(".navbar-collapse").collapse('hide');
+                }
+
+                var target = $(event.target).attr('view');
+
+                // Replace this URI with target URI
+                config.router.navigate(target);
+
+                // Render target view
+                config.router.load(target);
+            });
+
+            if (this.model.div) {
+                // TODO; Figure out a non-hacky method of updating hash
+                window.location.hash = "#workspace";
+                window.location.hash = this.model.div;
+                window.location.hash = this.model.div;
+            }
         }
 
     });

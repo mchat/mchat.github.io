@@ -30,11 +30,20 @@ function(Backbone, $, PageModel, PageView) {
          * @return {Promise}
          */
         load: function(name) {
-            var that = this;
+            var that = this,
+                div,
+                i;
+
+            if (name && (i = name.indexOf('#')) > -1) {
+                div = name.slice(i + 1);
+                name = name.slice(0, i);
+            } else if (window.location.hash) {
+                div = window.location.hash;
+            }
 
             name = name || 'index';
 
-            var model = new PageModel({ name: name }),
+            var model = new PageModel({ name: name, div: div }),
                 view = new PageView({ el: '#workspace', model: model });
 
             model.fetch();

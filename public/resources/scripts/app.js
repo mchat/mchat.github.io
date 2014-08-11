@@ -50,27 +50,14 @@ var findBootstrapEnvironment = function findBootstrapEnvironment() {
 };
 
 // Initialize Backbone Router
-require(['router'], function (Router) {
+require(['router', 'config'], function (Router, config) {
 
     var router = new Router({});
     Backbone.history.start({
-        pushState: true
+        pushState: true,
+        hashChange: false
     });
 
-    // Route local links through Backbone Router.
-    $('a[view]').on('click', function (event) {
-
-        if (findBootstrapEnvironment() === 'xs') {
-            $(".navbar-collapse").collapse('hide');
-        }
-
-        var target = $(event.target).attr('view');
-
-        // Replace this URI with target URI
-        router.navigate(target);
-
-        // Render target view
-        router.load(target);
-    });
+    config.router = router;
 
 });

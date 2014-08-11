@@ -5,7 +5,10 @@ define([], function() {
      */
     return {
 
-        partialsUrl: '/public/resources/partials/'
+        partialsUrl: '/public/resources/partials/',
+
+        //placeholder
+        router: {}
 
     };
 
