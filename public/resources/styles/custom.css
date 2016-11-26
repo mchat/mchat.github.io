@@ -127,6 +127,11 @@ a:hover, a:focus {
   }
 }
 
+.twitter-tweet {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /*********************************************************/
 /* From http://avexdesigns.com/responsive-youtube-embed/ */
 
