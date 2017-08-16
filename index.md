@@ -4,9 +4,10 @@ permalink: /
 ---
 
 <div class="content__section">
-  <div class="content__section__text content__section__text--centered" markdown="block">
-
+  <div class="content__section__media" markdown="block">
 ![Profile picture of Marie Chatfield.](/public/resources/images/profile.jpg){: .content__section__image }
+  </div>
+  <div class="content__section__text content__section__text--centered content__section__text--align-title" markdown="block">
 
 # solve problems to help people
 
