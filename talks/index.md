@@ -1,18 +1,19 @@
 ---
 layout: default
+title: talks
 ---
 
-# talks
-
+<div class="content__section" markdown="block">
 ### Looking for a tutorial or workshop documentation? Check out [tutorials by marie](/tutorials/).
+</div>
 
-<div id="low-power-mode" class="row">
-  <div class="col-md-6">
+<div id="low-power-mode" class="content__section">
+  <div class="content__section__media">
     <div class="video-container">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/cFYsKX83gis" frameborder="0" allowfullscreen></iframe>
     </div>
   </div>
-  <div class="col-md-6 text-left" markdown="block">
+  <div class="content__section__text content__section__text--adjust-title" markdown="block">
 
 #### Low Power Mode
 
@@ -27,11 +28,11 @@ This talk was originally given at [AlterConf Portland 2016](https://www.altercon
   </div>
 </div>
 
-<div id="deploy-workshop" class="row">
-  <div class="col-md-6">
+<div id="deploy-workshop" class="content__section">
+  <div class="content__section__media--small">
     <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Full house for <a href="https://twitter.com/Square">@Square</a> <a href="https://twitter.com/hashtag/womeng?src=hash">#womeng</a> <a href="https://twitter.com/mariechatfield">@mariechatfield</a> at her <a href="https://twitter.com/hashtag/WECode2017?src=hash">#WECode2017</a> session on building &amp; deploying an app &amp; server! 💻 <a href="https://twitter.com/WECodeHarvard">@WECodeHarvard</a> <a href="https://t.co/lj4grWR1fH">pic.twitter.com/lj4grWR1fH</a></p>&mdash; Saqi Mehta (@callmesaqi) <a href="https://twitter.com/callmesaqi/status/827911586257965057">February 4, 2017</a></blockquote>
   </div>
-  <div class="col-md-6 text-left" markdown="block">
+  <div class="content__section__text" markdown="block">
 
 #### Building and Deploying a Web App Workshop
 
@@ -44,11 +45,11 @@ This talk is ideal for people who have some familiarity with the command line an
 </div>
 </div>
 
-<div id="firebase-workshop" class="row">
-  <div class="col-md-6">
+<div id="firebase-workshop" class="content__section">
+  <div class="content__section__media--small">
     <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">We got a full house of hella smart ladies--fire burnin fire burnin on the back end (Firebase workshop happenin now) <a href="https://t.co/qhlm8o8mgM">pic.twitter.com/qhlm8o8mgM</a></p>&mdash; FemmeHacks (@femmehacks) <a href="https://twitter.com/femmehacks/status/700857363268505600">February 20, 2016</a></blockquote>
   </div>
-  <div class="col-md-6 text-left" markdown="block">
+  <div class="content__section__text" markdown="block">
 
 #### Firebase Workshop
 
@@ -63,13 +64,13 @@ The workshop is extensively documented and is also provided in [written tutorial
   </div>
 </div>
 
-<div id="how-to-even-web" class="row">
-  <div class="col-md-6">
+<div id="how-to-even-web" class="content__section">
+  <div class="content__section__media">
     <div class="video-container">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/you6h281qsY" frameborder="0" allowfullscreen></iframe>
     </div>
   </div>
-  <div class="col-md-6 text-left" markdown="block">
+  <div class="content__section__text content__section__text--adjust-title" markdown="block">
 
 #### How to Even Web
 

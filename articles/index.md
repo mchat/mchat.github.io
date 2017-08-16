@@ -1,19 +1,20 @@
 ---
 layout: default
+title: articles
 ---
 
-# articles
+<div class="content__section" markdown="block">
+### what i’ve written
+</div>
 
 ----------
 
-### what i’ve written
-
-<div class="row">
-  <div class="col-lg-6">
+<div class="content__section">
+  <div class="content__section__media--small">
     <blockquote class="content-media twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Run 🏃‍♀️ don&#39;t walk 🚶 to read this excellent in-depth post on actions and DOM events in Ember.js <a href="https://t.co/z4CeZN6d0T">https://t.co/z4CeZN6d0T</a> by <a href="https://twitter.com/mariechatfield">@mariechatfield</a> <a href="https://t.co/F4OOrZRgLc">pic.twitter.com/F4OOrZRgLc</a></p>&mdash; mixonic (@mixonic) <a href="https://twitter.com/mixonic/status/895329691061469188">August 9, 2017</a></blockquote>
   </div>
 
-  <div class="col-lg-6 text-content" markdown="block">
+  <div class="content__section__text" markdown="block">
 
 #### [Deep Dive on Ember Events](https://medium.com/square-corner-blog/deep-dive-on-ember-events-cf684fd3b808)
 
@@ -24,11 +25,11 @@ The difference between Ember actions and DOM events and why it matters, plus a r
   </div>
 </div>
 
-<div class="row">
-  <div class="col-lg-6">
+<div class="content__section">
+  <div class="content__section__media--small">
     <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I started Hear + Now a year ago and I&#39;m so proud of the changes <a href="https://twitter.com/mariechatfield">@mariechatfield</a> has made! Read more here: <a href="https://t.co/HGg4AwGs9k">https://t.co/HGg4AwGs9k</a> <a href="https://t.co/sSAuO8UygC">https://t.co/sSAuO8UygC</a></p>&mdash; Alyssa Pohahau (@arpohahau) <a href="https://twitter.com/arpohahau/status/796816779850956800">November 10, 2016</a></blockquote>
   </div>
-  <div class="col-lg-6 text-content" markdown="block">
+  <div class="content__section__text" markdown="block">
 
 #### [Inclusion up and to the right: how we’re improving Hear + Now tech talks](https://medium.com/square-corner-blog/inclusion-up-and-to-the-right-how-were-improving-hear-now-tech-talks-4e653c8056b1)
 
@@ -39,11 +40,11 @@ Changes made to make a tech talk series hosted by Square WomEng more inclusive.
   </div>
 </div>
 
-<div class="row">
-  <div class="col-lg-6">
+<div class="content__section">
+  <div class="content__section__media--small">
     <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">.<a href="https://twitter.com/mariechatfield">@mariechatfield</a> is the coolest: &quot;Introducing <a href="https://t.co/EbdJzaw54I">https://t.co/EbdJzaw54I</a>, a better way to reach your representatives&quot; <a href="https://t.co/7cB51I6RFP">https://t.co/7cB51I6RFP</a></p>&mdash; Caty Kobe (@catykobe) <a href="https://twitter.com/catykobe/status/803403483407753216">November 29, 2016</a></blockquote>
   </div>
-  <div class="col-lg-6 text-content" markdown="block">
+  <div class="content__section__text" markdown="block">
 
 #### [Introducing CallMyCongress.com, a better way to reach your representatives](https://medium.com/@mariechatfield/introducing-callmycongress-com-a-better-way-to-reach-your-representatives-51b86f3e547c#.uxmebhsx6)
 
@@ -52,11 +53,11 @@ Post announcing the launch of [CallMyCongress.com](https://www.callmycongress.co
   </div>
 </div>
 
-<div class="row">
-  <div class="col-lg-6">
+<div class="content__section">
+  <div class="content__section__media--small">
     <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Excellent advice from <a href="https://twitter.com/Square">@square</a>&#39;s <a href="https://twitter.com/mariechatfield">@mariechatfield</a> on managing your energy in &quot;Low Power Mode&quot;. <a href="https://twitter.com/hashtag/alterconf?src=hash">#alterconf</a> <a href="https://t.co/2v7ZZNM0hg">https://t.co/2v7ZZNM0hg</a></p>&mdash; Square Engineering (@SquareEng) <a href="https://twitter.com/SquareEng/status/783396502500630528">October 4, 2016</a></blockquote>
   </div>
-  <div class="col-lg-6 text-content" markdown="block">
+  <div class="content__section__text" markdown="block">
 
 #### [Low Power Mode: Managing Your Emotional and Creative Energy](https://medium.com/square-corner-blog/low-power-mode-managing-your-emotional-and-creative-energy-3ce6faad74a8#.d69hlvpw6)
 
@@ -67,19 +68,25 @@ Slides and speaker notes from a talk originally given at [AlterConf Portland 201
   </div>
 </div>
 
-
+<div class="content__section" markdown="block">
+  <div class="content__section__text" markdown="block">
 #### Bonus Content: [Some Kind of Dispatch](http://tinyletter.com/mariechatfield), a TinyLetter newsletter
 
 Short, sweet, and fleeting, these missives are meant to be enjoyed like ice cream cones on a sunny June afternoon: quickly and with joy.
 
+  </div>
+</div>
+
+
+<div class="content__section" markdown="block">
+### what’s been written about me
+</div>
 
 -----------
 
 
-### what’s been written about me
-
-<div class="row text-left">
-  <div class="col-lg-8" markdown="block">
+<div class="content__section">
+  <div class="content__section__text" markdown="block">
 
 #### [Fairygodboss of the Week: Marie Chatfield](https://fairygodboss.com/articles/fairygodboss-of-the-week-marie-chatfield)
 
@@ -90,8 +97,8 @@ Profile by [Fairygodboss](https://fairygodboss.com/) about career growth and tip
   </div>
 </div>
 
-<div class="row text-left">
-  <div class="col-lg-8" markdown="block">
+<div class="content__section">
+  <div class="content__section__text" markdown="block">
 #### [Women Who Reign: Marie Chatfield](https://medium.com/@ReigningIt/women-who-reign-marie-chatfield-499a71728313#.s5wb34d0o)
 
 Profile by [ReigningIt](https://reigningit.wordpress.com) about being a woman in STEM.

@@ -7,7 +7,6 @@
 
     <link href='http://fonts.googleapis.com/css?family=Abel|Cookie' rel='stylesheet' type='text/css'>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="/public/resources/styles/custom.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   </head>
@@ -15,47 +14,26 @@
   <body>
 
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="navigation">
 
-      <a class="navbar-brand" href="/">marie chatfield</a>
+      <a class="navigation__name" href="/">marie chatfield</a>
 
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-
-        <div class="collapse navbar-collapse" id="navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="navbar-link"><a href="/projects">side projects</a></li>
-            <li class="navbar-link"><a href="/talks">talks</a></li>
-            <li class="navbar-link"><a href="/articles">articles</a></li>
-            <li class="navbar-link"><a href="/contact">contact</a></li>
-          </ul>
-        </div>
-        <!-- /.navbar-collapse -->
+      <div class="navigation__list">
+        <a class="navigation__list__item" href="/projects">side projects</a>
+        <a class="navigation__list__item" href="/talks">talks</a>
+        <a class="navigation__list__item" href="/articles">articles</a>
+        <a class="navigation__list__item" href="/contact">contact</a>
       </div>
-      <!-- /.container -->
-    </nav>
+    </div>
 
     <!-- Page Content -->
-    <div class="container">
-
-      <div class="row">
-        <div class="col-lg-12 text-center">
-
-          <div id="workspace">
-            {{ content }}
-          </div>
-        </div>
+    <div class="content">
+      <div class="content__section">
+        <h1>{{ page.title }}</h1>
       </div>
-      <!-- /.row -->
 
+      {{ content }}
     </div>
-    <!-- /.container -->
 
     <script type="text/javascript">
     // Google Analytics Script
@@ -75,10 +53,5 @@
     ga('send', 'pageview');
     </script>
 
-    <!-- Load scripts for Bootstrap JS components. -->
-    <script src="/public/vendor/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
   </body>
-
 </html>
