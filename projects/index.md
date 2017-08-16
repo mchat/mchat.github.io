@@ -1,15 +1,14 @@
 ---
 layout: default
+title: side projects
 ---
 
-# side projects
-
-<div id="call-my-congress" class="row">
-  <div class="col-md-6" markdown="block">
-![Screenshot of CallMyCongress.com](/public/resources/images/callmycongress.png){: .img-project }
+<div id="call-my-congress" class="content__section">
+  <div class="content__section__media" markdown="block">
+![Screenshot of CallMyCongress.com](/public/resources/images/callmycongress.png){: .content__section__image }
   </div>
 
-  <div class="col-md-6 text-left" markdown="block">
+  <div class="content__section__text" markdown="block">
 #### [CallMyCongress.com](https://www.callmycongress.com)
 ##### November 2016
 
@@ -28,11 +27,11 @@ Consists of an Ember client side app and a tiny Express backend server. [See the
 </div>
 
 
-<div id="markomposition" class="row">
-  <div class="col-md-6" markdown="block">
-![Screenshot of mariechatfield.com/markomposition](/public/resources/images/markomposition.png){: .img-project }
+<div id="markomposition" class="content__section">
+  <div class="content__section__media" markdown="block">
+![Screenshot of mariechatfield.com/markomposition](/public/resources/images/markomposition.png){: .content__section__image }
   </div>
-  <div class="col-md-6 text-left" markdown="block">
+  <div class="content__section__text" markdown="block">
 #### [Markomposition](http://mariechatfield.com/markomposition)
 ##### March 2015
 
@@ -49,11 +48,11 @@ to encourage further exploration of these topics.
   </div>
 </div>
 
-<div id="one-two-tree" class="row">
-  <div class="col-md-6" markdown="block">
-![Screenshot of mariechatfield.com/onetwotree](/public/resources/images/one_two_tree.png){: .img-project }
+<div id="one-two-tree" class="content__section">
+  <div class="content__section__media" markdown="block">
+![Screenshot of mariechatfield.com/onetwotree](/public/resources/images/one_two_tree.png){: .content__section__image }
   </div>
-  <div class="col-md-6 text-left" markdown="block">
+  <div class="content__section__text" markdown="block">
 #### [one.two.tree](http://mariechatfield.com/onetwotree)
 ##### December 2014
 

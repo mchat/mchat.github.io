@@ -3,10 +3,10 @@ layout: default
 permalink: /
 ---
 
-<div class="row">
-<div class="col-lg-8 col-lg-offset-2" markdown="block">
+<div class="content__section">
+  <div class="content__section__text content__section__text--centered" markdown="block">
 
-![Profile picture of Marie Chatfield.](/public/resources/images/profile.jpg){: .img-responsive .img-profile }
+![Profile picture of Marie Chatfield.](/public/resources/images/profile.jpg){: .content__section__image }
 
 # solve problems to help people
 
@@ -27,5 +27,5 @@ In my free time, I read and write poetry. I love swing dancing and taking walks 
 I drink a lot of coffee, and sometimes even serve coffee before worship at [my church](http://realitysf.com/).
 A native Texan, I’m on a quest to find the closest thing to authentic Texas barbecue in the Bay Area.
 
-</div>
+  </div>
 </div>
