@@ -1,53 +1,57 @@
 body {
-    padding-top: 90px;
-    font-family: 'Abel', sans-serif;
-    background-color: #F6F6F6;
+  padding-top: 90px;
+  font-family: 'Abel', sans-serif;
+  background-color: #F6F6F6;
 }
 
 .navbar-brand, h1, h2 {
-    font-family: 'Cookie', sans-serif;
+  font-family: 'Cookie', sans-serif;
 }
 
 h1 {
-    font-size: 50px;
-    color: #a93f55;
+  font-size: 50px;
+  color: #a93f55;
 }
 
 h2 {
-    color: #a93f55;
+  color: #a93f55;
 }
 
 .navbar-brand {
-    font-size: 36px;
+  font-size: 36px;
 }
 
 h3, h4, h5 {
-    font-family: 'Abel', sans-serif;
+  font-family: 'Abel', sans-serif;
 }
 
 a {
-    color: #a93f55;
+  color: #a93f55;
 }
 
 a:hover, a:focus {
-    color: #853244;
+  color: #853244;
 }
 
-#index img {
-    margin-left: auto;
-    margin-right: auto;
-    max-height: 350px;
+.img-profile {
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 350px;
 }
 
 .img-project {
-    max-width: 100%;
-    max-height: 300px;
-    height: auto;
+  max-width: 100%;
+  max-height: 300px;
+  height: auto;
 }
 
-.row-spacer {
-    padding-top: 15px;
-    padding-bottom: 15px;
+.row {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.text-content {
+  padding-top: 25px;
 }
 
 /*********************************************************/
