@@ -7,10 +7,8 @@ title: articles
 ### what i’ve written
 </div>
 
-----------
-
 <div class="content__section">
-  <div class="content__section__media--small">
+  <div class="content__section__media content__section__media--small">
     <blockquote class="content-media twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Run 🏃‍♀️ don&#39;t walk 🚶 to read this excellent in-depth post on actions and DOM events in Ember.js <a href="https://t.co/z4CeZN6d0T">https://t.co/z4CeZN6d0T</a> by <a href="https://twitter.com/mariechatfield">@mariechatfield</a> <a href="https://t.co/F4OOrZRgLc">pic.twitter.com/F4OOrZRgLc</a></p>&mdash; mixonic (@mixonic) <a href="https://twitter.com/mixonic/status/895329691061469188">August 9, 2017</a></blockquote>
   </div>
 
@@ -26,7 +24,7 @@ The difference between Ember actions and DOM events and why it matters, plus a r
 </div>
 
 <div class="content__section">
-  <div class="content__section__media--small">
+  <div class="content__section__media content__section__media--small">
     <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I started Hear + Now a year ago and I&#39;m so proud of the changes <a href="https://twitter.com/mariechatfield">@mariechatfield</a> has made! Read more here: <a href="https://t.co/HGg4AwGs9k">https://t.co/HGg4AwGs9k</a> <a href="https://t.co/sSAuO8UygC">https://t.co/sSAuO8UygC</a></p>&mdash; Alyssa Pohahau (@arpohahau) <a href="https://twitter.com/arpohahau/status/796816779850956800">November 10, 2016</a></blockquote>
   </div>
   <div class="content__section__text" markdown="block">
@@ -41,7 +39,7 @@ Changes made to make a tech talk series hosted by Square WomEng more inclusive.
 </div>
 
 <div class="content__section">
-  <div class="content__section__media--small">
+  <div class="content__section__media content__section__media--small">
     <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">.<a href="https://twitter.com/mariechatfield">@mariechatfield</a> is the coolest: &quot;Introducing <a href="https://t.co/EbdJzaw54I">https://t.co/EbdJzaw54I</a>, a better way to reach your representatives&quot; <a href="https://t.co/7cB51I6RFP">https://t.co/7cB51I6RFP</a></p>&mdash; Caty Kobe (@catykobe) <a href="https://twitter.com/catykobe/status/803403483407753216">November 29, 2016</a></blockquote>
   </div>
   <div class="content__section__text" markdown="block">
@@ -54,7 +52,7 @@ Post announcing the launch of [CallMyCongress.com](https://www.callmycongress.co
 </div>
 
 <div class="content__section">
-  <div class="content__section__media--small">
+  <div class="content__section__media content__section__media--small">
     <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Excellent advice from <a href="https://twitter.com/Square">@square</a>&#39;s <a href="https://twitter.com/mariechatfield">@mariechatfield</a> on managing your energy in &quot;Low Power Mode&quot;. <a href="https://twitter.com/hashtag/alterconf?src=hash">#alterconf</a> <a href="https://t.co/2v7ZZNM0hg">https://t.co/2v7ZZNM0hg</a></p>&mdash; Square Engineering (@SquareEng) <a href="https://twitter.com/SquareEng/status/783396502500630528">October 4, 2016</a></blockquote>
   </div>
   <div class="content__section__text" markdown="block">
@@ -81,9 +79,6 @@ Short, sweet, and fleeting, these missives are meant to be enjoyed like ice crea
 <div class="content__section" markdown="block">
 ### what’s been written about me
 </div>
-
------------
-
 
 <div class="content__section">
   <div class="content__section__text" markdown="block">
