@@ -1,11 +1,11 @@
 <html>
   <head>
-    <title>marie chatfield -- portfolio</title>
+    <title>Marie Chatfield {%if page.title %}| {{ page.title }}{% endif %}</title>
 
     <!-- Configure viewport to correctly size for iOS mobile devices. -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <link href='http://fonts.googleapis.com/css?family=Abel|Cookie' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Abel|Cookie|Berkshire+Swash|Lato|Raleway|Bitter|Noto+Serif' rel='stylesheet' type='text/css'>
 
     <link rel="stylesheet" href="/public/resources/styles/custom.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -16,22 +16,29 @@
     <!-- Navigation Bar -->
     <div class="navigation">
 
-      <a class="navigation__name" href="/">marie chatfield</a>
+      <a class="navigation__name" href="/">Marie Chatfield</a>
 
       <div class="navigation__list">
-        <a class="navigation__list__item" href="/projects">side projects</a>
-        <a class="navigation__list__item" href="/talks">talks</a>
-        <a class="navigation__list__item" href="/articles">articles</a>
-        <a class="navigation__list__item" href="/contact">contact</a>
+        <a class="navigation__list__item
+        {% if page.title == "Side Projects" %} navigation__list__item--active{% endif %}"
+        href="/projects">Side Projects</a>
+
+        <a class="navigation__list__item
+        {% if page.title == "Talks" %} navigation__list__item--active{% endif %}"
+        href="/talks">Talks</a>
+
+        <a class="navigation__list__item
+        {% if page.title == "Articles" %} navigation__list__item--active{% endif %}"
+        href="/articles">Articles</a>
+
+        <a class="navigation__list__item
+        {% if page.title == "Contact" %} navigation__list__item--active{% endif %}"
+        href="/contact">Contact</a>
       </div>
     </div>
 
     <!-- Page Content -->
     <div class="content">
-      <div class="content__section">
-        <h1>{{ page.title }}</h1>
-      </div>
-
       {{ content }}
     </div>
 

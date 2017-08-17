@@ -1,13 +1,18 @@
 body {
-  --font-display: 'Cookie';
+  --font-display: 'Berkshire Swash';
+  --font-header: 'Bitter';
   --font-body: 'Abel';
 
   --color-background--light: #F6F6F6;
-  --color-background--dark: #073B4C;
-  --color-accent: #028090;
-  --color-accent--hover: #06313F;
-  --color-name: #7A75A0;
-  --color-name--hover: #4A4660;
+
+  --color-display: #3FA89F;
+  --color-display--hover: #296B66;
+
+  --color-header: #629460;
+  --color-header--hover: #486C46;
+
+  --color-link: #A582A5;
+  --color-link--hover: #423442;
 
   --spacing-small: 16px;
   --spacing-medium: 32px;
@@ -21,16 +26,20 @@ body {
 
 h1, h2 {
   font-family: var(--font-display), sans-serif;
-  color: var(--color-accent);
+  color: var(--color-header);
+}
+
+h3, h4 {
+  font-family: var(--font-header), sans-serif;
 }
 
 a {
-  color: var(--color-accent);
+  color: var(--color-link);
 }
 
 a:hover,
 a:focus {
-  color: var(--color-accent--hover);
+  color: var(--color-link--hover);
 }
 
 
@@ -46,40 +55,52 @@ Navigation Section
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  border-bottom: 1px solid var(--color-name--hover);
+  padding-bottom: var(--spacing-small);
+  border-bottom: 1px solid var(--color-display--hover);
 }
 
 .navigation__name {
   flex: 1 0 auto;
   padding: 0 var(--spacing-small) 0 0;
-  color: var(--color-name);
+  color: var(--color-display);
   font-family: var(--font-display), sans-serif;
   font-size: 40px;
   text-decoration: solid;
 }
 
 .navigation__name:hover {
-  color: var(--color-name--hover);
+  color: var(--color-display--hover);
 }
 
 .navigation__list {
   flex: 0 1 auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .navigation__list__item {
-  padding: 0 var(--spacing-small);
+  padding-right: var(--spacing-medium);
+  font-family: var(--font-header), serif;
+  color: var(--color-header);
   text-decoration: solid;
 }
 
-.navigation__list__item:first-of-type {
-  padding-left: 0;
+.navigation__list__item:hover {
+  color: var(--color-header--hover);
 }
 
 .navigation__list__item:last-of-type {
   padding-right: 0;
+}
+
+.navigation__list__item--active {
+  color: var(--color-display--hover);
+  font-weight: 600;
+}
+
+.navigation__list__item--active:hover {
+  color: var(--color-display--hover);
 }
 
 
@@ -139,13 +160,20 @@ Content Section
 
 /*
 
-Overrides for External Styles
+Contact Section
 
 */
 
 
 .contact-icon {
-  margin-right: var(--spacing-small);
+  margin: 0 var(--spacing-small);
+}
+
+/* Hide first column of contact table (help text) on mobile devices. */
+@media only screen and (max-width: 768px) {
+  .contact-table td:first-of-type {
+    display: none;
+  }
 }
 
 
