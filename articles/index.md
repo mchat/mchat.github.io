@@ -1,10 +1,10 @@
 ---
 layout: default
-title: articles
+title: Articles
 ---
 
 <div class="content__section" markdown="block">
-### what i’ve written
+## What I’ve written:
 </div>
 
 <div class="content__section">
@@ -77,7 +77,7 @@ Short, sweet, and fleeting, these missives are meant to be enjoyed like ice crea
 
 
 <div class="content__section" markdown="block">
-### what’s been written about me
+## What’s been written about me:
 </div>
 
 <div class="content__section">

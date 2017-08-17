@@ -1,6 +1,6 @@
 ---
 layout: default
-title: side projects
+title: Side Projects
 ---
 
 <div id="call-my-congress" class="content__section">
