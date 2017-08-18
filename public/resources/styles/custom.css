@@ -65,7 +65,7 @@ Navigation Section
   color: var(--color-display);
   font-family: var(--font-display), sans-serif;
   font-size: 40px;
-  text-decoration: solid;
+  text-decoration: none;
 }
 
 .navigation__name:hover {
@@ -80,18 +80,18 @@ Navigation Section
 }
 
 .navigation__list__item {
-  padding-right: var(--spacing-medium);
+  margin-right: var(--spacing-medium);
   font-family: var(--font-header), serif;
   color: var(--color-header);
-  text-decoration: solid;
+  text-decoration: none;
+}
+
+.navigation__list__item:last-of-type {
+  margin-right: 0;
 }
 
 .navigation__list__item:hover {
   color: var(--color-header--hover);
-}
-
-.navigation__list__item:last-of-type {
-  padding-right: 0;
 }
 
 .navigation__list__item--active {
@@ -173,6 +173,36 @@ Contact Section
 @media only screen and (max-width: 768px) {
   .contact-table td:first-of-type {
     display: none;
+  }
+}
+
+/* Smaller screen: nav items are single column aligned with display name. */
+@media only screen and (max-width: 768px) and (min-width: 450px) {
+  .navigation__list {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+
+  .navigation__list__item {
+    margin-right: 0;
+    text-align: right;
+  }
+}
+
+/* Smallest screen: nav items are centered two columns under display name. */
+@media only screen and (max-width: 450px) {
+  .navigation__name {
+    text-align: center;
+  }
+
+  .navigation__list {
+    width: 100%;
+  }
+
+  .navigation__list__item {
+    flex: 1 0 50%;
+    text-align: center;
+    margin-right: 0;
   }
 }
 
