@@ -21,7 +21,7 @@ Permalink to your district for easy access.
 
 Built on data freely provided by the [US Census Geocoding Services](https://geocoding.geo.census.gov/) and [ProPublica](https://www.propublica.org/datastore/apis).
 
-Consists of an Ember client side app and a tiny Express backend server. [See the source code and contribute.](https://github.com/mchat/call-my-congress)
+Consists of an Ember client side app and a tiny Express backend server. [See the source code and contribute.](https://github.com/mariechatfield/call-my-congress)
 
   </div>
 </div>
