@@ -7,6 +7,27 @@ title: Talks
 ### Looking for a tutorial or workshop documentation? Check out [tutorials by marie](/tutorials/).
 </div>
 
+<div id="ember-events" class="content__section">
+  <div class="content__section__media content__section__media--small">
+    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Right now <a href="https://twitter.com/mariechatfield?ref_src=twsrc%5Etfw">@mariechatfield</a> is giving <a href="https://twitter.com/EmberFest?ref_src=twsrc%5Etfw">@EmberFest</a> the clearest explanation about browser events I&#39;ve seen <a href="https://t.co/SyndLepbxS">pic.twitter.com/SyndLepbxS</a></p>&mdash; Miguel Camba (@MiguelCamba) <a href="https://twitter.com/MiguelCamba/status/918491127577284608?ref_src=twsrc%5Etfw">October 12, 2017</a></blockquote>
+  </div>
+
+  <div class="content__section__text content__section__text--align-title" markdown="block">
+
+#### Deep Dive on Ember Events
+
+__Everything you need to know about handling DOM events in Ember__
+
+Handling events like clicks and keypresses as users interact with your app is essential for any Ember application. What are the different ways of listening for events in Ember? How do they interact? What are the performance implications of each approach? What kind of bugs can you introduce if you don't understand them?
+
+Learn the fundamentals of how events work in Ember, starting with the basics of DOM events and working up to the lifecycle of Ember events. You'll be able to implement event listeners with confidence and debug with clarity once you have a complete mental model of Ember events!
+
+This talk has been given at the [September 2017 Ember.js Meetup](https://www.meetup.com/Ember-SF/events/237198122/) in San Francisco and at [EmberFest 2017](https://emberfest.eu) in Berlin.
+
+The blog post that inspired the talk, [Deep Dive on Ember Events](https://medium.com/square-corner-blog/deep-dive-on-ember-events-cf684fd3b808), is available on the [Square Corner blog](https://medium.com/square-corner-blog).
+  </div>
+</div>
+
 <div id="low-power-mode" class="content__section">
   <div class="content__section__media">
     <div class="video-container">
