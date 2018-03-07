@@ -9,7 +9,7 @@ title: Articles
 
 <div class="content__section">
   <div class="content__section__media content__section__media--small">
-    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">my coworkers made the :hype-woman: emoji alias to my face because I&#39;m so passionate about advocating for yourself/others<br><br>my secret: write a hype doc to keep track of all your accomplishments. learn about in this new blog for the <a href="https://twitter.com/SquareEng?ref_src=twsrc%5Etfw">@SquareEng</a> corner blog<a href="https://t.co/jdWFvnKxiC">https://t.co/jdWFvnKxiC</a></p>&mdash; Marie Chatfield (@mariechatfield) <a href="https://twitter.com/mariechatfield/status/968226519230251008?ref_src=twsrc%5Etfw">February 26, 2018</a></blockquote>
+    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">In May 2017, I mentioned having a Hype Doc where I track all of my accomplishments in a WomEng slack channel. I had no idea how quickly it would catch on! I love <a href="https://twitter.com/mariechatfield?ref_src=twsrc%5Etfw">@mariechatfield</a>&#39;s blog post about how they are now being used across <a href="https://twitter.com/Square?ref_src=twsrc%5Etfw">@Square</a> -- <a href="https://t.co/24rmeuXIZj">https://t.co/24rmeuXIZj</a></p>&mdash; Meghan McNeil (@meghanmcneil) <a href="https://twitter.com/meghanmcneil/status/968243247993602048?ref_src=twsrc%5Etfw">February 26, 2018</a></blockquote>
   </div>
 
   <div class="content__section__text" markdown="block">
