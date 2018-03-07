@@ -9,6 +9,22 @@ title: Articles
 
 <div class="content__section">
   <div class="content__section__media content__section__media--small">
+    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">my coworkers made the :hype-woman: emoji alias to my face because I&#39;m so passionate about advocating for yourself/others<br><br>my secret: write a hype doc to keep track of all your accomplishments. learn about in this new blog for the <a href="https://twitter.com/SquareEng?ref_src=twsrc%5Etfw">@SquareEng</a> corner blog<a href="https://t.co/jdWFvnKxiC">https://t.co/jdWFvnKxiC</a></p>&mdash; Marie Chatfield (@mariechatfield) <a href="https://twitter.com/mariechatfield/status/968226519230251008?ref_src=twsrc%5Etfw">February 26, 2018</a></blockquote>
+  </div>
+
+  <div class="content__section__text" markdown="block">
+
+#### [You Are Your Own Best Hype Person](https://medium.com/square-corner-blog/you-are-your-own-best-hype-person-cf1e3a83c0c2)
+
+##### Published on [Square Corner Engineering Blog](https://medium.com/square-corner-blog).
+
+Learn how to accurately and effectively advocate for yourself and grow in your career by recording your accomplishments.
+
+  </div>
+</div>
+
+<div class="content__section">
+  <div class="content__section__media content__section__media--small">
     <blockquote class="content-media twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Run 🏃‍♀️ don&#39;t walk 🚶 to read this excellent in-depth post on actions and DOM events in Ember.js <a href="https://t.co/z4CeZN6d0T">https://t.co/z4CeZN6d0T</a> by <a href="https://twitter.com/mariechatfield">@mariechatfield</a> <a href="https://t.co/F4OOrZRgLc">pic.twitter.com/F4OOrZRgLc</a></p>&mdash; mixonic (@mixonic) <a href="https://twitter.com/mixonic/status/895329691061469188">August 9, 2017</a></blockquote>
   </div>
 
