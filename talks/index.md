@@ -24,6 +24,11 @@ Learn the fundamentals of how events work in Ember, starting with the basics of 
 
 This talk has been given at the [September 2017 Ember.js Meetup](https://www.meetup.com/Ember-SF/events/237198122/) in San Francisco and at [EmberFest 2017](https://emberfest.eu) in Berlin.
 
+__Resources:__
+
++ [Video: EmberFest 2017](https://pusher.com/sessions/meetup/emberfest/deep-dive-on-ember-events)
++ [Slides: EmberFest 2017](https://drive.google.com/open?id=0B6Gxc6eHorNkcndnelZEb2h4YlU)
+
 The blog post that inspired the talk, [Deep Dive on Ember Events](https://medium.com/square-corner-blog/deep-dive-on-ember-events-cf684fd3b808), is available on the [Square Corner blog](https://medium.com/square-corner-blog).
   </div>
 </div>
