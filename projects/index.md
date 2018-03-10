@@ -26,6 +26,28 @@ Consists of an Ember client side app and a tiny Express backend server. [See the
   </div>
 </div>
 
+<div id="simple-pdf-viewer" class="content__section">
+  <div class="content__section__media" markdown="block">
+![Screenshot of Simple PDF Viewer](./simple-pdf-viewer.png){: .content__section__image }
+  </div>
+
+  <div class="content__section__text" markdown="block">
+#### [Simple PDF Viewer](http://mariechatfield.com/simple-pdf-viewer)
+##### March 2018
+
+__View PDFs in the browser to easily check against color vision deficiency simulators.__
+
+Most color vision deficiency simulators that are browser extensions don't properly function when viewing a PDF directly in the browser.
+
+View all pages of a PDF in the browser and use your color vision deficiency simulator of choice to make sure that your content is accessible for color blind people.
+
+Includes recommended resources for further reading and for color vision deficiency simulator software.
+
+Uses the [PDF.js](https://mozilla.github.io/pdf.js/) platform, created by Mozilla, to render the PDFs. [See the source code and contribute.](https://github.com/mariechatfield/simple-pdf-viewer)
+
+  </div>
+</div>
+
 
 <div id="markomposition" class="content__section">
   <div class="content__section__media" markdown="block">
