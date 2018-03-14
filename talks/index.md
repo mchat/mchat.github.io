@@ -22,12 +22,15 @@ Handling events like clicks and keypresses as users interact with your app is es
 
 Learn the fundamentals of how events work in Ember, starting with the basics of DOM events and working up to the lifecycle of Ember events. You'll be able to implement event listeners with confidence and debug with clarity once you have a complete mental model of Ember events!
 
-This talk has been given at the [September 2017 Ember.js Meetup](https://www.meetup.com/Ember-SF/events/237198122/) in San Francisco and at [EmberFest 2017](https://emberfest.eu) in Berlin.
+This talk has been given at the [September 2017 Ember.js Meetup](https://www.meetup.com/Ember-SF/events/237198122/) in San Francisco, [EmberFest 2017](https://emberfest.eu) in Berlin, and [EmberConf 2018](https://emberconf.com/) in Portland.
 
 __Resources:__
 
-+ [Video: EmberFest 2017](https://pusher.com/sessions/meetup/emberfest/deep-dive-on-ember-events)
-+ [Slides: EmberFest 2017](https://drive.google.com/open?id=0B6Gxc6eHorNkcndnelZEb2h4YlU)
++ EmberConf 2018
+  - [Slides](https://drive.google.com/open?id=1tI4_GJesVIiH1QXsHtjyT6NAyt0kip47)
++ EmberFest 2017
+  - [Slides](https://drive.google.com/open?id=0B6Gxc6eHorNkcndnelZEb2h4YlU)
+  - [Video](https://pusher.com/sessions/meetup/emberfest/deep-dive-on-ember-events)
 
 The blog post that inspired the talk, [Deep Dive on Ember Events](https://medium.com/square-corner-blog/deep-dive-on-ember-events-cf684fd3b808), is available on the [Square Corner blog](https://medium.com/square-corner-blog).
   </div>
