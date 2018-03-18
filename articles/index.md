@@ -84,10 +84,15 @@ Slides and speaker notes from a talk originally given at [AlterConf Portland 201
 
 <div class="content__section" markdown="block">
   <div class="content__section__text" markdown="block">
-#### Bonus Content: [Some Kind of Dispatch](http://tinyletter.com/mariechatfield), a TinyLetter newsletter
+### Bonus Content
+
+#### [Some Kind of Dispatch](http://tinyletter.com/mariechatfield), a TinyLetter newsletter
 
 Short, sweet, and fleeting, these missives are meant to be enjoyed like ice cream cones on a sunny June afternoon: quickly and with joy.
 
+#### [The Writing Hour](https://medium.com/the-writing-hour), a Medium publication
+
+Because poetry is good for the soul.
   </div>
 </div>
 
