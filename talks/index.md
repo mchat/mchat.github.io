@@ -9,7 +9,7 @@ title: Talks
 
 <div id="ember-events" class="content__section">
   <div class="content__section__media content__section__media--small">
-    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Right now <a href="https://twitter.com/mariechatfield?ref_src=twsrc%5Etfw">@mariechatfield</a> is giving <a href="https://twitter.com/EmberFest?ref_src=twsrc%5Etfw">@EmberFest</a> the clearest explanation about browser events I&#39;ve seen <a href="https://t.co/SyndLepbxS">pic.twitter.com/SyndLepbxS</a></p>&mdash; Miguel Camba (@MiguelCamba) <a href="https://twitter.com/MiguelCamba/status/918491127577284608?ref_src=twsrc%5Etfw">October 12, 2017</a></blockquote>
+    <blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Lighting up the stage in her rainbow sweater to a full house! <a href="https://twitter.com/mariechatfield?ref_src=twsrc%5Etfw">@mariechatfield</a> <a href="https://twitter.com/hashtag/EmberConf?src=hash&amp;ref_src=twsrc%5Etfw">#EmberConf</a> <a href="https://t.co/RuhjWMbUbe">pic.twitter.com/RuhjWMbUbe</a></p>&mdash; Square Developers (@SquareDev) <a href="https://twitter.com/SquareDev/status/974024065324216320?ref_src=twsrc%5Etfw">March 14, 2018</a></blockquote>
   </div>
 
   <div class="content__section__text content__section__text--align-title" markdown="block">
@@ -28,6 +28,7 @@ __Resources:__
 
 + EmberConf 2018
   - [Slides](https://drive.google.com/open?id=1tI4_GJesVIiH1QXsHtjyT6NAyt0kip47)
+  - [Livestream Video](https://www.youtube.com/watch?time_continue=14451&v=bt9MRkf5Mus)
 + EmberFest 2017
   - [Slides](https://drive.google.com/open?id=0B6Gxc6eHorNkcndnelZEb2h4YlU)
   - [Video](https://pusher.com/sessions/meetup/emberfest/deep-dive-on-ember-events)
