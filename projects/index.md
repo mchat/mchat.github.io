@@ -21,7 +21,27 @@ Permalink to your district for easy access.
 
 Built on data freely provided by the [US Census Geocoding Services](https://geocoding.geo.census.gov/) and [ProPublica](https://www.propublica.org/datastore/apis).
 
-Consists of an Ember client side app and a tiny Express backend server. [See the source code and contribute.](https://github.com/mariechatfield/call-my-congress)
+Consists of an Ember.js client side app and a tiny Express backend server. [See the source code and contribute.](https://github.com/mariechatfield/call-my-congress)
+
+  </div>
+</div>
+
+<div id="resume-builder" class="content__section">
+  <div class="content__section__media" markdown="block">
+![Screenshot of Resume Builder](./resume-builder.png){: .content__section__image }
+  </div>
+
+  <div class="content__section__text" markdown="block">
+#### [Resume Builder](http://mariechatfield.com/resume-builder/)
+##### June 2018
+
+__Generate a beautiful resume from YAML.__
+
+A static site built with Ember.js that displays a live print preview of a resume parsed from YAML written in the provided text editor.
+
+Changes are automatically saved as local storage in the browser (so you can edit and come back to them later).
+
+[See the source code and fork to customize.](https://github.com/mariechatfield/resume-builder)
 
   </div>
 </div>
