@@ -4,8 +4,10 @@ permalink: /
 ---
 
 <div class="content__section">
-  <div class="content__section__media" markdown="block">
+  <div class="content__section__media content__section__text--centered" markdown="block">
 ![Profile picture of Marie Chatfield.](/public/resources/images/profile.jpg){: .content__section__image }
+#### 🎉 I'm relocating to Austin in September 2018! 🎉
+If you're looking for experienced front-end engineers, you might be interested in [my resume](/resume-builder/).
   </div>
   <div class="content__section__text content__section__text--centered content__section__text--align-title" markdown="block">
 
