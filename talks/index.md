@@ -7,6 +7,40 @@ title: Talks
 ### Looking for a tutorial or workshop documentation? Check out [tutorials by marie](/tutorials/).
 </div>
 
+<div id="javascript-events" class="content__section">
+  <div class="content__section__media content__section__media--small">
+    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">dear ATX JS enthusiasts,<br><br>y&#39;all are cordially invited to an ✨ Event-ful Evening with <a href="https://twitter.com/hashtag/JavaScript?src=hash&amp;ref_src=twsrc%5Etfw">#JavaScript</a> ✨ with your host, me<br><br>WHEN: <a href="https://twitter.com/AustinJS?ref_src=twsrc%5Etfw">@AustinJS</a>, Tues Oct 16, 7:30pm<br>WHERE: <a href="https://twitter.com/Spredfast?ref_src=twsrc%5Etfw">@Spredfast</a><br>WHAT: everything you ever needed to know about handling events in JavaScript<br><br>hope to see you there! 🎉 <a href="https://t.co/hXhNjDxGKW">pic.twitter.com/hXhNjDxGKW</a></p>&mdash; Marie Chatfield (@mariechatfield) <a href="https://twitter.com/mariechatfield/status/1050427666845892608?ref_src=twsrc%5Etfw">October 11, 2018</a></blockquote>
+  </div>
+
+  <div class="content__section__text content__section__text--align-title" markdown="block">
+
+#### An Event-ful Evening with JavaScript
+
+__Your one stop shop for handling events in JavaScript.__
+
+Handling events like clicks and keypresses as users interact with your content is essential for any web app. Learn the fundamentals of how events work in JavaScript, including:
+
+- an introduction to the DOM and HTML standards
+- how to attach event listeners (there’s so many ways!)
+- how event propagation works, what “bubbling” and “capturing” mean, and why you should care
+- the differences between `preventDefault`, `stopPropagation`, `stopImmediatePropagation` and `return false` (and when you should use each one!)
+- how to delegate events and when you should
+
+Whether you’re just learning JavaScript or are an experienced front-end developer, you’ll walk away with a deeper familiarity with events.
+
+This talk is adapted from an Ember.js-specific talk, [Deep Dive on Ember Events](#ember-events).
+
+This talk has been given at the [October 2018 Austin JavaScript Meetup](https://austinjavascript.com/posts/meetups/2018/10/16/) in Austin.
+
+__Would you like to hear this talk at your favorite JavaScript venue near you? [Let me know!](/contact)__
+
+  __Resources:__
+
+  + Austin JavaScript Meetup October 2018
+    - [Slides](https://drive.google.com/file/d/1g1Y_rIaV0dtSIJwLam-tlbtAR3Vp2Ovo/view?usp=sharing)
+  </div>
+</div>
+
 <div id="ember-events" class="content__section">
   <div class="content__section__media content__section__media--small">
     <blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Lighting up the stage in her rainbow sweater to a full house! <a href="https://twitter.com/mariechatfield?ref_src=twsrc%5Etfw">@mariechatfield</a> <a href="https://twitter.com/hashtag/EmberConf?src=hash&amp;ref_src=twsrc%5Etfw">#EmberConf</a> <a href="https://t.co/RuhjWMbUbe">pic.twitter.com/RuhjWMbUbe</a></p>&mdash; Square Developers (@SquareDev) <a href="https://twitter.com/SquareDev/status/974024065324216320?ref_src=twsrc%5Etfw">March 14, 2018</a></blockquote>
@@ -28,6 +62,7 @@ __Resources:__
 
 + EmberConf 2018
   - [Slides](https://drive.google.com/open?id=1tI4_GJesVIiH1QXsHtjyT6NAyt0kip47)
+  - [Video](https://youtu.be/G9hXjjHFJVs)
   - [Livestream Video](https://www.youtube.com/watch?time_continue=14451&v=bt9MRkf5Mus)
 + EmberFest 2017
   - [Slides](https://drive.google.com/open?id=0B6Gxc6eHorNkcndnelZEb2h4YlU)
