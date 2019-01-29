@@ -38,6 +38,7 @@ __Would you like to hear this talk at your favorite JavaScript venue near you? [
 
   + Austin JavaScript Meetup October 2018
     - [Slides](https://drive.google.com/file/d/1g1Y_rIaV0dtSIJwLam-tlbtAR3Vp2Ovo/view?usp=sharing)
+    - [Video](https://youtu.be/7fEVFgWGnCE?t=270)
   </div>
 </div>
 
