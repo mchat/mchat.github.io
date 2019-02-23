@@ -5,7 +5,7 @@
     <!-- Configure viewport to correctly size for iOS mobile devices. -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <link href='http://fonts.googleapis.com/css?family=Abel|Berkshire+Swash|Bitter' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Berkshire+Swash|Bitter|Crimson+Text' rel='stylesheet' type='text/css'>
 
     <link rel="stylesheet" href="/public/resources/styles/custom.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -19,6 +19,10 @@
       <a class="navigation__name" href="/">Marie Chatfield</a>
 
       <div class="navigation__list">
+         <a class="navigation__list__item
+        {% if page.title == "Blog" %} navigation__list__item--active{% endif %}"
+        href="/blog">Blog</a>
+
         <a class="navigation__list__item
         {% if page.title == "Side Projects" %} navigation__list__item--active{% endif %}"
         href="/projects">Side Projects</a>
@@ -27,9 +31,6 @@
         {% if page.title == "Talks" %} navigation__list__item--active{% endif %}"
         href="/talks">Talks</a>
 
-        <a class="navigation__list__item
-        {% if page.title == "Articles" %} navigation__list__item--active{% endif %}"
-        href="/articles">Articles</a>
 
         <a class="navigation__list__item
         {% if page.title == "Contact" %} navigation__list__item--active{% endif %}"

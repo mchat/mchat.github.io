@@ -1,7 +1,7 @@
 body {
   --font-display: 'Berkshire Swash';
   --font-header: 'Bitter';
-  --font-body: 'Abel';
+  --font-body: 'Crimson Text';
 
   --color-background--light: #F6F6F6;
 
@@ -16,11 +16,13 @@ body {
 
   --spacing-small: 16px;
   --spacing-medium: 32px;
+  --spacing-large: 48px;
+  --spacing-xlarge: 64px;
 
   padding: var(--spacing-small) var(--spacing-medium);
   margin: 0;
 
-  font-family: var(--font-body), sans-serif;
+  font-family: var(--font-body), serif;
   background-color: var(--color-background--light);
 }
 
@@ -110,6 +112,10 @@ Content Section
 
 */
 
+.content {
+  position: relative;
+}
+
 
 .content__section {
   padding: var(--spacing-medium) 0;
@@ -135,6 +141,12 @@ Content Section
   margin: 0 var(--spacing-medium) var(--spacing-small);
 }
 
+@media only screen and (min-width: 768px) {
+  .content__section__media {
+    margin-bottom: 0;
+  }
+}
+
 .content__section__media--small {
   flex: 0 1 350px;
   max-width: 350px;
@@ -155,6 +167,83 @@ Content Section
 .content__section__text--align-title h4:first-of-type,
 .content__section__text--align-title h5:first-of-type {
   margin-top: 0;
+}
+
+
+/*
+
+  Blogs
+
+ */
+
+.readable {
+  max-width: 50em;
+}
+
+.post__toc {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .readable {
+    margin: 0 var(--spacing-medium);
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .post__toc {
+    display: block;
+    position: fixed;
+    margin-top: 100px;
+    right: var(--spacing-medium);
+    top: 0;
+    max-width: 400px;
+  }
+}
+
+.spacer {
+  margin: var(--spacing-large) 0;
+}
+
+.spacer--xl {
+  margin: var(--spacing-xlarge) 0;
+}
+
+.figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: var(--spacing-medium) 0;
+}
+
+.figure__image {
+  max-width: 100%;
+}
+
+.figure__split {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.figure__split .figure__image {
+  max-width: 49%;
+}
+
+@media only screen and (max-width: 450px) {
+  .figure__split .figure__image {
+    max-width: 100%;
+    margin: var(--spacing-small) 0;
+  }
+}
+
+
+.figure__caption {
+  margin-top: var(--spacing-small);
+  font-size: smaller;
+  text-align: center;
 }
 
 
