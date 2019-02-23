@@ -246,6 +246,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-toc
+  rouge
 
 BUNDLED WITH
    1.15.3

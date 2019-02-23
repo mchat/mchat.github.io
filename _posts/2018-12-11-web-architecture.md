@@ -151,7 +151,7 @@ In the `public/` directory, there is an HTML file for every page in the app! Pag
 
 The `server.js` file contains a very simple Express.js server. The most important line is:
 
-```
+```javascript
 app.use(express.static("public"));
 ```
 
@@ -281,19 +281,19 @@ Instead of having a specific file path for each emoji we want to render, we have
 
 This time in our `server.js` file, we do a bit more work! First, we instruct our server to use `pug` as the view engine, which will translate templates into full HTML files.
 
-```
+```javascript
 app.set("view engine", "pug");
 ```
 
 Then, we set up route definitions! Let’s start with the simplest examples. When the URL is `/about`, we’ll turn `views/about.pug` into HTML and return it. This doesn’t take any data.
 
-```
+```javascript
 app.get("/about", (req, res) => res.render("about"));
 ```
 
 When the URL is `/` (or the index route), we’ll fetch all the current emoji data and use it to fill out the `views/index.pug` template.
 
-```
+```javascript
 app.get("/", (req, res) => res.render("index",  
   { emojis: getAllEmojis() }  
 ));
@@ -330,7 +330,7 @@ The route `/💛` will match `/:emoji`, and `req.params.emoji` will be 💛.
 
 The route `/🌵/edit` will match `/:emoji/edit`, and `req.params.emoji` will be 🌵.
 
-```
+```javascript
 app  
   .route("/:emoji/edit")  
   .get((req, res) =>  
@@ -459,9 +459,9 @@ Before we dive into how that code works, let’s take a peek at the server first
 
 The logic in `server.js` is _much_ simpler than the server-side rendered app. Instead of listing out every possible route pattern, we just return the `public/base.html` file for every single request.
 
-```
-app.get('\*', function(request, response) {  
-  response.sendFile(\`${\_\_dirname}/public/base.html\`);  
+```javascript
+app.get('*', function(request, response) {  
+  response.sendFile(`${__dirname}/public/base.html`);  
 });
 ```
 
@@ -469,7 +469,7 @@ That’s right… the **_exact same HTML file is returned for every request._** 
 
 It’s… actually pretty empty. It doesn’t display anything, it just adds an empty `div` to the body and then loads `/bundle.js`.
 
-```
+```html
 <div id="root"></div>  
     
     
@@ -491,14 +491,14 @@ Gif of a woman with a Target shopping cart, dropping an entire row of snack boxe
 
 Once the JavaScript in `bundle.js` loads, React takes over in the browser and starts rendering content! The entry point for our app is in `app/app.jsx`.
 
-```
+```jsx
 const rootElement = document.getElementById("root");  
 ReactDOM.render(<App />, rootElement);
 ```
 
 React finds the empty `<div>` that was added to `public/base.html` and then replaces it with the contents of the `<App />` component. That component uses [React Router](https://reacttraining.com/react-router/) to define what component to display based on the URL.
 
-```
+```jsx
 <Route exact path="/" component={IndexView} />
 
 <Switch>  
@@ -516,7 +516,7 @@ The components for each page handle fetching the data required to render each pa
 
 We can still use regular links in our app.
 
-```
+```html
 <a href="/about">About</a>
 ```
 
@@ -524,7 +524,7 @@ This tells the browser to open a brand new page at the URL `/about`. It will fet
 
 **However**, we can also use a special `<Link>` component defined by the React Router to swap out the content inline!
 
-```
+```html
 <Link to="/about">About</Link>
 ```
 
