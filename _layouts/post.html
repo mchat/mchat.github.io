@@ -2,7 +2,6 @@
 layout: default
 ---
 
-<!-- Adapted from: https://sacha.me/articles/jekyll-word-counts -->
 {% capture words %}
    {{ page.content | number_of_words }}
 {% endcapture %}
@@ -11,24 +10,31 @@ layout: default
   {{ words | divided_by: 200 }}
 {% endcapture %}
 
+<div>
+  <div class="readable">
+    <h1>{{ page.title }}</h1>
 
-<aside class="post__toc">
-  <strong>Table of Contents</strong>
-  {{ content | toc_only }}
-</aside>
+    <h3>{{ page.description }}</h3>
+    <h5>
+      {{ page.date | date: '%B %d, %Y'  }}
 
-<div class="readable">
-  <h1>{{ page.title }}</h1>
+      &#8226; {{ words }} words
+      &#8226; {{ minutes }} minute read
 
-  <h3>{{ page.description }}</h3>
-  <h5>
-    Originally published on {{ page.date | date: '%B %d, %Y'  }}
+      {% if page.medium %}
+        &#8226; Read on <a href="{{ page.medium }}">Medium</a>
+      {% endif %}
 
-    &#8226; {{ words }} words
-    &#8226; {{ minutes }} minute read
+    </h5>
+  </div>
 
-  </h5>
+  <aside class="post__toc">
+    <strong>Table of Contents</strong>
+    {{ content | toc_only }}
+  </aside>
 
-  {{ content}}
+  <div class="readable main">
+    {{ content}}
+  </div>
 </div>
 

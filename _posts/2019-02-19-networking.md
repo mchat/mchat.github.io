@@ -6,11 +6,7 @@ description: >-
 date: '2019-02-19T21:08:36.365Z'
 image: 'https://cdn-images-1.medium.com/max/800/1*tRtfXTIabzZKNozmOD80hg.png'
 image_alt: 'Illustration of multiple layers of protocols as roads, trucks, and buildings.'
-layout: post
-categories: ''
-keywords: ''
-permalink: /blog/networking
-toc: true
+medium: https://medium.com/git-checkout-b-idk-what-im-doing/protocol-andia-welcome-to-the-networking-neighborhood-aab3f0fa3bf
 ---
 
 In the wide, wild world of the web, there’s a lot of devices that want to talk to each other.
@@ -19,13 +15,13 @@ This blog post lives on some computer somewhere in the world, and you’re readi
 
 <!--more-->
 
-## Protocols for fun and profit
+## 🤝 Protocols for fun and profit
 
 <figure class="figure">
     <img class="figure__image" src="https://cdn-images-1.medium.com/max/800/1*hSFwreVDbTTQ01jI4ksltA.gif" alt="Gif of handshake">
-    <figcaption class="figure__caption">
-        Gif of Lindsay Lohan and Simon Kunz in <em>The Parent Trap</em> movie doing a complicated multi-step handshake with some dance moves involved. (<a href="https://giphy.com/gifs/trap-handshake-parent-sKnQAVhutT4Zi"><em>source</em></a>)
-    </figcaption>
+    <figcaption class="figure__caption" markdown="block">
+Gif of Lindsay Lohan and Simon Kunz in _The Parent Trap_ movie doing a complicated multi-step handshake with some dance moves involved. ([source](https://giphy.com/gifs/trap-handshake-parent-sKnQAVhutT4Zi))
+</figcaption>
 </figure>
 
 **_Protocols_** are contracts for communication, a series of steps and actions that define a process of sending or receiving information.
@@ -79,9 +75,9 @@ Have you ever seen a wind turbine in transit? A turbine is a massive structure, 
 
 <figure class="figure">
 	<img class="figure__image" src="https://cdn-images-1.medium.com/max/800/1*7AurwKZW7NOQxojYW75P-w.gif" alt="Gif of wind turbine">
-	<figcaption class="figure__caption">
-        Timelapse gif of a wind turbine being assembled by a crane in a field ([source](https://giphy.com/gifs/wind-turbine-Fyt2LlluELJhC)).
-	</figcaption>
+	<figcaption class="figure__caption" markdown="block">
+Timelapse gif of a wind turbine being assembled by a crane in a field. ([source](https://giphy.com/gifs/wind-turbine-Fyt2LlluELJhC))
+</figcaption>
 </figure>
 
 
@@ -179,8 +175,12 @@ A **_client_** is anything that makes a request — usually a browser, but s
 
 <figure class="figure">
     <div class="figure__split">
-        <img class="figure__image" src="https://cdn-images-1.medium.com/max/600/1*ENaZClolrBj87ZhiOj7Z9A.png" alt="GET Request postcard">
-        <img class="figure__image" src="https://cdn-images-1.medium.com/max/600/1*CvC1vPU19MwBH1O4mRivxg.png" alt="GET Response postcard">
+        <div class="figure__split__image">
+            <img class="figure__image" src="https://cdn-images-1.medium.com/max/600/1*ENaZClolrBj87ZhiOj7Z9A.png" alt="GET Request postcard">
+        </div>
+        <div class="figure__split__image">
+            <img class="figure__image" src="https://cdn-images-1.medium.com/max/600/1*CvC1vPU19MwBH1O4mRivxg.png" alt="GET Response postcard">
+        </div>
 	</div>
     <figcaption class="figure__caption">
         A sample HTTP GET request and response pair, presented as illustrations of postcards sent between the client and the server. The client requests path <code>emojis?type=food</code> and the server responds with a 200 status code and a JSON string with emoji names and icons for taco, sushi, and mango.
@@ -189,8 +189,12 @@ A **_client_** is anything that makes a request — usually a browser, but s
 
 <figure class="figure">
 	<div class="figure__split">
-        <img class="figure__image" src="https://cdn-images-1.medium.com/max/600/1*BpxpwaulP_g9YxwCpPWihg.png" alt="POST Request postcard">
-        <img class="figure__image" src="https://cdn-images-1.medium.com/max/600/1*JwbBtQPmfcPPUjxZpCZMOQ.png" alt="POST Response postcard">
+        <div class="figure__split__image">
+            <img class="figure__image" src="https://cdn-images-1.medium.com/max/600/1*BpxpwaulP_g9YxwCpPWihg.png" alt="POST Request postcard">
+        </div>
+        <div class="figure__split__image">
+            <img class="figure__image" src="https://cdn-images-1.medium.com/max/600/1*JwbBtQPmfcPPUjxZpCZMOQ.png" alt="POST Response postcard">
+        </div>
     </div>
 	<figcaption class="figure__caption">
         A sample HTTP POST request and response pair, presented as illustrations of postcards sent between the client and the server. The client attempts to create a new fire emoji with path <code>emojis</code> and the server responds with a 403 Forbidden status code and empty body.
@@ -276,7 +280,7 @@ Let’s define these fields in more detail!
 
 ### Fields for both HTTP Requests and Responses
 
-#### **_VERSION_**
+#### VERSION
 
 The exact version of the protocol the client is using, used in both requests and responses.
 
@@ -418,7 +422,7 @@ You should always depend on the numerical code in your application logic that ha
 
 <div class="spacer--xl"></div>
 
-## The TL;DR Review
+## 👩🏻‍🏫 Let's Review!
 
 <figure class="figure">
 	<img class="figure__image" src="https://cdn-images-1.medium.com/max/800/1*fXKY8aK5ue16lrRmnFy5Sg.gif" alt="">
@@ -436,11 +440,10 @@ That was a lot of learning! Let’s review what we learned.
 <figure class="figure">
 	<img class="figure__image" src="https://cdn-images-1.medium.com/max/800/1*mJPgzgyDdXVMWb-U94yB_A.png" alt="">
 	<figcaption class="figure__caption">
-
+        Illustration of a road connecting a source and a destination building. The road is labeled Internet Layer Protocols. In between the source and destination are a building and post box labeled Application Layer Protocols, followed by a series of trucks labeled Transport Layer Protocols.
 	</figcaption>
 </figure>
 
-Illustration of a road connecting a source and a destination building. The road is labeled Internet Layer Protocols. In between the source and destination are a building and post box labeled Application Layer Protocols, followed by a series of trucks labeled Transport Layer Protocols.
 
 *   The **_Internet layer protocols_** (like the Internet Protocol, or IP) form the basic infrastructure of communicating between physical devices on a network (like roads and street addresses).
 

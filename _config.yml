@@ -1,6 +1,20 @@
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      category: blog
+      layout: post
+      toc: true
+
 excerpt_separator: <!--more-->
-plugins:
-  - jekyll-toc
+
 toc:
   min_level: 2
   max_level: 4
+
+permalink: /:categories/:title
+
+plugins:
+  - jekyll-toc
