@@ -2,13 +2,8 @@
 layout: default
 ---
 
-{% capture words %}
-   {{ page.content | number_of_words }}
-{% endcapture %}
-
-{% capture minutes %}
-  {{ words | divided_by: 200 }}
-{% endcapture %}
+{% capture words %}{{ content | number_of_words }}{% endcapture %}
+{% capture minutes %}{{ content | reading_time }}{% endcapture %}
 
 <div class="readable">
   <h1>{{ page.title }}</h1>

@@ -13,13 +13,8 @@ Have a suggestion for a topic you'd love to learn more about? [Tweet me!](https:
 </div>
 
 {% for post in site.posts %}
-  {% capture words %}
-    {{ post.content | number_of_words }}
-  {% endcapture %}
-
-  {% capture minutes %}
-    {{ words | divided_by: 200 }}
-  {% endcapture %}
+  {% capture words %}{{ post.content | number_of_words }}{% endcapture %}
+  {% capture minutes %}{{ post.content | reading_time }}{% endcapture %}
 
   <div class="content__section">
     <div class="content__section__media">
