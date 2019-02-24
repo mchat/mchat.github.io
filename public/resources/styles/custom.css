@@ -28,6 +28,7 @@ body {
   margin: 0;
 
   font-family: var(--font-body), serif;
+  font-size: 1.15em;
   background-color: var(--color-background--light);
 }
 
