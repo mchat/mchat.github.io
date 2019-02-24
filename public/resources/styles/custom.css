@@ -92,7 +92,7 @@ p code {
 }
 
 .readable {
-  max-width: 50em;
+  max-width: 40em;
 }
 
 .spacer {
@@ -230,6 +230,7 @@ Content Section
 .post__toc {
   margin: var(--spacing-large) 0;
   overflow-x: scroll;
+  font-size: smaller;
 }
 
 @media only screen and (min-width: 768px) {
@@ -244,6 +245,7 @@ Content Section
     top: 55;
     right: 0;
     max-width: 400px;
+    max-height: calc(100vh - 300px);
   }
 }
 

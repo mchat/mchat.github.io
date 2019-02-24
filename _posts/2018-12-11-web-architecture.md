@@ -376,6 +376,8 @@ Gif of stop-motion animation of a game of tetris, where the pieces are players i
 
 **_Mitigation:_** There are some libraries which attempt to help with this problem.  For example, [Turbolinks](https://github.com/turbolinks/turbolinks) can be used to fetch the new HTML page behind the scenes and then swap out the `<body>` once the new content is loaded. This means your server-side rendered site can _feel_ smoother without actually having to move your rendering logic.
 
+<div class="spacer"></div>
+
 **For complex applications, UI logic and responsibility is split across technologies.** If your initial HTML is rendered in your server and then loads JavaScript that makes major changes to the page or does very complex rendering, you may not have a single source of truth for what is in charge of a page. If your server-side template and your JavaScript templates are written in different formats, this may mean you have to write the same output in two different languages.
 
 <div class="spacer"></div>
