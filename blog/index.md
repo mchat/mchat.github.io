@@ -25,14 +25,13 @@ Have a suggestion for a topic you'd love to learn more about? [Tweet me!](https:
 
     <div class="content__section__text" markdown="block">
 ## [{{ post.title }}]({{ post.url }})
-### {{ post.description }}
+#### {{ post.description }}
 __{{ post.date | date: '%B %d, %Y'  }}__
 _&#8226; {{ words }} words_
 <!-- &#8226; {{ minutes }} minute read_ -->
         
-{{ post.excerpt }}
-
-_[read more...]({{ post.url }})_      
+<!-- {{ post.excerpt }} -->
+<!-- _[read more...]({{ post.url }})_       -->
 </div>
   </div>
 {% endfor %}
