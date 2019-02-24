@@ -9,10 +9,4 @@ defaults:
       toc: true
 excerpt_separator: <!--more-->
 highlighter: rouge
-toc:
-  min_level: 2
-  max_level: 4
 permalink: /:categories/:title
-plugins:
-  - jekyll-toc
-  - liquid_reading_time
