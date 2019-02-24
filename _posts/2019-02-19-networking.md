@@ -197,7 +197,7 @@ A sample HTTP GET request and response pair, presented as illustrations of postc
         </div>
     </div>
     <figcaption class="figure__caption" markdown="block">
-A sample HTTP POST request and response pair, presented as illustrations of postcards sent between the client and the server. The client attempts to create a new fire emoji with path `emojis` and the server responds with a 403 Forbidden status code and emp`ty body.
+A sample HTTP POST request and response pair, presented as illustrations of postcards sent between the client and the server. The client attempts to create a new fire emoji with path `emojis` and the server responds with a 403 Forbidden status code and empty body.
 </figcaption>
 </figure>
 
