@@ -18,7 +18,7 @@ But what do all of these words mean? How does each type of application architect
 ## 🙋🏽‍♀️ What's in an architecture?
 
 <figure class="figure">
-    <img class="figure__image" src="./notebook.gif" alt="Gif of Janelle Monáe">
+    <img class="figure__image" src="/blog/web-architecture/notebook.gif" alt="Gif of Janelle Monáe">
     <figcaption class="figure__caption" markdown="block">
 Gif of Janelle Monáe in _Hidden Figures_ movie, sitting at a classroom desk with a notebook preparing to take notes with a pencil. ([source](https://giphy.com/gifs/foxhomeent-black-history-month-hidden-figures-3ohs4qxmDXm5RvWtnW))
 </figcaption>
@@ -39,10 +39,10 @@ I wrote a fun little app with [Glitch](https://glitch.com/) called **emojis acco
 <figure class="figure">
   <div class="figure__split">
     <div class="figure__split__image">
-      <img class="figure__image" src="./emojis-list.png" alt="Home page screenshot of Emojis By Marie app">
+      <img class="figure__image" src="/blog/web-architecture/emojis-list.png" alt="Home page screenshot of Emojis By Marie app">
     </div>
     <div class="figure__split__image">
-      <img class="figure__image" src="./emojis-detail.png" alt="Emoji detail screenshot of Emojis by Marie app">
+      <img class="figure__image" src="/blog/web-architecture/emojis-detail.png" alt="Emoji detail screenshot of Emojis by Marie app">
     </div>
   </div>
   <figcaption class="figure__caption" markdown="block">
@@ -59,16 +59,16 @@ These sequence diagrams give a brief overview of how the work is split between t
 <figure class="figure">
   <div class="figure__split">
     <div class="figure__split__image">
-      <img class="figure__image" src="./static-site.png" alt="Diagram of a static site"></div>
+      <img class="figure__image" src="/blog/web-architecture/static-site.png" alt="Diagram of a static site"></div>
     <div class="figure__split__image">
-      <img class="figure__image" src="./server-side.png" alt="Diagram of a server-side rendered site">
+      <img class="figure__image" src="/blog/web-architecture/server-side.png" alt="Diagram of a server-side rendered site">
     </div>
     <div class="figure__split__image">
-      <img class="figure__image" src="./single-page-app.png" alt="Diagram of a single-page app">
+      <img class="figure__image" src="/blog/web-architecture/single-page-app.png" alt="Diagram of a single-page app">
     </div>
   </div>
   <figcaption class="figure__caption" markdown="block">
-Side-by-side sequence diagrams of user visiting the same two pages on a static site ([plain text description](./static-site.txt)), a server-side rendered site ([plain text description](./server-side.txt)), and a single-page app ([plain text description](./single-page-app.txt)).
+Side-by-side sequence diagrams of user visiting the same two pages on a static site ([plain text description](/blog/web-architecture/static-site.txt)), a server-side rendered site ([plain text description](/blog/web-architecture/server-side.txt)), and a single-page app ([plain text description](/blog/web-architecture/single-page-app.txt)).
 </figcaption>
 </figure>
 
@@ -85,7 +85,7 @@ In the rest of this blog post, we’re going to look at _static sites_, _server-
 **Use this resource in whatever way works best for your brain**—whether that’s jumping straight to source code and ignoring the rest of this article, skimming the bullet points in each section, or reading the whole thing in one sitting from start to finish. Or bail out now if the sequence diagrams answered your questions!
 
 <figure class="figure">
-    <img class="figure__image" src="./here-we-go.gif" alt="Gif of NeNe Leakes">
+    <img class="figure__image" src="/blog/web-architecture/here-we-go.gif" alt="Gif of NeNe Leakes">
     <figcaption class="figure__caption" markdown="block">
 Gif of NeNe Leakes from the _Real Housewives of Atlanta_ show with a bored expression, waving her hands and saying “Here we go.” ([source](https://giphy.com/gifs/bravotv-xUOxeWJU6llggPQjQc))
 </figcaption>
@@ -97,9 +97,9 @@ Gif of NeNe Leakes from the _Real Housewives of Atlanta_ show with a bored expre
 
 <div class="side-by-side">
   <figure class="figure grow">
-    <img class="figure__image" src="./static-site.png" alt="Diagram of a static site">
+    <img class="figure__image" src="/blog/web-architecture/static-site.png" alt="Diagram of a static site">
     <figcaption class="figure__caption" markdown="block">
-Sequence diagram of a static site ([plain text description](./static-site.txt)).
+Sequence diagram of a static site ([plain text description](/blog/web-architecture/static-site.txt)).
 </figcaption>
   </figure>
 
@@ -160,7 +160,7 @@ That tells the server that whenever a `GET` request comes in for a given path, t
 So if you request `/about.html`, the server will look for a file named `public/about.html` and return it! This means that you have to know the _exact_ path you want to request. But it also means that when you’re writing this app, you have to include a file for _every single possible page_ you might want to write.
 
 <figure class="figure">
-    <img class="figure__image" src="./all-of-them.gif" alt="Gif of Phoebe Cates">
+    <img class="figure__image" src="/blog/web-architecture/all-of-them.gif" alt="Gif of Phoebe Cates">
     <figcaption class="figure__caption" markdown="block">
 Gif of actress Phoebe Cates in _Gremlins_ movie, looking distressed and saying “All of them?” ([source](https://giphy.com/gifs/filmeditor-christmas-movies-gremlins-3o6wrDUeLIQZFJVEC4))
 </figcaption>
@@ -173,7 +173,7 @@ There are plenty of frameworks that help you generate static sites from template
 What makes this a _static_ site is that all the templating and dynamic content happens at _build time_, not runtime. At runtime, the server doesn’t know how the files were generated, and it doesn’t do any work to generate them — it just returns them, exactly the way they are, with no modifications.
 
 <figure class="figure">
-    <img class="figure__image" src="./change.gif" alt="Gif of Russel Brand">
+    <img class="figure__image" src="/blog/web-architecture/change.gif" alt="Gif of Russel Brand">
     <figcaption class="figure__caption" markdown="block">
 Gif of actor Russell Brand in _Get Him to the Greek_ movie, frowning and saying “I don’t like change. I don’t like it when things change.” Actor Jonah Hill stands behind him scratching his head. ([source](https://giphy.com/gifs/humor-change-jonah-hill-EEkQcI9AMlf6U))
 </figcaption>
@@ -206,9 +206,9 @@ Gif of actor Russell Brand in _Get Him to the Greek_ movie, frowning and saying 
 
 <div class="side-by-side">
   <figure class="figure grow">
-    <img class="figure__image" src="./server-side.png" alt="Diagram of a server-side rendered site">
+    <img class="figure__image" src="/blog/web-architecture/server-side.png" alt="Diagram of a server-side rendered site">
     <figcaption class="figure__caption" markdown="block">
-Sequence diagram of a server-side rendered site ([plain text description](./server-side.txt)).
+Sequence diagram of a server-side rendered site ([plain text description](/blog/web-architecture/server-side.txt)).
 </figcaption>
   </figure>
   <div class="text shrink" markdown="block">
@@ -248,7 +248,7 @@ Like the static site version of the app, we start out with the ✨ and 🎉 emoj
 But we can also add other emojis to the app, and they instantly display in the table and have links that work!
 
 <figure class="figure">
-    <img class="figure__image" src="./mindblown.gif" alt="Gif of Millie Bobby Brown">
+    <img class="figure__image" src="/blog/web-architecture/mindblown.gif" alt="Gif of Millie Bobby Brown">
     <figcaption class="figure__caption" markdown="block">
 Gif of actress Millie Bobby Brown silently saying “boom” as she explodes her hands away from her face and the camera pans away. ([source](https://giphy.com/gifs/converse-3o8dFn5CXJlCV9ZEsg))
 </figcaption>
@@ -318,7 +318,7 @@ table
 That means we can create more emojis, and as long as our server has access to them, they’ll automagically show up here in the table!
 
 <figure class="figure">
-    <img class="figure__image" src="./magic.gif" alt="Gif of Uzo Aduba">
+    <img class="figure__image" src="/blog/web-architecture/magic.gif" alt="Gif of Uzo Aduba">
     <figcaption class="figure__caption" markdown="block">
 Gif of actress Uzo Aduba in _The Wiz_ movie, saying “The magic is inside you.” ([source](https://giphy.com/gifs/mashable-26tP7phi7bNqczuqk))
 </figcaption>
@@ -352,7 +352,7 @@ This means that we don’t need to know every possible combination of URLs we’
 *   the shape of the page for each URL, and where data should be inserted into it
 
 <figure class="figure">
-    <img class="figure__image" src="./tetris.gif" alt="Gif of human tetris">
+    <img class="figure__image" src="/blog/web-architecture/tetris.gif" alt="Gif of human tetris">
     <figcaption class="figure__caption" markdown="block">
 Gif of stop-motion animation of a game of tetris, where the pieces are players in colored shirts sitting in an auditorium. ([source](https://giphy.com/gifs/tetris-131zlO6JqtKPII))
 </figcaption>
@@ -392,9 +392,9 @@ Gif of stop-motion animation of a game of tetris, where the pieces are players i
 
 <div class="side-by-side">
   <figure class="figure grow">
-    <img class="figure__image" src="./single-page-app.png" alt="Diagram of a single-page app">
+    <img class="figure__image" src="/blog/web-architecture/single-page-app.png" alt="Diagram of a single-page app">
     <figcaption class="figure__caption" markdown="block">
-Sequence diagram of a single-page app ([plain text description](./single-page-app.txt)).
+Sequence diagram of a single-page app ([plain text description](/blog/web-architecture/single-page-app.txt)).
 </figcaption>
   </figure>
   <div class="text shrink" markdown="block">
@@ -447,7 +447,7 @@ Our `app/` directory has a bunch of JavaScript files. Since this app is implemen
 The `app/views/` directory has the same files as the `views/` directory in our server-side rendered app — but they’re written in a client-side templating engine instead of a server-side templating engine!
 
 <figure class="figure">
-    <img class="figure__image" src="./alike-but-different.gif" alt="Gif of Tia and Tamera Mowry">
+    <img class="figure__image" src="/blog/web-architecture/alike-but-different.gif" alt="Gif of Tia and Tamera Mowry">
     <figcaption class="figure__caption" markdown="block">
 Gif of Tia and Tamera Mowry in _Sister Sister_ show opening titles, with animated text reading “We look alike but, we’re different” ([source](https://giphy.com/gifs/nickelodeon-sister-tia-and-tamera-2WY0Ld3gloDYc)).
 </figcaption>
@@ -480,7 +480,7 @@ Notice that we didn’t define a `bundle.js` script. When the server starts runn
 So the server **always** returns `public/base.html`, which loads `bundle.js`, which contains **all** of the JavaScript for our entire app.
 
 <figure class="figure">
-    <img class="figure__image" src="./all-the-things.gif" alt="Gif of woman shopping at Target">
+    <img class="figure__image" src="/blog/web-architecture/all-the-things.gif" alt="Gif of woman shopping at Target">
     <figcaption class="figure__caption" markdown="block">
 Gif of a woman with a Target shopping cart, dropping an entire row of snack boxes into her cart, with the caption “I want all of the things” ([source](https://giphy.com/gifs/target-bullseye-targetstyle-26xBDL9X2vhjHYVRm)).
 </figcaption>
@@ -528,7 +528,7 @@ This tells the browser to open a brand new page at the URL `/about`. It will fet
 This tells React Router to update the URL to `/about` and swap out the current page content with the `AboutView` component. From the user’s perspective, this can feel much faster and smoother, since we’re just replacing part of the page instead of loading an entirely new one.
 
 <figure class="figure">
-    <img class="figure__image" src="./elsa.gif" alt="Gif of Elsa from Frozen">
+    <img class="figure__image" src="/blog/web-architecture/elsa.gif" alt="Gif of Elsa from Frozen">
     <figcaption class="figure__caption" markdown="block">
 Gif of Elsa from _Frozen_ movie singing as her dress magically changes around her. ([source](https://giphy.com/gifs/frozen-oscars-let-it-go-S4SA8fmXVdn7G))
 </figcaption>
@@ -623,7 +623,7 @@ Here are a few blog posts outlining the available a11y tooling for [Ember](https
 ## 👩🏻‍🏫 Let's Review!
 
 <figure class="figure">
-    <img class="figure__image" src="./fistpump.gif" alt="Gif of Judd Nelson">
+    <img class="figure__image" src="/blog/web-architecture/fistpump.gif" alt="Gif of Judd Nelson">
     <figcaption class="figure__caption" markdown="block">
 Gif of Judd Nelson in _The Breakfast Club_ movie, walking across an empty football field and pumping his fist. ([source](https://giphy.com/gifs/club-breakfast-vRsa3fLg96Qve))
 </figcaption>
