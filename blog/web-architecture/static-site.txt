@@ -1,0 +1,17 @@
+Sequence diagram of a user interacting with a static site.
+
+Three columns titled: User, Browser, Server.
+
+First set of actions:
+
+1. User opens /index.html
+2. Browser gets /index.html
+3. Server finds file at public/index.html
+4. Browser renders HTML
+
+Second set of actions:
+
+1. User clicks 🎉 link. Arrow to browser crosses a NEW PAGE boundary.
+2. Browser gets /🎉.html
+3. Server finds file at public/🎉.html
+4. Browser renders HTML

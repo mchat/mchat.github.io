@@ -1,0 +1,24 @@
+Sequence diagram of a user interacting with a single-page app.
+
+Three columns titled: User, Browser, Server.
+
+First set of actions:
+
+1. User opens /index.html
+2. Browser gets /index.html
+3. Server returns public/base.html
+4. Browser renders empty HTML
+5. Browser gets /bundle.js
+6. Server returns public/bundle.js
+7. Browser parses JavaScript
+8. Browser fetches all emoji data for index route
+9. Server returns all emoji data
+10. Browser JavaScript adds IndexView with data to page
+
+Second set of actions:
+
+1. User clicks 🎉 link
+2. Browser JavaScript changes URL to /🎉
+3. Browser fetches data for 🎉
+4. Server returns data for 🎉
+5. Browser JavaScript replaces IndexView with EmojiView

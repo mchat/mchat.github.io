@@ -4,7 +4,7 @@ description: >-
   A whimsical introduction to how computers talk to each other, and what exactly
   your requests are up to.
 date: '2019-02-19T21:08:36.365Z'
-image: 'https://cdn-images-1.medium.com/max/800/1*tRtfXTIabzZKNozmOD80hg.png'
+image: '/blog/networking/protocols-diagram.png'
 image_alt: 'Illustration of multiple layers of protocols as roads, trucks, and buildings.'
 medium: https://medium.com/git-checkout-b-idk-what-im-doing/protocol-andia-welcome-to-the-networking-neighborhood-aab3f0fa3bf
 ---
@@ -18,9 +18,9 @@ This blog post lives on some computer somewhere in the world, and you’re readi
 ## 🤝 Protocols for fun and profit
 
 <figure class="figure">
-    <img class="figure__image" src="https://cdn-images-1.medium.com/max/800/1*hSFwreVDbTTQ01jI4ksltA.gif" alt="Gif of handshake">
+    <img class="figure__image" src="./handshake.gif" alt="Gif of handshake">
     <figcaption class="figure__caption" markdown="block">
-Gif of Lindsay Lohan and Simon Kunz in _The Parent Trap_ movie doing a complicated multi-step handshake with some dance moves involved. ([source](https://giphy.com/gifs/trap-handshake-parent-sKnQAVhutT4Zi))
+Gif of Lindsay Lohan and Simon Kunz in _The Parent Trap_ movie doing a complicated multi-step handshake with some dance moves involved. ([source](handshake.gif))
 </figcaption>
 </figure>
 
@@ -31,10 +31,10 @@ Protocols are a bit like secret handshakes. You have to know your part in order 
 If you’re writing web applications, you typically don’t need to worry about the exact details— most of the time, you’re going to use libraries and tools that handle the specifics. **It’s valuable to have some familiarity with the common protocols, and a general idea of what they do and when you use them!**
 
 <figure class="figure">
-	<img class="figure__image" src="https://cdn-images-1.medium.com/max/800/1*tRtfXTIabzZKNozmOD80hg.png" alt="Diagram of protocols">
-	<figcaption class="figure__caption">
+    <img class="figure__image" src="./protocols-diagram.png" alt="Diagram of protocols">
+    <figcaption class="figure__caption">
         Illustration of a road connecting a source and a destination building. The road is labeled Internet Layer Protocols. In between the source and destination are a building and post box labeled Application Layer Protocols, followed by a series of trucks labeled Transport Layer Protocols.
-	</figcaption>
+    </figcaption>
 </figure>
 
 <div class="spacer--xl"></div>
@@ -48,10 +48,10 @@ One of its primary responsibilities is routing, or passing data from a source to
 For example, `127.0.0.1` is a special IP address that means “this computer,” commonly referred to as `localhost`. Most other IP addresses refer to a specific machine, and can be used to uniquely identify or fingerprint a device that is accessing the internet. You can find your device’s IP address using a tool like [WhatIsMyIP.com](https://www.whatismyip.com/).
 
 <figure class="figure">
-	<img class="figure__image" src="https://cdn-images-1.medium.com/max/800/1*kBKNSLKhqQ7oPkC3urVoEQ.png" alt="Diagram of protocols">
-	<figcaption class="figure__caption">
+    <img class="figure__image" src="./protocols-diagram-ip.png" alt="Diagram of protocols">
+    <figcaption class="figure__caption">
         Illustration of a road connecting a source and a destination building. The road is labeled Internet Layer Protocols.
-	</figcaption>
+    </figcaption>
 </figure>
 
 
@@ -74,8 +74,8 @@ The [**Transmission Control Protocol**](https://www.lifewire.com/tcp-transmissio
 Have you ever seen a wind turbine in transit? A turbine is a massive structure, far too large to ship fully assembled. Each individual blade is driven on a single 18-wheeler truck to its destination, where it can be assembled and put back together.
 
 <figure class="figure">
-	<img class="figure__image" src="https://cdn-images-1.medium.com/max/800/1*7AurwKZW7NOQxojYW75P-w.gif" alt="Gif of wind turbine">
-	<figcaption class="figure__caption" markdown="block">
+    <img class="figure__image" src="./turbine.gif" alt="Gif of wind turbine">
+    <figcaption class="figure__caption" markdown="block">
 Timelapse gif of a wind turbine being assembled by a crane in a field. ([source](https://giphy.com/gifs/wind-turbine-Fyt2LlluELJhC))
 </figcaption>
 </figure>
@@ -85,10 +85,10 @@ Timelapse gif of a wind turbine being assembled by a crane in a field. ([source]
 **If the Internet Protocol is our highway system, the Transmission Control Protocol is the shipping logistics company** that breaks down your messages into pieces that fit on its trucks, drives them to your destination, and then reassembles the whole thing for you once it arrives.
 
 <figure class="figure">
-	<img class="figure__image" src="https://cdn-images-1.medium.com/max/2400/1*djEeDECiNIULKtFhc1sYAQ.png" alt="Diagram of protocls">
-	<figcaption class="figure__caption">
+    <img class="figure__image" src="./protocols-diagram-tcp.png" alt="Diagram of protocols">
+    <figcaption class="figure__caption">
         Illustration of a road connecting a source and a destination building. The road is labeled Internet Layer Protocols. In between the source and destination are a series of trucks labeled Transport Layer Protocols.
-	</figcaption>
+    </figcaption>
 </figure>
 
 
@@ -119,10 +119,10 @@ For example, [**Transport Layer Security (TLS)**](https://www.hostinger.com/tuto
 **We can think of application layer protocols as our friendly local post offices**, which offer a wide variety of services and features to meet our needs. They provide a nice abstraction around the precise details of how our mail travels. We just know that we have a post office box that gets packages, and an easy way to post our own wind turbines and manuscripts and cat photos and travel postcards.
 
 <figure class="figure">
-	<img class="figure__image" src="https://cdn-images-1.medium.com/max/800/1*Al6cSZ-IQbTg-oZJzSFGsg.png" alt="">
-	<figcaption class="figure__caption">
+    <img class="figure__image" src="./protocols-diagram-application.png" alt="Diagram of protocols">
+    <figcaption class="figure__caption">
         Illustration of a road connecting a source and a destination building. The road is labeled Internet Layer Protocols. In between the source and destination are a building and post box labeled Application Layer Protocols, followed by a series of trucks labeled Transport Layer Protocols.
-	</figcaption>
+    </figcaption>
 </figure>
 
 Some common protocols:
@@ -149,8 +149,8 @@ All of these protocols are useful, and using any of them depends on having a **_
 A **_server_** is just a process that continually runs on some machine somewhere in the world, listening to messages addressed to a specific TCP port, and responding in a (hopefully) expected way.
 
 <figure class="figure">
-	<img class="figure__image" src="https://cdn-images-1.medium.com/max/800/1*7NWzV_8OAOcO3iaTWSMedQ.gif" alt="">
-	<figcaption class="figure__caption" markdown="block">
+    <img class="figure__image" src="./answer-the-phone.gif" alt="Gif of Alanna Thompson">
+    <figcaption class="figure__caption" markdown="block">
 Gif of Alana “Honey Boo Boo” Thompson on the TV show “Here Comes Honey Boo Boo” answering the phone with caption “How may I help you?” ([source](https://giphy.com/gifs/told-Qp0cpdTzTrfdC))
 </figcaption>
 </figure>
@@ -176,27 +176,27 @@ A **_client_** is anything that makes a request — usually a browser, but s
 <figure class="figure">
     <div class="figure__split">
         <div class="figure__split__image">
-            <img class="figure__image" src="https://cdn-images-1.medium.com/max/600/1*ENaZClolrBj87ZhiOj7Z9A.png" alt="GET Request postcard">
+            <img class="figure__image" src="./http-get-request.png" alt="GET Request postcard">
         </div>
         <div class="figure__split__image">
-            <img class="figure__image" src="https://cdn-images-1.medium.com/max/600/1*CvC1vPU19MwBH1O4mRivxg.png" alt="GET Response postcard">
+            <img class="figure__image" src="./http-get-response.png" alt="GET Response postcard">
         </div>
-	</div>
+    </div>
     <figcaption class="figure__caption" markdown="block">
 A sample HTTP GET request and response pair, presented as illustrations of postcards sent between the client and the server. The client requests path `emojis?type=food` and the server responds with a 200 status code and a JSON string with emoji names and icons for taco, sushi, and mango.
 </figcaption>
 </figure>
 
 <figure class="figure">
-	<div class="figure__split">
+    <div class="figure__split">
         <div class="figure__split__image">
-            <img class="figure__image" src="https://cdn-images-1.medium.com/max/600/1*BpxpwaulP_g9YxwCpPWihg.png" alt="POST Request postcard">
+            <img class="figure__image" src="./http-post-request.png" alt="POST Request postcard">
         </div>
         <div class="figure__split__image">
-            <img class="figure__image" src="https://cdn-images-1.medium.com/max/600/1*JwbBtQPmfcPPUjxZpCZMOQ.png" alt="POST Response postcard">
+            <img class="figure__image" src="./http-post-response.png" alt="POST Response postcard">
         </div>
     </div>
-	<figcaption class="figure__caption" markdown="block">
+    <figcaption class="figure__caption" markdown="block">
 A sample HTTP POST request and response pair, presented as illustrations of postcards sent between the client and the server. The client attempts to create a new fire emoji with path `emojis` and the server responds with a 403 Forbidden status code and emp`ty body.
 </figcaption>
 </figure>
@@ -216,15 +216,15 @@ HTTP requests and responses are also **_stateless_**, which means that there isn
 A **_request_** is sent from the client, to the server, to start off a communication cycle.
 
 <figure class="figure">
-	<img class="figure__image" src="https://cdn-images-1.medium.com/max/800/1*ENaZClolrBj87ZhiOj7Z9A.png" alt="">
-	<figcaption class="figure__caption" markdown="block">
+    <img class="figure__image" src="./http-get-request.png" alt="GET Request Postcard">
+    <figcaption class="figure__caption" markdown="block">
 Illustration of an HTTP GET request as a postcard. It uses HTTP/1.1, has a path of `/emojis?type=food`, with headers `Accept: application/json`. The body is empty. The postcard is addressed “Dear server” and signed “Love, the client.”
 </figcaption>
 </figure>
 
 <figure class="figure">
-	<img class="figure__image" src="https://cdn-images-1.medium.com/max/800/1*JwbBtQPmfcPPUjxZpCZMOQ.png" alt="">
-	<figcaption class="figure__caption" markdown="block">
+    <img class="figure__image" src="./http-post-request.png" alt="POST Response Postcard">
+    <figcaption class="figure__caption" markdown="block">
 Illustration of an HTTP POST request as a postcard. It uses HTTP/1.1, has a path of `/emojis`, with headers `Accept: application/json; Content-Type: application/json`. The body contains a JSON string with a fire emoji icon and name. The postcard is addressed “Dear server” and signed “Love, the client.”
 </figcaption>
 </figure>
@@ -249,15 +249,15 @@ Requests contain the following fields:
 A **_response_** is sent from the server, to the client, to complete a communication cycle.
 
 <figure class="figure">
-	<img class="figure__image" src="https://cdn-images-1.medium.com/max/800/1*CvC1vPU19MwBH1O4mRivxg.png" alt="">
-	<figcaption class="figure__caption" markdown="block">
+    <img class="figure__image" src="./http-get-response.png" alt="GET Response Postcard">
+    <figcaption class="figure__caption" markdown="block">
 Illustration of an HTTP response as a postcard. It uses HTTP/1.1 and has a status code of 200 with status message OK. It has headers `Content-Type: application/json`. The body contains a JSON string with emoji names and icons for taco, sushi, and mango. The postcard is addressed “Dear client” and signed “Love, the server.”
 </figcaption>
 </figure>
 
 <figure class="figure">
-	<img class="figure__image" src="https://cdn-images-1.medium.com/max/800/1*BpxpwaulP_g9YxwCpPWihg.png" alt="">
-	<figcaption class="figure__caption" markdown="block">
+    <img class="figure__image" src="./http-post-response.png" alt="POST Response Postcard">
+    <figcaption class="figure__caption" markdown="block">
 Illustration of an HTTP response as a postcard. It uses HTTP/1.1 and has a status code of 403 with status message FORBIDDEN. It has headers `Content-Type: application/json`. The body is empty. The postcard is addressed “Dear client” and signed “Love, the server.”
 </figcaption>
 </figure>
@@ -301,8 +301,8 @@ This header is traditionally set on a request to indicates that the client wants
 **_Headers_** can also be used to pass authentication data, set caching or Do Not Track preferences, pass cookies, indicate the application/operating system of the client, and [much more](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers).
 
 <figure class="figure">
-	<img class="figure__image" src="https://cdn-images-1.medium.com/max/800/1*-M0TZIx2dz9rzsXSfY-zdA.gif" alt="">
-	<figcaption class="figure__caption" markdown="block">
+    <img class="figure__image" src="./information.gif" alt="Gif of Candace Wu">
+    <figcaption class="figure__caption" markdown="block">
 Gif of Candace Wu in the Fresh Off the Boat TV show, looking confused with the caption “I need more information”. ([source](https://giphy.com/gifs/fresh-off-the-boat-abc-gif-14qeTA7IoaLybC))
 </figcaption>
 </figure>
@@ -331,8 +331,8 @@ However, HTTP does allow you set the **_body_** of any request or response, so y
 ### Fields for HTTP Requests only
 
 <figure class="figure">
-	<img class="figure__image" src="https://cdn-images-1.medium.com/max/800/1*036Ujo3u_6u_4J932GvPIA.gif" alt="">
-	<figcaption class="figure__caption" markdown="block">
+    <img class="figure__image" src="./candy-canes.gif" alt="Gif of Lindsay Lohan">
+    <figcaption class="figure__caption" markdown="block">
 Gif of Lindsay Lohan in Mean Girls movie smiling and asking “So are you gonna send any candy canes?” ([source](https://giphy.com/gifs/filmeditor-mean-girls-movie-l2YWvMRhzCx4QQsxO))
 </figcaption>
 </figure>
@@ -384,8 +384,8 @@ https://www.mycoolsite.com:80/emojis?type=food
 ### Fields for HTTP Responses only
 
 <figure class="figure">
-	<img class="figure__image" src="https://cdn-images-1.medium.com/max/800/1*Ra8W6tqFO2_lCb-S8mVrKg.gif" alt="">
-	<figcaption class="figure__caption" markdown="block">
+    <img class="figure__image" src="./glen-coco.gif" alt="Gif of Daniel Franzese">
+    <figcaption class="figure__caption" markdown="block">
 Gif of Daniel Franzese in Mean Girls movie, dressed as Santa Claus walking through a classroom full of students handing out candy canes from a stocking and saying “Glen Coco? Four for you. Glen Coco! You go, Glen Coco!” ([source](https://giphy.com/gifs/mean-girls-movie-xT9KVCqZfEqOPGFFRe))
 </figcaption>
 </figure>
@@ -425,8 +425,8 @@ You should always depend on the numerical code in your application logic that ha
 ## 👩🏻‍🏫 Let's Review!
 
 <figure class="figure">
-	<img class="figure__image" src="https://cdn-images-1.medium.com/max/800/1*fXKY8aK5ue16lrRmnFy5Sg.gif" alt="">
-	<figcaption class="figure__caption" markdown="block">
+    <img class="figure__image" src="./learning.gif" alt="Gif of Amy Poehler">
+    <figcaption class="figure__caption" markdown="block">
 Gif of Amy Poehler in Parks and Recreation TV Show, holding a hammer and smiling while saying “I’m learning so much already!” ([source](https://giphy.com/gifs/nbcmakingit-school-learning-so-much-PLHdpauwfN2MvHcHxL))
 </figcaption>
 </figure>
@@ -438,10 +438,10 @@ That was a lot of learning! Let’s review what we learned.
 *   **_Protocols_** are communication contracts. They provide different levels of abstraction, and we use lots of different protocols in order to send and receive data on the internet.
 
 <figure class="figure">
-	<img class="figure__image" src="https://cdn-images-1.medium.com/max/800/1*mJPgzgyDdXVMWb-U94yB_A.png" alt="">
-	<figcaption class="figure__caption">
+    <img class="figure__image" src="./protocols-diagram.png" alt="Diagram of protocols">
+    <figcaption class="figure__caption">
         Illustration of a road connecting a source and a destination building. The road is labeled Internet Layer Protocols. In between the source and destination are a building and post box labeled Application Layer Protocols, followed by a series of trucks labeled Transport Layer Protocols.
-	</figcaption>
+    </figcaption>
 </figure>
 
 
@@ -454,8 +454,8 @@ That was a lot of learning! Let’s review what we learned.
 *   A **_server_** is any process running on a physical machine that listens to a specific port and implements a particular protocol. Web developers usually mean “HTTP server” when we say server, but you could also have an FTP or SSH server, etc.
 
 <figure class="figure">
-	<img class="figure__image" src="https://cdn-images-1.medium.com/max/800/1*JwbBtQPmfcPPUjxZpCZMOQ.png" alt="">
-	<figcaption class="figure__caption" markdown="block">
+    <img class="figure__image" src="./http-post-request.png" alt="POST Request Postcard">
+    <figcaption class="figure__caption" markdown="block">
 Illustration of an HTTP POST request as a postcard. It uses HTTP/1.1, has a path of `/emojis`, with headers `Accept: application/json; Content-Type: application/json`. The body contains a JSON string with a fire emoji icon and name. The postcard is addressed “Dear server” and signed “Love, the client”.
 </figcaption>
 </figure>

@@ -1,0 +1,21 @@
+Sequence diagram of a user interacting with a server-side rendered site.
+
+Three columns titled: User, Browser, Server.
+
+First set of actions:
+
+1. User opens /index.html
+2. Browser gets /index.html
+3. Server finds template at views/index.pug
+4. Server fetches data for all emojis
+5. Server builds index.html
+6. Browser renders HTML
+
+Second set of actions:
+
+1. User clicks 🎉 link. Arrow to browser crosses a NEW PAGE boundary.
+2. Browser gets /🎉.html
+3. Server finds template at views/emojis/show.pug
+4. Server fetches data for 🎉 emoji
+5. Server builds 🎉.html
+6. Browser renders HTML
