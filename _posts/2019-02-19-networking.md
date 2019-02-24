@@ -182,9 +182,9 @@ A **_client_** is anything that makes a request — usually a browser, but s
             <img class="figure__image" src="https://cdn-images-1.medium.com/max/600/1*CvC1vPU19MwBH1O4mRivxg.png" alt="GET Response postcard">
         </div>
 	</div>
-    <figcaption class="figure__caption">
-        A sample HTTP GET request and response pair, presented as illustrations of postcards sent between the client and the server. The client requests path <code>emojis?type=food</code> and the server responds with a 200 status code and a JSON string with emoji names and icons for taco, sushi, and mango.
-	</figcaption>
+    <figcaption class="figure__caption" markdown="block">
+A sample HTTP GET request and response pair, presented as illustrations of postcards sent between the client and the server. The client requests path `emojis?type=food` and the server responds with a 200 status code and a JSON string with emoji names and icons for taco, sushi, and mango.
+</figcaption>
 </figure>
 
 <figure class="figure">
@@ -196,9 +196,9 @@ A **_client_** is anything that makes a request — usually a browser, but s
             <img class="figure__image" src="https://cdn-images-1.medium.com/max/600/1*JwbBtQPmfcPPUjxZpCZMOQ.png" alt="POST Response postcard">
         </div>
     </div>
-	<figcaption class="figure__caption">
-        A sample HTTP POST request and response pair, presented as illustrations of postcards sent between the client and the server. The client attempts to create a new fire emoji with path <code>emojis</code> and the server responds with a 403 Forbidden status code and empty body.
-	</figcaption>
+	<figcaption class="figure__caption" markdown="block">
+A sample HTTP POST request and response pair, presented as illustrations of postcards sent between the client and the server. The client attempts to create a new fire emoji with path `emojis` and the server responds with a 403 Forbidden status code and emp`ty body.
+</figcaption>
 </figure>
 
 
@@ -217,16 +217,16 @@ A **_request_** is sent from the client, to the server, to start off a communica
 
 <figure class="figure">
 	<img class="figure__image" src="https://cdn-images-1.medium.com/max/800/1*ENaZClolrBj87ZhiOj7Z9A.png" alt="">
-	<figcaption class="figure__caption">
-        Illustration of an HTTP GET request as a postcard. It uses HTTP/1.1, has a path of <code>/emojis?type=food</code>, with headers <code>Accept: application/json</code>. The body is empty. The postcard is addressed “Dear server” and signed “Love, the client.”
-	</figcaption>
+	<figcaption class="figure__caption" markdown="block">
+Illustration of an HTTP GET request as a postcard. It uses HTTP/1.1, has a path of `/emojis?type=food`, with headers `Accept: application/json`. The body is empty. The postcard is addressed “Dear server” and signed “Love, the client.”
+</figcaption>
 </figure>
 
 <figure class="figure">
 	<img class="figure__image" src="https://cdn-images-1.medium.com/max/800/1*JwbBtQPmfcPPUjxZpCZMOQ.png" alt="">
-	<figcaption class="figure__caption">
-        Illustration of an HTTP POST request as a postcard. It uses HTTP/1.1, has a path of <code>/emojis\</code>, with headers <code>`Accept: application/json; Content-Type: application/json\</code>. The body contains a JSON string with a fire emoji icon and name. The postcard is addressed “Dear server” and signed “Love, the client.”
-	</figcaption>
+	<figcaption class="figure__caption" markdown="block">
+Illustration of an HTTP POST request as a postcard. It uses HTTP/1.1, has a path of `/emojis`, with headers `Accept: application/json; Content-Type: application/json`. The body contains a JSON string with a fire emoji icon and name. The postcard is addressed “Dear server” and signed “Love, the client.”
+</figcaption>
 </figure>
 
 

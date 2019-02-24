@@ -436,11 +436,9 @@ When we look at [the source code](https://glitch.com/edit/#!/emojis--single-page
       - edit.jsx  
       - new.jsx  
   
-
 - public/  
   - base.html  
   
-
 - server.js
 ```
 
@@ -471,8 +469,7 @@ It’s… actually pretty empty. It doesn’t display anything, it just adds an 
 
 ```html
 <div id="root"></div>  
-    
-    
+ 
 <script type="text/javascript" src="/bundle.js"></script>
 ```
 
