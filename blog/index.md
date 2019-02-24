@@ -14,7 +14,6 @@ Have a suggestion for a topic you'd love to learn more about? [Tweet me!](https:
 
 {% for post in site.posts %}
   {% capture words %}{{ post.content | number_of_words }}{% endcapture %}
-  <!-- {% capture minutes %}{{ post.content | reading_time }}{% endcapture %} -->
 
   <div class="content__section">
     <div class="content__section__media">
@@ -28,10 +27,6 @@ Have a suggestion for a topic you'd love to learn more about? [Tweet me!](https:
 #### {{ post.description }}
 __{{ post.date | date: '%B %d, %Y'  }}__
 _&#8226; {{ words }} words_
-<!-- &#8226; {{ minutes }} minute read_ -->
-        
-<!-- {{ post.excerpt }} -->
-<!-- _[read more...]({{ post.url }})_       -->
 </div>
   </div>
 {% endfor %}

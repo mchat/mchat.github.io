@@ -3,7 +3,6 @@ layout: default
 ---
 
 {% capture words %}{{ content | number_of_words }}{% endcapture %}
-<!-- {% capture minutes %}{{ content | reading_time }}{% endcapture %} -->
 
 <div class="readable">
   <h1>{{ page.title }}</h1>
@@ -13,7 +12,6 @@ layout: default
     {{ page.date | date: '%B %d, %Y'  }}
 
     &#8226; {{ words }} words
-    <!-- &#8226; {{ minutes }} minute read -->
 
     {% if page.medium %}
       &#8226; Read on <a href="{{ page.medium }}">Medium</a>
