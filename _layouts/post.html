@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% capture words %}{{ content | number_of_words }}{% endcapture %}
-{% capture minutes %}{{ content | reading_time }}{% endcapture %}
+<!-- {% capture minutes %}{{ content | reading_time }}{% endcapture %} -->
 
 <div class="readable">
   <h1>{{ page.title }}</h1>
@@ -13,7 +13,7 @@ layout: default
     {{ page.date | date: '%B %d, %Y'  }}
 
     &#8226; {{ words }} words
-    &#8226; {{ minutes }} minute read
+    <!-- &#8226; {{ minutes }} minute read -->
 
     {% if page.medium %}
       &#8226; Read on <a href="{{ page.medium }}">Medium</a>
@@ -22,15 +22,14 @@ layout: default
   </h5>
 </div>
 
-<aside class="post__toc">
+<!-- <aside class="post__toc">
   <strong>Table of Contents</strong>
   {{ content | toc_only }}
-</aside>
+</aside> -->
 
-<div class="readable main">
+<div class="readable">
   {{ content}}
 </div>
-
 
 <div class="spacer--xl"><hr></div>
 
