@@ -69,6 +69,10 @@ p code {
 }
 
 
+.align-right {
+  text-align: right;
+}
+
 
 /*
 
@@ -263,6 +267,10 @@ Content Section
   .side-by-side .text {
     margin: 0;
   }
+}
+
+.post-link {
+  max-width: 25rem;
 }
 
 .figure {

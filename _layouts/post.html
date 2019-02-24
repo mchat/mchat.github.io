@@ -40,17 +40,19 @@ layout: default
 <div class="spacer--xl"><hr></div>
 
 <div class="side-by-side">
-  <div>
+  <div class="post-link">
     &nbsp;
     {% if page.previous.url %}
       <a class="link-previous" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+      <p><small>{{page.previous.description}}</small></p>
     {% endif %}
   </div>
 
-  <div>
+  <div class="post-link align-right">
     &nbsp;
     {% if page.next.url %}
       <a class="link-next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+      <p><small>{{page.next.description}}</small></p>
     {% endif %}
   </div>
 </div>
