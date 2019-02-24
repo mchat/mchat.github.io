@@ -73,6 +73,7 @@ p code {
 
 .highlight {
   padding: 2px 4px;
+  overflow-x: scroll;
 }
 
 /*
