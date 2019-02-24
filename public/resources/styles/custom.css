@@ -49,6 +49,13 @@ a:focus {
   color: var(--color-link--hover);
 }
 
+/*
+
+  Code Highlighting
+  (syntax highlighting in dracula.css)
+
+ */
+
 code, pre {
   font-family: var(--font-mono), monospace;
   font-size: 0.75rem;
@@ -68,9 +75,30 @@ p code {
   padding: 2px 4px;
 }
 
+/*
+
+  Utility Classes
+
+ */
 
 .align-right {
   text-align: right;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.readable {
+  max-width: 50em;
+}
+
+.spacer {
+  margin: var(--spacing-large) 0;
+}
+
+.spacer--xl {
+  margin: var(--spacing-xlarge) 0;
 }
 
 
@@ -181,10 +209,6 @@ Content Section
   max-width: 600px;
 }
 
-.content__section__text--centered {
-  text-align: center;
-}
-
 .content__section__text--align-title h1:first-of-type,
 .content__section__text--align-title h2:first-of-type,
 .content__section__text--align-title h3:first-of-type,
@@ -196,20 +220,10 @@ Content Section
 
 /*
 
-  Blogs
+  Blog Table of Contents
 
  */
 
-.metadata {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-wrap: wrap;
-}
-
-.readable {
-  max-width: 50em;
-}
 
 .post__toc {
   margin: var(--spacing-large) 0;
@@ -217,10 +231,6 @@ Content Section
 }
 
 @media only screen and (min-width: 768px) {
-  .readable {
-    margin: 0 var(--spacing-medium);
-  }
-
   .post__toc {
     margin: var(--spacing-large) var(--spacing-medium);
   }
@@ -235,13 +245,15 @@ Content Section
   }
 }
 
-.spacer {
-  margin: var(--spacing-large) 0;
+.post-link {
+  max-width: 25rem;
 }
 
-.spacer--xl {
-  margin: var(--spacing-xlarge) 0;
-}
+/*
+
+  Flexible Columns (collapse for narrow viewports)
+
+ */
 
 .side-by-side {
   display: flex;
@@ -249,12 +261,12 @@ Content Section
   justify-content: space-between;
 }
 
-.side-by-side .figure {
+.side-by-side .grow {
   flex: 2 0 auto;
   max-width: 100%;
 }
 
-.side-by-side .text {
+.side-by-side .shrink {
   flex: 1 1 auto;
   margin: 0 var(--spacing-medium);
 }
@@ -264,14 +276,16 @@ Content Section
     flex-wrap: wrap;
   }
 
-  .side-by-side .text {
+  .side-by-side .shrink {
     margin: 0;
   }
 }
 
-.post-link {
-  max-width: 25rem;
-}
+/*
+
+  Blog Images and Captions
+
+ */
 
 .figure {
   display: flex;
@@ -304,7 +318,6 @@ Content Section
     margin: var(--spacing-small) 0;
   }
 }
-
 
 .figure__caption {
   margin-top: var(--spacing-small);

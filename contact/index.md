@@ -4,7 +4,7 @@ title: Contact
 ---
 
 <div class="content__section">
-  <div class="content__section__text--centered" markdown="block">
+  <div class="align-center" markdown="block">
 |     |     |     |
 |----:|:---:|:----|
 | Tech & current events. | <span class="contact-icon fa-stack"><i class="fa fa-square fa-stack-2x" /><i class="fa fa-twitter fa-inverse fa-stack-1x" /></span> | [@mariechatfield](https://twitter.com/mariechatfield) |

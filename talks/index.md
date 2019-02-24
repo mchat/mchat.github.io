@@ -4,13 +4,15 @@ title: Talks
 ---
 
 <div class="content__section" markdown="block">
-### Looking for a tutorial or workshop documentation? Check out [tutorials by marie](/tutorials/).
+__Interested in having one of these talks, or something new, at your conference, workshop, or meetup? [Contact me](/contact) and let's chat!__
 </div>
 
 <div id="javascript-events" class="content__section">
   <div class="content__section__media content__section__media--small">
     <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">dear ATX JS enthusiasts,<br><br>y&#39;all are cordially invited to an ✨ Event-ful Evening with <a href="https://twitter.com/hashtag/JavaScript?src=hash&amp;ref_src=twsrc%5Etfw">#JavaScript</a> ✨ with your host, me<br><br>WHEN: <a href="https://twitter.com/AustinJS?ref_src=twsrc%5Etfw">@AustinJS</a>, Tues Oct 16, 7:30pm<br>WHERE: <a href="https://twitter.com/Spredfast?ref_src=twsrc%5Etfw">@Spredfast</a><br>WHAT: everything you ever needed to know about handling events in JavaScript<br><br>hope to see you there! 🎉 <a href="https://t.co/hXhNjDxGKW">pic.twitter.com/hXhNjDxGKW</a></p>&mdash; Marie Chatfield (@mariechatfield) <a href="https://twitter.com/mariechatfield/status/1050427666845892608?ref_src=twsrc%5Etfw">October 11, 2018</a></blockquote>
   </div>
+
+  <div class="spacer--xl"></div>
 
   <div class="content__section__text content__section__text--align-title" markdown="block">
 
@@ -41,6 +43,8 @@ __Would you like to hear this talk at your favorite JavaScript venue near you? [
     - [Video](https://youtu.be/7fEVFgWGnCE?t=270)
   </div>
 </div>
+
+<div class="spacer--xl"></div>
 
 <div id="ember-events" class="content__section">
   <div class="content__section__media content__section__media--small">
@@ -73,6 +77,8 @@ The blog post that inspired the talk, [Deep Dive on Ember Events](https://medium
   </div>
 </div>
 
+<div class="spacer--xl"></div>
+
 <div id="low-power-mode" class="content__section">
   <div class="content__section__media">
     <div class="video-container">
@@ -94,6 +100,8 @@ This talk was originally given at [AlterConf Portland 2016](https://www.altercon
   </div>
 </div>
 
+<div class="spacer--xl"></div>
+
 <div id="deploy-workshop" class="content__section">
   <div class="content__section__media content__section__media--small">
     <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Full house for <a href="https://twitter.com/Square">@Square</a> <a href="https://twitter.com/hashtag/womeng?src=hash">#womeng</a> <a href="https://twitter.com/mariechatfield">@mariechatfield</a> at her <a href="https://twitter.com/hashtag/WECode2017?src=hash">#WECode2017</a> session on building &amp; deploying an app &amp; server! 💻 <a href="https://twitter.com/WECodeHarvard">@WECodeHarvard</a> <a href="https://t.co/lj4grWR1fH">pic.twitter.com/lj4grWR1fH</a></p>&mdash; Saqi Mehta (@callmesaqi) <a href="https://twitter.com/callmesaqi/status/827911586257965057">February 4, 2017</a></blockquote>
@@ -110,6 +118,8 @@ This talk is ideal for people who have some familiarity with the command line an
 
 </div>
 </div>
+
+<div class="spacer--xl"></div>
 
 <div id="firebase-workshop" class="content__section">
   <div class="content__section__media content__section__media--small">
@@ -129,6 +139,8 @@ The workshop is extensively documented and is also provided in [written tutorial
 
   </div>
 </div>
+
+<div class="spacer--xl"></div>
 
 <div id="how-to-even-web" class="content__section">
   <div class="content__section__media">

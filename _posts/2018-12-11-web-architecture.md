@@ -96,14 +96,14 @@ Gif of NeNe Leakes from the _Real Housewives of Atlanta_ show with a bored expre
 ## 📁 Static Sites
 
 <div class="side-by-side">
-  <figure class="figure">
+  <figure class="figure grow">
     <img class="figure__image" src="./static-site.png" alt="Diagram of a static site">
     <figcaption class="figure__caption" markdown="block">
 Sequence diagram of a static site ([plain text description](./static-site.txt)).
 </figcaption>
   </figure>
 
-  <div class="text" markdown="block">
+  <div class="text shrink" markdown="block">
 A **static site** is an application that shows the same content to everyone, on every page load. Nothing changes — it’s not dynamic. There’s not much data involved.
 
 In some ways, **a static site is like a glorified file finder**. Every URL maps directly to an asset, like an HTML page or an image. When a user requests that URL in their browser, the server finds the file that matches the path and returns it, as is.
@@ -205,13 +205,13 @@ Gif of actor Russell Brand in _Get Him to the Greek_ movie, frowning and saying 
 
 
 <div class="side-by-side">
-  <figure class="figure">
+  <figure class="figure grow">
     <img class="figure__image" src="./server-side.png" alt="Diagram of a server-side rendered site">
     <figcaption class="figure__caption" markdown="block">
 Sequence diagram of a server-side rendered site ([plain text description](./server-side.txt)).
 </figcaption>
   </figure>
-  <div class="text" markdown="block">
+  <div class="text shrink" markdown="block">
 A **server-side rendered site** is an application that renders dynamic content to users in the backend.
 
 In some ways, the output of a server-side rendered site will look very similar to a static site — everything you need to render the page will be included inline in the HTML. However, **the server is deciding at runtime how to build the HTML file and what content to include**.
@@ -391,13 +391,13 @@ Gif of stop-motion animation of a game of tetris, where the pieces are players i
 ## 📲 Single-Page Apps
 
 <div class="side-by-side">
-  <figure class="figure">
+  <figure class="figure grow">
     <img class="figure__image" src="./single-page-app.png" alt="Diagram of a single-page app">
     <figcaption class="figure__caption" markdown="block">
 Sequence diagram of a single-page app ([plain text description](./single-page-app.txt)).
 </figcaption>
   </figure>
-  <div class="text" markdown="block">
+  <div class="text shrink" markdown="block">
 A **single-page app** is an application that renders dynamic content to users in the client, or browser.
 
 The server does very minimal rendering work in a traditional single-page app. It returns _the exact same HTML file_ for every request. That file is responsible for loading a bunch of JavaScript, which will then decide what content to render based on the URL of the browser. **Code running in the browser, not the server, determines what the user sees at any given point.**

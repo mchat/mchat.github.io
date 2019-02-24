@@ -2,7 +2,7 @@
 layout: default
 title: Blog
 ---
-<div class="content__section__text--centered" markdown="block">
+<div class="align-center" markdown="block">
 ## git co -b idk-what-im-doing
 
 __a friendly little tech blog for learners of all levels__
@@ -43,7 +43,7 @@ _[read more...]({{ post.url }})_
 
 <div class="spacer--xl"></div>
 
-<div class="content__section__text--centered" markdown="block">
+<div class="align-center" markdown="block">
 ## other platforms
 
 #### [Medium](https://medium.com/@mariechatfield)
