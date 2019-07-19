@@ -7,6 +7,36 @@ title: Talks
 __Interested in having one of these talks, or something new, at your conference, workshop, or meetup? [Contact me](/contact) and let's chat!__
 </div>
 
+<div id="interns" class="content__section">
+  <div class="content__section__media content__section__media--small">
+    <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">This is <a href="https://twitter.com/mariechatfield?ref_src=twsrc%5Etfw">@mariechatfield</a>’s amazing calendar invite for her first 1:1 with her intern. So much good stuff here for anyone beginning a new relationship with someone who will report to them! (at <a href="https://twitter.com/hashtag/LeadDevMeetupAustin?src=hash&amp;ref_src=twsrc%5Etfw">#LeadDevMeetupAustin</a>) <a href="https://t.co/aeZZwSt7Fy">pic.twitter.com/aeZZwSt7Fy</a></p>&mdash; Nickolas Means (@nmeans) <a href="https://twitter.com/nmeans/status/1152005741089177602?ref_src=twsrc%5Etfw">July 19, 2019</a></blockquote>
+  </div>
+
+  <div class="spacer--xl"></div>
+
+  <div class="content__section__text content__section__text--align-title" markdown="block">
+
+#### Individual Contributors Managing Interns: Name a More Iconic Duo, I'll Wait
+
+__Grow your team's potential by letting your reports manage interns__
+
+Internships can be an exciting opportunity for entry-level employees to gain valuable expertise and complete meaningful, and high-impact work. But the best internship experiences don’t happen by accident!
+
+Encourage your interns to thrive and develop their skills by preparing a defined problem space, then giving them the freedom to choose their path within it—while still giving them regular feedback and guidance. Learn practical suggestions to help your interns excel from onboarding to offboarding, and every step along the way.
+
+But wait, there’s more! Get the most out of your internship program by identifying individual contributors on your team to manage your interns. Hear the perspective of an aspiring Lead Dev on the value of being trusted to mentor an intern, and how to support your reports who are stepping into a formal mentorship role for the first time.
+
+This talk has been given at the [July 2019 Lead Dev Meetup](https://ti.to/the-lead-developer-meetup/austin-july-2019) in Austin.
+
+  __Resources:__
+
+  [Slides from Lead Dev Meetup Austin, July 2019](https://drive.google.com/file/d/13AnWu-7CasZwar3w40MjfwAiMVwUoTQU/view)
+  </div>
+</div>
+
+<div class="spacer--xl"></div>
+
+
 <div id="javascript-events" class="content__section">
   <div class="content__section__media content__section__media--small">
     <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">dear ATX JS enthusiasts,<br><br>y&#39;all are cordially invited to an ✨ Event-ful Evening with <a href="https://twitter.com/hashtag/JavaScript?src=hash&amp;ref_src=twsrc%5Etfw">#JavaScript</a> ✨ with your host, me<br><br>WHEN: <a href="https://twitter.com/AustinJS?ref_src=twsrc%5Etfw">@AustinJS</a>, Tues Oct 16, 7:30pm<br>WHERE: <a href="https://twitter.com/Spredfast?ref_src=twsrc%5Etfw">@Spredfast</a><br>WHAT: everything you ever needed to know about handling events in JavaScript<br><br>hope to see you there! 🎉 <a href="https://t.co/hXhNjDxGKW">pic.twitter.com/hXhNjDxGKW</a></p>&mdash; Marie Chatfield (@mariechatfield) <a href="https://twitter.com/mariechatfield/status/1050427666845892608?ref_src=twsrc%5Etfw">October 11, 2018</a></blockquote>
@@ -18,7 +48,7 @@ __Interested in having one of these talks, or something new, at your conference,
 
 #### An Event-ful Evening with JavaScript
 
-__Your one stop shop for handling events in JavaScript.__
+__Your one stop shop for handling events in JavaScript__
 
 Handling events like clicks and keypresses as users interact with your content is essential for any web app. Learn the fundamentals of how events work in JavaScript, including:
 
@@ -33,8 +63,6 @@ Whether you’re just learning JavaScript or are an experienced front-end develo
 This talk is adapted from an Ember.js-specific talk, [Deep Dive on Ember Events](#ember-events).
 
 This talk has been given at the [October 2018 Austin JavaScript Meetup](https://austinjavascript.com/posts/meetups/2018/10/16/) in Austin.
-
-__Would you like to hear this talk at your favorite JavaScript venue near you? [Let me know!](/contact)__
 
   __Resources:__
 
