@@ -7,28 +7,29 @@ permalink: /
   <div class="content__section__media align-center" markdown="block">
 ![Profile picture of Marie Chatfield.](/public/resources/images/profile.jpg){: .content__section__image }
   </div>
-  <div class="content__section__text align-center content__section__text--align-title" markdown="block">
+  <div class="content__section__text content__section__text--align-title" markdown="block">
 
-# Learn, Solve, Share. Repeat.
+Marie Chatfield writes code and poetry, sometimes at the same time. As a front-end engineer, she is passionate about creating inclusive experiences and understanding foundational web technologies at a deeper level.
 
-I love challenges, learning new technologies, and pushing myself to my limits.
-But all of that means nothing if it’s not directed towards solving real problems faced by real people.
+Some of Marie's areas of expertise include:
 
-#### I’m passionate about working towards a more diverse and inclusive tech industry and community.
+- incrementally migrating legacy front-end applications to modern technologies;
+- designing and implementing full-stack features with complex visual requirements;
+- and building tools and infrastructure to improve developer experience and efficiency.
 
-I believe that starts with breaking down institutional barriers to entry.
-But it also requires all of us leveraging whatever privilege we may have to open doors for others who don’t have the same opportunities.
+As an engineer, Marie brings thoughtful and empathetic communication to team interactions. She asks the right questions at the right time to uncover issues and unknowns early, build consensus, and drive progress through every stage of a project.
 
-As a software engineer, I love crafting beautiful and maintainable software across the tech stack—from backend to front-end, from product to infrastructure. Of all the disciplines, front-end is my passion and a continual source of joy and curiosity.
+Marie is also an experienced conference speaker and specializes in technical deep dives that are accessible for beginners and illuminating for experts.
+</div>
+</div>
+<div class="align-center" markdown="block">
 
-#### I love teaching, writing, and speaking on technical topics, and strive to make all my content accessible and interesting for all levels of experience and expertise.
+__👋 On a more personal note...__
 
-Nerding out on implementation details is great; being able to explain those details to someone else is better; giving someone else the foundation they need to teach that topic to another person is better still.
-
-__On a more personal note, I love whimsy of all sorts and emojis in particular.__
+I love whimsy of all sorts and emojis in particular.
 
 <big>🧗‍♀️</big> I started rock climbing when I moved to Austin and now I'm a Certified Enthusiast™.
 <br><big>📚</big> In my free time I sit in coffee shops writing poetry, journaling, and reading novels.
 <br><big>🏕</big> I love swing dancing, nature strolling, camping, and Jesus.
-</div>
+<br><big>💁🏻‍♀️</big> I started <a href="https://dear.mariechatfield.com">an advice column</a> on a whim.
 </div>
