@@ -399,3 +399,11 @@ Contact Section
 }
 
 /*********************************************************/
+
+.site-iframe {
+  border: 2px solid gray;
+  border-radius: 1em;
+  margin: 0 0.5em;
+  height: 100%;
+  width: 100%;
+}

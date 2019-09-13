@@ -2,52 +2,48 @@
 layout: default
 ---
 
-{% capture words %}{{ content | number_of_words }}{% endcapture %}
-{% capture minutes %}{{ words | divided_by: 275 }}{% endcapture %}
+{% capture words %}{{ content | number_of_words }}{% endcapture %} {% capture
+minutes %}{{ words | divided_by: 275 }}{% endcapture %}
 
 <div class="readable">
   <h1>{{ page.title }}</h1>
 
   <h3>{{ page.description }}</h3>
   <h5>
-    {{ page.date | date: '%B %d, %Y'  }}
-
-    &#8226; {{ words }} words
-    &#8226; {{ minutes }} minute read
-
-
-    {% if page.medium %}
-      &#8226; Read on <a href="{{ page.medium }}">Medium</a>
+    {{ page.date | date: '%B %d, %Y' }} &#8226; {{ words }} words &#8226; {{
+    minutes }} minute read {% if page.medium %} &#8226; Read on
+    <a href="{{ page.medium }}">Medium</a>
     {% endif %}
-
   </h5>
 </div>
 
 <aside class="post__toc">
   <strong>Table of Contents</strong>
-  {% include toc.html html=content %}
+  {% include toc.html html=content h_max=page.max_header %}
 </aside>
 
 <div class="readable">
   {{ content}}
 </div>
 
-<div class="spacer"><hr></div>
+<div class="spacer"><hr /></div>
 
 <div class="side-by-side">
   <div class="post-link">
-    &nbsp;
-    {% if page.previous.url %}
-      <a class="link-previous" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
-      <p><small>{{page.previous.description}}</small></p>
+    &nbsp; {% if page.previous.url %}
+    <a class="link-previous" href="{{page.previous.url}}"
+      >&laquo; {{page.previous.title}}</a
+    >
+    <p><small>{{page.previous.description}}</small></p>
     {% endif %}
   </div>
 
   <div class="post-link align-right">
-    &nbsp;
-    {% if page.next.url %}
-      <a class="link-next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
-      <p><small>{{page.next.description}}</small></p>
+    &nbsp; {% if page.next.url %}
+    <a class="link-next" href="{{page.next.url}}"
+      >{{page.next.title}} &raquo;</a
+    >
+    <p><small>{{page.next.description}}</small></p>
     {% endif %}
   </div>
 </div>
