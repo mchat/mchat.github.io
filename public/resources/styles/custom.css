@@ -23,6 +23,7 @@ body {
   --spacing-medium: 32px;
   --spacing-large: 48px;
   --spacing-xlarge: 64px;
+  --spacing-xxlarge: 96px;
 
   padding: var(--spacing-small) var(--spacing-medium);
   margin: 0;
@@ -103,6 +104,9 @@ p code {
   margin: var(--spacing-xlarge) 0;
 }
 
+.spacer--xxl {
+  margin: var(--spacing-xxlarge) 0;
+}
 
 /*
 

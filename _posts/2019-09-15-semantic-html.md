@@ -10,14 +10,188 @@ image_alt: >-
 max_header: 3
 ---
 
-The humble `<div>` is a powerful and flexible element. Throw enough CSS and JavaScript on it, and a `<div>` can be anything. But should it be?
+**Adapted from a talk given at [EmberCamp](http://embercamp.com/) 2019.**
+
+The humble &lt;div&gt; is a powerful and flexible element. Throw enough CSS and JavaScript on it, and a &lt;div&gt; can be anything. But should it be?
 
 “Semantic HTML” is a method of using elements that best match what your content means and does. But how do you write better markup if you don’t know your options?
 
-Join the learning journey to fill your semantic HTML toolkit with the coolest elements you never knew existed. Learn specific elements to use in different scenarios and how to wield the full power of the HTML spec. You’ll write less code while making your pages more accessible and mobile-friendly!
-
 <!--more-->
 
+<figure class="figure">
+    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.001.png" alt="Title slide">
+    <figcaption class="figure__caption" markdown="block">
+Slide with title "Don't Just Put a &lt;div&gt; On It! User the Power of the Browser", with attribution to @MarieChatfield.
+</figcaption>
+</figure>
+
+Join the learning journey to fill your semantic HTML toolkit with the coolest elements you never knew existed. Learn specific elements to use in different scenarios and how to wield the full power of the HTML spec.
+
+You’ll write less code while making your pages more accessible and mobile-friendly!
+
+## Introduction to Semantic HTML
+
+<figure class="figure">
+    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.005.png" alt="Slide of Document Structure with HTML elements listed">
+    <figcaption class="figure__caption" markdown="block">
+Slide with title "Semantic HTML" and subtitle "What is it? Why does it matter?"
+</figcaption>
+</figure>
+
+You may have heard the phrase or idea that <q>Semantic HTML is better for accessibility</q>—but what does that mean?
+
+<div class="spacer--xl"></div>
+
+### What is it?
+
+<figure class="figure">
+    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.006.png" alt="Semantic definition">
+    <figcaption class="figure__caption">
+        <strong><dfn>Semantic</dfn></strong> means... "related to meaning."
+    </figcaption>
+</figure>
+
+<figure class="figure">
+    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.007.png" alt="Semantic HTML definition">
+    <figcaption class="figure__caption">
+        When we talk about <strong><dfn>Semantic HTML</dfn></strong>, we mean choosing elements based on the meaning of their contents.
+    </figcaption>
+</figure>
+
+That's still pretty abstract, so it might be eaiser to consider what __non-__ semantic HTML looks like.
+
+<figure class="figure">
+    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.008.png" alt="Non-Semantic HTML examples">
+    <figcaption class="figure__caption">
+        <strong><dfn>Non-Semantic HTML</dfn></strong>, can look like picking elements based on default browser styles, or using &lt;div&gt; elements for everything.
+    </figcaption>
+</figure>
+
+**Let's look at an example of using &lt;div&gt; elements in a non-semantic manner.**
+
+<figure class="figure">
+    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.009.png" alt="Slide with boxes for HTML, CSS, and JavaScript">
+    <figcaption class="figure__caption">
+        The building blocks of the web: HTML, CSS, and JavaScript.
+    </figcaption>
+</figure>
+
+The foundational web technologies are incredibly powerful.
+
+- <strong>HTML</strong> communicates the structure and meaning of our website, or what it is.
+- <strong>CSS</strong> handles the presentation, or what it should look like.
+- <strong>JavaScript</strong> adds behavior, or what the website does.
+
+<figure class="figure">
+    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.010.png" alt="Example of making a button with HTML, JavaScript, and CSS">
+    <figcaption class="figure__caption">
+        We can combine these technologies to make something that appears like a button.
+    </figcaption>
+</figure>
+
+With HTML, we can use a &lt;div&gt; with some content that instructs the user to click it.
+
+With CSS, we can make our &lt;div&gt; look like a button.
+
+With JavaScript, we make our &lt;div&gt; do interesting things when it is clicked, like a button.
+
+<figure class="figure">
+    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.011.png" alt="Is it a button? Big red X no">
+    <figcaption class="figure__caption">
+        So... is it a button? No.
+    </figcaption>
+</figure>
+
+This "button" probably doesn't handle all the different use cases a real &lt;button&gt; does—it might not support keyboard events, it might not submit forms, it might not display different visual styles on hover.
+
+We could always write all of that code ourselves... but someone already has. In your browser. When we use a &lt;button&gt; element, we get all of that functionality for free.
+
+<figure class="figure">
+    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.013.png" alt="Semantic example of a button">
+    <figcaption class="figure__caption">
+        If we just swap out our &lt;div&gt; for a &lt;button&gt;, we now have semantic HTML!
+    </figcaption>
+</figure>
+
+<div class="spacer--xl"></div>
+
+### Why does it matter?
+
+<figure class="figure">
+    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.021.png" alt="Semantic HTML matters because there is more context with less code">
+    <figcaption class="figure__caption">
+        Semantic HTML matters because it allows you to provide more context with less code.
+    </figcaption>
+</figure>
+
+Providing context in your actual HTML means that anyone or anything that uses your code will be able to understand it better, and make better choices accordingly.
+
+- **Assitive Tech (AT)** like screen readers can provide people who use them with more precise information about the structure of your site, the state of any data, and ability to navigate more easily.
+
+- **Search Engines** indexing your site can determine the unique and relevant information on your page, which can improve your Search Engine Optimization (SEO) and ranking.
+
+- **Mobile Browsers** are better able to provide a user experience (UX) that is targeted at smaller screens. For example, bringing up a dedicated keyboard based on the type of text that will be input, or showing native interactive elements that are familiar to users and appropriately sized.
+
+- **Plugins or Tools** that use your site can better determine what to show. For example, many browsers offer a Reader Mode to show text in a simple format. Or browser extensions that save a website may be better able to extract interesting and relevant contnet.
+
+- **People reading the code** (whether yourself or someone else) can more easily understand the meaning and context of a page.
+
+<div class="spacer--xl"></div>
+
+### Getting Started
+
+So all of this semantic HTML stuff seems great...
+
+<figure class="figure">
+    <img class="figure__image" src="/blog/semantic-html/cool-cool-cool.gif" alt="Gif of School House Rock">
+    <figcaption class="figure__caption" markdown="block">
+Gif of Charles from Brooklyn 99 TV show nodding and saying "Sure sure sure, cool cool cool cool cool." ([source](https://giphy.com/gifs/2kJIUDgdLVum9oaLSK))
+</figcaption>
+</figure>
+
+...but what if you don't even know how to start writing it?
+
+<figure class="figure">
+    <img class="figure__image" src="/blog/semantic-html/where-to-start.gif" alt="Gif of School House Rock">
+    <figcaption class="figure__caption" markdown="block">
+Gif of Hannah Brown from The Bachelerotte TV show looking frustrated and saying "I don't even know where to start" ([source](https://giphy.com/gifs/thebachelorette-hrk1vT9WDNSAMZydLf))
+</figcaption>
+</figure>
+
+That's why we're going to learn all about *a bunch* of HTML elements that you can start using today!
+
+<figure class="figure">
+    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.024.png" alt="Browser Power Ups title slide">
+    <figcaption class="figure__caption">
+        Slide with title "Browser Power Ups" and subtitle "Fill your HTML toolkit with the best elements you never knew existed."
+    </figcaption>
+</figure>
+
+The rest of this post goes over a few categories of HTML elements. You'll see a preview of the same site written with &lt;div&gt; elements and in semantic HTML, with side-by-side comparisons of how it behaves in different scenarios.
+
+<div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
+  <iframe
+    src="https://glitch.com/embed/#!/embed/semantic-html-examples?path=public/media/semantic.html&previewSize=100"
+    title="semantic-html-examples on Glitch"
+    allow="geolocation; microphone; camera; midi; vr; encrypted-media"
+    style="height: 100%; width: 100%; border: 0;">
+  </iframe>
+</div>
+
+**Skip to Section:**
+
+- [Document Structure](#document-structure)
+- [Forms & Inputs](#forms--inputs)
+- [Media & Figures](#media--figures)
+- [Text Formatting](#text-formatting)
+
+_Warning: Many of these elements are part of the HTML5 specification._ They may not be consistently supported across all browsers, but I have largely tried to pick examples that work in Internet Explorer, Edge, Firefox, Safari, and Chrome.
+
+You should still do your own cross-browser functionality research and testing before implementing any of these elements yourself!
+
+<div class="spacer--xxl"></div>
+---
+<div class="spacer--xxl"></div>
 
 ## Document Structure
 
@@ -50,7 +224,7 @@ You can see the source code yourself, or edit a copy of it, using this Glitch ap
     <figcaption class="figure__caption">Source code of Glitch app</figcaption>
     <div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
       <iframe
-        src="https://glitch.com/embed/#!/embed/semantic-html-examples?path=public/forms/semantic.html&previewSize=0"
+        src="https://glitch.com/embed/#!/embed/semantic-html-examples?path=public/emojis/semantic.html&previewSize=0"
         title="semantic-html-examples on Glitch"
         allow="geolocation; microphone; camera; midi; vr; encrypted-media"
         style="height: 100%; width: 100%; border: 0;">
@@ -100,6 +274,7 @@ You can see the source code yourself, or edit a copy of it, using this Glitch ap
 **General Resources:**
 
 - [Web Accessibility Tutorials: Page Regions](https://www.w3.org/WAI/tutorials/page-structure/regions/), W3C WAI
+- [ARIA Landmarks Example](https://www.w3.org/TR/wai-aria-practices/examples/landmarks/index.html), W3C WAI
 
 <div class="spacer"></div>
 ---
@@ -416,10 +591,9 @@ _Warning: Inconsistent in Internet Explorer_
 - [Web Accessibility Tutorials: Headings](https://www.w3.org/WAI/tutorials/page-structure/headings/), W3C WAI
 - [Web Accessibility Tutorials: Page Structure Concepts](https://www.w3.org/WAI/tutorials/page-structure/), W3C WAI
 
-
-<div class="spacer--xl"></div>
+<div class="spacer--xxl"></div>
 ---
-<div class="spacer--xl"></div>
+<div class="spacer--xxl"></div>
 
 ## Forms & Inputs
 
@@ -430,9 +604,87 @@ Forms & Inputs section slide, with HTML elements &lt;form&gt;, &lt;fieldset&gt;,
 </figcaption>
 </figure>
 
+**Elements used to provide interactive controls and inputs for users.**
+
+Improve accessibility and mobile experience, particularly with more complex input validation.
+
+### Side by Side Preview
+
+Let's look at a sample page that has a form with multiple sections, implemented using mostly &lt;div&gt; elements, and implemented using semantic HTML.
+
+<figure class="figure">
+    <figcaption class="figure__caption">Side by side comparison of div vs semantic HTML implementations of a web form.</figcaption>
+    <div class="side-by-side" style="height: 420px; width: 100%;">
+        <iframe class="site-iframe" src="https://semantic-html-examples.glitch.me/forms/divified.html"></iframe>
+        <iframe class="site-iframe" src="https://semantic-html-examples.glitch.me/forms/semantic.html"></iframe>
+    </div>
+</figure>
+
+You can see the source code yourself, or edit a copy of it, using this Glitch app.
+
+<figure class="figure">
+    <figcaption class="figure__caption">Source code of Glitch app</figcaption>
+    <div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
+      <iframe
+        src="https://glitch.com/embed/#!/embed/semantic-html-examples?path=public/forms/semantic.html&previewSize=0"
+        title="semantic-html-examples on Glitch"
+        allow="geolocation; microphone; camera; midi; vr; encrypted-media"
+        style="height: 100%; width: 100%; border: 0;">
+      </iframe>
+    </div>
+</figure>
+
+**Let's compare how these two sides stack up across a couple of different ways of accessing them.**
+
+<figure>
+    <figcaption class="figure__caption">Div vs Semantic HTML, on browser: visually the same.</figcaption>
+    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.045.png" alt="Side by side on browser">
+</figure>
+
+<figure>
+    <figcaption class="figure__caption">Div vs Semantic HTML, without JavaScript or CSS: both plain, but semantic version still has working inputs and is functional.</figcaption>
+    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.046.png" alt="Side by side without JS or CSS">
+</figure>
+
+<figure>
+    <figcaption class="figure__caption">Div vs Semantic HTML, using VoiceOver Web Rotor: both versions show controls and state, but semantic version includes form labels and context</figcaption>
+    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.051.png" alt="Slide showing VoiceOver Web Rotor for div vs semantic HTML version">
+</figure>
+
+<figure>
+    <figcaption class="figure__caption">Div vs Semantic HTML, mobile: visually the same.</figcaption>
+    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.053.png" alt="Side by side on mobile">
+</figure>
+
+<figure>
+    <figcaption class="figure__caption">Div vs Semantic HTML, mobile, phone input: semantic version has phone specific keyboard.</figcaption>
+    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.054.png" alt="Side by side on mobile, with phone input">
+</figure>
+
+<figure>
+    <figcaption class="figure__caption">Div vs Semantic HTML, mobile, email input: semantic version has email specific keyboard.</figcaption>
+    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.055.png" alt="Side by side on mobile, with email input">
+</figure>
+
+<figure>
+    <figcaption class="figure__caption">Div vs Semantic HTML, mobile, select input: semantic version has native dropdown menu with grouped options.</figcaption>
+    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.056.png" alt="Side by side on mobile, with select input">
+</figure>
+
+**Here are the HTML elements that make up this page.**
+
+- [&lt;form&gt;](#form)
+- [&lt;fieldset&gt; + &lt;legend&gt;](#fieldset--legend)
+- [&lt;input&gt; + &lt;label&gt;](#input--label)
+- [&lt;input&gt; types](#input-types)
+- [&lt;select&gt; + &lt;options&gt;](#select--options)
+- [&lt;optgroup&gt;](#optgroup)
+- [&lt;output&gt;](#output)
+
 **General Resources**
 
 - [Creating Accessible Forms](https://webaim.org/techniques/forms/), WebAIM
+- [Usability & Web Accessibility: Forms](https://usability.yale.edu/web-accessibility/articles/forms), Yale University
 
 <div class="spacer"></div>
 ---
@@ -705,9 +957,9 @@ _Warning: Unsupported by Internet Explorer_
 
 - [HTML Element: `output`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/output), MDN
 
-<div class="spacer--xl"></div>
+<div class="spacer--xxl"></div>
 ---
-<div class="spacer--xl"></div>
+<div class="spacer--xxl"></div>
 
 ## Media & Figures
 
@@ -718,7 +970,63 @@ Media & Figures section slide, with HTML elements &lt;figure&gt;, &lt;figcaption
 </figcaption>
 </figure>
 
+**Elements used to provide multimedia content or other visual/audio content and diagrams.**
+
+Improve accessibility and mobile experience. Use less code or external libraries.
+
+### Side by Side Preview
+
+Let's look at a sample page that has sample code implementations along with audio and video content, implemented using mostly &lt;div&gt; elements, and implemented using semantic HTML.
+
+<figure class="figure">
+    <figcaption class="figure__caption">Side by side comparison of div vs semantic HTML implementations of a multimedia page.</figcaption>
+    <div class="side-by-side" style="height: 420px; width: 100%;">
+        <iframe class="site-iframe" src="https://semantic-html-examples.glitch.me/media/divified.html"></iframe>
+        <iframe class="site-iframe" src="https://semantic-html-examples.glitch.me/media/semantic.html"></iframe>
+    </div>
+</figure>
+
+You can see the source code yourself, or edit a copy of it, using this Glitch app.
+
+<figure class="figure">
+    <figcaption class="figure__caption">Source code of Glitch app</figcaption>
+    <div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
+      <iframe
+        src="https://glitch.com/embed/#!/embed/semantic-html-examples?path=public/media/semantic.html&previewSize=0"
+        title="semantic-html-examples on Glitch"
+        allow="geolocation; microphone; camera; midi; vr; encrypted-media"
+        style="height: 100%; width: 100%; border: 0;">
+      </iframe>
+    </div>
+</figure>
+
+**Let's compare how these two sides stack up across a couple of different ways of accessing them.**
+
+<figure>
+    <figcaption class="figure__caption">Div vs Semantic HTML, on browser: visually the same.</figcaption>
+    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.066.png" alt="Side by side on browser">
+</figure>
+
+I didn't bother trying to implement my own video player library, so for the &lt;div&gt; version, we do a hack where we use JavaScript to display out an iFrame with the URL to the video inside it.
+
+This obviously does not work without JavaScript enabled. And neither would fancy JavaScript libraries.
+
+<figure>
+    <figcaption class="figure__caption">Semantic HTML version: has built-in video player with captions.</figcaption>
+    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.068.png" alt="Video with captions and transcript">
+</figure>
+
+**Here are the HTML elements that make up this page.**
+
+- [&lt;figure&gt; + &lt;figcaption&gt;](#figure--figcaption)
+- [&lt;video&gt;](#video)
+- [&lt;audio&gt;](#audio)
+- [&lt;track&gt;](#track)
+
 **General Resources:**
+
+- [Making Audio and Video Media Accessible](https://www.w3.org/WAI/media/av/), W3C WAI
+- [Provide an accessible media player](https://accessibility.huit.harvard.edu/provide-accessible-media-player), Harvard University
 
 <div class="spacer"></div>
 ---
@@ -758,6 +1066,8 @@ Media & Figures section slide, with HTML elements &lt;figure&gt;, &lt;figcaption
   - _Note: published in 2011, before common browser support was implemented_
 - [The figure & figcaption elements](http://html5doctor.com/the-figure-figcaption-elements/), Richard Clark for _HTML5 Doctor_
   - See "Differences between `<figure>` and `<aside>`"
+- [Web Accessibility Tutorials: Complex images](https://www.w3.org/WAI/tutorials/images/complex/), W3C WAI
+- [Web Accessibility Tutorials: Groups of images](https://www.w3.org/WAI/tutorials/images/groups/), W3C WAI
 
 <div class="spacer"></div>
 ---
@@ -918,9 +1228,9 @@ Si venimos aquí después de guardar nuestro archivo
 - [WebVTT and Audio](https://www.iandevlin.com/blog/2015/12/html5/webvtt-and-audio/), Ian Devlin
   - Suggests workaround for audio captions by using `<video>` instead
 
-<div class="spacer--xl"></div>
+<div class="spacer--xxl"></div>
 ---
-<div class="spacer--xl"></div>
+<div class="spacer--xxl"></div>
 
 ## Text Formatting
 
@@ -931,7 +1241,14 @@ Text Formatting section slide, with HTML elements &lt;pre&gt;, &lt;code&gt;, &lt
 </figcaption>
 </figure>
 
+**Elements used to encode special meaning or formatting for different types of text.**
+
+May improve SEO, or trigger browser-supported tools.
+
 ### Programming Text
+
+(Hint: check out the [&lt;figure&gt; + &lt;figcaption&gt; sample app source code](https://glitch.com/embed/#!/embed/semantic-html-examples?path=public/media/semantic.html&previewSize=0) to see these in action!)
+
 - [&lt;pre&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre): preformatted text, displayed in monospace font with white-space preserved
 - [&lt;code&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code): text representing computer code, displayed in monospace font
 - [&lt;samp&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/samp): text representing sample output from a computer program, commonly displayed in monospace font
@@ -951,12 +1268,166 @@ Text Formatting section slide, with HTML elements &lt;pre&gt;, &lt;code&gt;, &lt
 - [&lt;address&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address): text representing contact information, in any preferred form; typically placed within a `<footer>`
 - [&lt;time&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time): text representing time; may include machine-readable format for SEO or browser support for adding calendar events / reminders
 
+<div class="spacer--xxl"></div>
+---
+<div class="spacer--xxl"></div>
+
+## Honorable Mentions
+
+For the sake of time, I couldn't include every single HTML element in the presentation. But here are a few other HTML elements that merit a mention in this longer form!
+
+### Lists
+
+- [&lt;ol&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol): ordered list of elements, usually prefixed by a number
+- [&lt;ul&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul): unordered list of elements, usually prefixed by a bullet or dash
+- [&lt;li&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li): item in a list
+
+### Forms
+
+- [&lt;progress&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress): a progress bar
+- [&lt;textarea&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea): a multi-line text input
+
+### Tables
+
+_Note: It's important to format tables well, to make them accessible for screen readers! For example, making sure headers are appropriately marked as such, so screen readers can announce the label for a particular cell._
+
+- [&lt;table&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table): section of tabular data (rows and columns)
+- [&lt;caption&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/caption): first element of &lt;table&gt;, designates the title or caption
+- [&lt;thead&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead): container for rows that make up the head (e.g. headers)
+- [&lt;tbody&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody): container for rows that make up the body of the table (e.g. main content)
+- [&lt;tfoot&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tfoot): container for rows that make up the footer of the table (e.g. summaries)
+
+**Rows and Cells:**
+
+- [&lt;tr&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr): a row of cells
+- [&lt;th&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th): a header cell, for either row or column
+- [&lt;td&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td): a data cell
+
+**Irregular and complex headers:**
+
+See [Web Accessibility Tutorials: Tables with irregular headers](https://www.w3.org/WAI/tutorials/tables/irregular/), W3C WAI
+
+- [&lt;colgroup&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/colgroup): a group of columns that are related, useful for complex headers
+- [&lt;col&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/col): a single column in a table, useful for complex headers
+
+### Typography
+
+- [&lt;a&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a): an anchor, or link, to another page or location
+- [&lt;br&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br): a line break
+- [&lt;p&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p): a paragraph of text, usually separated by a blank line
+
+**Offset text:**
+- [&lt;sub&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sub): a subscript, usually rendered in slightly smaller font below the rest of the text
+- [&lt;sup&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sup): a superscript, usually rendered in slightly smaller font above the rest of the text
+- [&lt;small&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/small): small print, such as legal text (prefer to use CSS if difference is merely visual)
+
+**Emphasized or italicized text:**
+
+_Note: many of these look very similar, but have different meanings. Pay attention to the nuances!_
+
+- [&lt;strong&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong): text of strong importance or urgency, usually rendered with bold type
+  - See [&lt;b&gt; vs &lt;strong&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong#%3Cb%3E_vs._%3Cstrong%3E)
+  - See [&lt;em&gt; vs &lt;strong&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong#%3Cem%3E_vs._%3Cstrong%3E)
+- [&lt;b&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b): text in bold type
+  - See [Usage notes](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b#Usage_notes) for discussion of &lt;b&gt; vs &lt;strong&gt; vs &lt;em&gt;
+- [&lt;em&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em): emphasized text, usually rendered in italic font
+  - See [&lt;i&gt; vs &lt;em&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em#%3Ci%3E_vs._%3Cem%3E)
+- [&lt;i&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em): text that is set off from normal prose, usually rendered in italics (e.g. a proper name or a term in another language)
+    - See [&lt;i&gt; vs &lt;em&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em#%3Ci%3E_vs._%3Cem%3E)
+
+**Text Revisions:**
+- [&lt;mark&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/mark): marked or highlighted text
+- [&lt;s&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/s): text with a strikethrough, or line (to indicate it is no longer relevant)
+- [&lt;ins&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ins): text that has been inserted
+- [&lt;del&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/del): text that has been deleted
+
+
+<div class="spacer--xxl"></div>
+---
+<div class="spacer--xxl"></div>
+
+## Summary
+
+<figure class="figure">
+    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.080.png" alt="Summary slide">
+    <figcaption class="figure__caption" markdown="block">
+Slide with title "Takeaways" and subtitle "Resources & important points to remember"
+</figcaption>
+</figure>
+
+That's a lot of content! Let's review the important points:
+
+<figure class="figure">
+    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.082.png" alt="Semantic HTML review slide">
+    <figcaption class="figure__caption" markdown="block">
+Semantic HTML gives more context with less code.
+</figcaption>
+</figure>
+
+Semantic HTML gives more context with less code. That means you can improve accessibility, mobile UX, SEO and more... while writing less code that's more readable.
+
+<figure class="figure">
+    <img class="figure__image" src="/blog/semantic-html/only-exception.gif" alt="Gif of Paramore concert">
+    <figcaption class="figure__caption" markdown="block">
+Gif of Paramore concert with lyrics "You are the only exception" overlaid on top of sparkling lights. ([source](https://giphy.com/gifs/love-paramore-exception-XKTUX54SYYVuU
+))
+</figcaption>
+</figure>
+
+But for every rule, there's an exception so... when **shouldn't** you use semantic HTML?
+
+<figure class="figure">
+    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.084.png" alt="When not to use Semantic HTMl slide">
+    <figcaption class="figure__caption" markdown="block">
+Not every use case will work with the basic semantic HTML elements.
+</figcaption>
+</figure>
+
+Not all HTML elements are supported across all browsers, or they might have inconsistent behavior in a way that matters to you.
+
+Sometimes you are going to have a very specific use case or design need that can't budge.
+
+It's okay to write your own versions instead of using semantic HTML, but you need to understand what the browser implements for you and be willing to write it yourself, test, and maintain it.
+
+**It is strongly suggested you use an existing open source library where multiple users can support patches and ensure it works broadly and consistently across browsers.**
+
+<figure class="figure">
+    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.085.png" alt="Slide with questions before custom implementing">
+    <figcaption class="figure__caption" markdown="block">
+But if you aren't going to use semantic HTML elements, make sure you're ready to take on the work yourself or support it.
+</figcaption>
+</figure>
+
+If you are going to adopt a custom version of one of these elements (even more so if you're going to write one yourself), be sure to consider:
+
+- Has someone else already made a library? Can I help?
+- Is it accessible?
+- Does it work across browsers?
+- Does it work on mobile devices?
+- How hard is it to test and maintain?
+
+<figure class="figure">
+    <img class="figure__image" src="/blog/semantic-html/knowledge-is-power.gif" alt="Gif of School House Rock">
+    <figcaption class="figure__caption" markdown="block">
+Gif of School House Rock cartoon with children smiling and one says "Knowledge is Power" ([source](https://giphy.com/gifs/schoolhouse-rock-b9wSM5gcMbIf6))
+</figcaption>
+</figure>
+
+Now that you know:
+
+- that all of these HTML elements exist;
+- what they do;
+- and what power ups the browser provides for each one
+
+you can make informed decisions about when to use these elements to write semantic HTML... or when your use case calls for a custom implementation, and precisely why the existing elements won't work.
+
+Use your knowledge for great good, and make beautiful and accessible websites for all! 🎉
 
 <div class="spacer--xl"></div>
 ---
 <div class="spacer--xl"></div>
 
-## General Resources
+## Additional Resources
 
 ### Accessibility / Assistive Tech
 
@@ -984,4 +1455,6 @@ Text Formatting section slide, with HTML elements &lt;pre&gt;, &lt;code&gt;, &lt
 
 _Did you like this post? I’ll be sporadically publishing more content like this to the_ [**_git checkout -b idk-what-im-doing_**](/blog)  _blog in the future! Tweet me_ [_@mariechatfield_](https://twitter.com/mariechatfield) _to let me know what kind of resources you’d like to see next._
 
-🙏🏻 Many thanks to my team at [**Pingboard**](https://pingboard.com/) for supporting my time writing these posts!
+🙏🏻 Many thanks to my team at [**Pingboard**](https://pingboard.com/) for supporting my time writing these posts, and to the [**EmberCamp**](http://embercamp.com/) organizers for providing the first space for this talk to happen!
+
+Interested in seeing this talk come to a stage near you? [Contact me!](http://mariechatfield.com/contact/)
