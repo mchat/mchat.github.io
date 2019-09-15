@@ -10,7 +10,7 @@ image_alt: >-
 max_header: 3
 ---
 
-**Adapted from a talk given at [EmberCamp](http://embercamp.com/) 2019.**
+**Adapted from a talk given at [EmberCamp](http://embercamp.com/) 2019. _Original slides and more information on the [Talks page](/talks/#semantic-html)._**
 
 The humble &lt;div&gt; is a powerful and flexible element. Throw enough CSS and JavaScript on it, and a &lt;div&gt; can be anything. But should it be?
 

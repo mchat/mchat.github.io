@@ -7,6 +7,41 @@ title: Talks
 __Interested in having one of these talks, or something new, at your conference, workshop, or meetup? [Contact me](/contact) and let's chat!__
 </div>
 
+<div id="semantic-html" class="content__section">
+  <div class="content__section__media content__section__media--small">
+    <img class="content__section__image" src="/blog/semantic-html/slide_title.png" alt="Slide with title Don't Just a &lt;div&gt; On It: Use the Power of the Browser! by @MarieChatfield" />
+  </div>
+
+  <div class="spacer--xl"></div>
+
+  <div class="content__section__text content__section__text--align-title" markdown="block">
+
+#### Don't Just Put a &lt;div&gt; On It—Use the Power of the Browser!
+
+__Write better websites with less code using semantic HTML elements.__
+
+The humble &lt;div&gt; is a powerful and flexible element. Throw enough CSS and JavaScript on it, and a &lt;div&gt; can be anything. But should it be?
+
+“Semantic HTML” is a method of using elements that best match what your content means and does. But how do you write better markup if you don’t know your options?
+
+Join the learning journey to fill your semantic HTML toolkit with the coolest elements you never knew existed. Learn specific elements to use in different scenarios and how to wield the full power of the HTML spec.
+
+You’ll write less code while making your pages more accessible and mobile-friendly!
+
+This talk has been given at [EmberCamp 2019](http://embercamp.com/) in Chicago.
+
+  __Resources:__
+
+  [Blog Post: Don't Just Put a &lt;div&gt; On It](/blog/semantic-html/): Long-form blog post version, with extensive resource and examples.
+
+  [Slides from EmberCamp Chicago, September 2019]()
+  </div>
+</div>
+
+<div class="spacer--xl"></div>
+
+
+
 <div id="interns" class="content__section">
   <div class="content__section__media content__section__media--small">
     <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">This is <a href="https://twitter.com/mariechatfield?ref_src=twsrc%5Etfw">@mariechatfield</a>’s amazing calendar invite for her first 1:1 with her intern. So much good stuff here for anyone beginning a new relationship with someone who will report to them! (at <a href="https://twitter.com/hashtag/LeadDevMeetupAustin?src=hash&amp;ref_src=twsrc%5Etfw">#LeadDevMeetupAustin</a>) <a href="https://t.co/aeZZwSt7Fy">pic.twitter.com/aeZZwSt7Fy</a></p>&mdash; Nickolas Means (@nmeans) <a href="https://twitter.com/nmeans/status/1152005741089177602?ref_src=twsrc%5Etfw">July 19, 2019</a></blockquote>
