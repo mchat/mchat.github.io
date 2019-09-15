@@ -1355,6 +1355,13 @@ Slide with title "Takeaways" and subtitle "Resources & important points to remem
 </figcaption>
 </figure>
 
+<figure class="figure">
+    <img class="figure__image" src="/blog/semantic-html/slide_summary.png" alt="Summary of all elements slide">
+    <figcaption class="figure__caption" markdown="block">
+Slide with list of all HTML elements in the different major sections covered above.
+</figcaption>
+</figure>
+
 That's a lot of content! Let's review the important points:
 
 <figure class="figure">
