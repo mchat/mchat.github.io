@@ -4,7 +4,7 @@ title: >-
 description: >-
   The best HTML elements you never knew existed, so you can improve your website's accessibility, mobile UX, and SEO while writing less code.
 date: '2019-08-15'
-image: '/blog/semantic-html/SemanticHTML.001.png'
+image: '/blog/semantic-html/slide_title.png'
 image_alt: >-
   Slide with title Don't Just Put a &lt;div&gt; On It! Use the Power of the Browser and emojis of a computer and lightning bolts, followed by @MarieChatfield.
 max_header: 3
@@ -19,7 +19,7 @@ The humble &lt;div&gt; is a powerful and flexible element. Throw enough CSS and 
 <!--more-->
 
 <figure class="figure">
-    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.001.png" alt="Title slide">
+    <img class="figure__image" src="/blog/semantic-html/slide_title.png" alt="Title slide">
     <figcaption class="figure__caption" markdown="block">
 Slide with title "Don't Just Put a &lt;div&gt; On It! User the Power of the Browser", with attribution to @MarieChatfield.
 </figcaption>
@@ -32,7 +32,7 @@ You’ll write less code while making your pages more accessible and mobile-frie
 ## Introduction to Semantic HTML
 
 <figure class="figure">
-    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.005.png" alt="Slide of Document Structure with HTML elements listed">
+    <img class="figure__image" src="/blog/semantic-html/slide_sectionTitle_semanticHTML.png" alt="Slide of Document Structure with HTML elements listed">
     <figcaption class="figure__caption" markdown="block">
 Slide with title "Semantic HTML" and subtitle "What is it? Why does it matter?"
 </figcaption>
@@ -45,14 +45,14 @@ You may have heard the phrase or idea that <q>Semantic HTML is better for access
 ### What is it?
 
 <figure class="figure">
-    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.006.png" alt="Semantic definition">
+    <img class="figure__image" src="/blog/semantic-html/slide_semanticDefinition.png" alt="Semantic definition">
     <figcaption class="figure__caption">
         <strong><dfn>Semantic</dfn></strong> means... "related to meaning."
     </figcaption>
 </figure>
 
 <figure class="figure">
-    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.007.png" alt="Semantic HTML definition">
+    <img class="figure__image" src="/blog/semantic-html/slide_semanticHTMLDefinition.png" alt="Semantic HTML definition">
     <figcaption class="figure__caption">
         When we talk about <strong><dfn>Semantic HTML</dfn></strong>, we mean choosing elements based on the meaning of their contents.
     </figcaption>
@@ -61,7 +61,7 @@ You may have heard the phrase or idea that <q>Semantic HTML is better for access
 That's still pretty abstract, so it might be easier to consider what __non-__ semantic HTML looks like.
 
 <figure class="figure">
-    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.008.png" alt="Non-Semantic HTML examples">
+    <img class="figure__image" src="/blog/semantic-html/slide_nonSemanticHTMLDefinition.png" alt="Non-Semantic HTML examples">
     <figcaption class="figure__caption">
         <strong><dfn>Non-Semantic HTML</dfn></strong>, can look like picking elements based on default browser styles, or using &lt;div&gt; elements for everything.
     </figcaption>
@@ -70,7 +70,7 @@ That's still pretty abstract, so it might be easier to consider what __non-__ se
 **Let's look at an example of using &lt;div&gt; elements in a non-semantic manner.**
 
 <figure class="figure">
-    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.009.png" alt="Slide with boxes for HTML, CSS, and JavaScript">
+    <img class="figure__image" src="/blog/semantic-html/slide_webTech.png" alt="Slide with boxes for HTML, CSS, and JavaScript">
     <figcaption class="figure__caption">
         The building blocks of the web: HTML, CSS, and JavaScript.
     </figcaption>
@@ -83,7 +83,7 @@ The foundational web technologies are incredibly powerful.
 - <strong>JavaScript</strong> adds behavior, or what the website does.
 
 <figure class="figure">
-    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.010.png" alt="Example of making a button with HTML, JavaScript, and CSS">
+    <img class="figure__image" src="/blog/semantic-html/slide_buttonExample_div.png" alt="Example of making a button with HTML, JavaScript, and CSS">
     <figcaption class="figure__caption">
         We can combine these technologies to make something that appears like a button.
     </figcaption>
@@ -96,7 +96,7 @@ With CSS, we can make our &lt;div&gt; look like a button.
 With JavaScript, we make our &lt;div&gt; do interesting things when it is clicked, like a button.
 
 <figure class="figure">
-    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.011.png" alt="Is it a button? Big red X no">
+    <img class="figure__image" src="/blog/semantic-html/slide_notAButton.png" alt="Is it a button? Big red X no">
     <figcaption class="figure__caption">
         So... is it a button? No.
     </figcaption>
@@ -107,7 +107,7 @@ This "button" probably doesn't handle all the different use cases a real &lt;but
 We could always write all of that code ourselves... but someone already has. In your browser. When we use a &lt;button&gt; element, we get all of that functionality for free.
 
 <figure class="figure">
-    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.013.png" alt="Semantic example of a button">
+    <img class="figure__image" src="/blog/semantic-html/slide_buttonExample_semantic.png" alt="Semantic example of a button">
     <figcaption class="figure__caption">
         If we just swap out our &lt;div&gt; for a &lt;button&gt;, we now have semantic HTML!
     </figcaption>
@@ -118,7 +118,7 @@ We could always write all of that code ourselves... but someone already has. In 
 ### Why does it matter?
 
 <figure class="figure">
-    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.021.png" alt="Semantic HTML matters because there is more context with less code">
+    <img class="figure__image" src="/blog/semantic-html/slide_whyDoesItMatter.png" alt="Semantic HTML matters because there is more context with less code">
     <figcaption class="figure__caption">
         Semantic HTML matters because it allows you to provide more context with less code.
     </figcaption>
@@ -161,7 +161,7 @@ Gif of Hannah Brown from The Bachelorette TV show looking frustrated and saying 
 That's why we're going to learn all about *a bunch* of HTML elements that you can start using today!
 
 <figure class="figure">
-    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.024.png" alt="Browser Power Ups title slide">
+    <img class="figure__image" src="/blog/semantic-html/slide_section_browserPowerUps.png" alt="Browser Power Ups title slide">
     <figcaption class="figure__caption">
         Slide with title "Browser Power Ups" and subtitle "Fill your HTML toolkit with the best elements you never knew existed."
     </figcaption>
@@ -196,7 +196,7 @@ You should still do your own cross-browser functionality research and testing be
 ## Document Structure
 
 <figure class="figure">
-    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.029.png" alt="Slide of Document Structure with HTML elements listed">
+    <img class="figure__image" src="/blog/semantic-html/slide_documentStructure.png" alt="Slide of Document Structure with HTML elements listed">
     <figcaption class="figure__caption" markdown="block">
 Document Structure section slide, with HTML elements &lt;main&gt;, &lt;article&gt;, &lt;section&gt;, &lt;aside&gt;, &lt;header&gt;, &lt;footer&gt;, &lt;nav&gt;, and &lt;h1&gt;…&lt;h6&gt;.
 </figcaption>
@@ -236,28 +236,28 @@ You can see the source code yourself, or edit a copy of it, using this Glitch ap
 
 <figure>
     <figcaption class="figure__caption">Div vs Semantic HTML, on browser: visually the same.</figcaption>
-    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.030.png" alt="Side by side on browser">
+    <img class="figure__image" src="/blog/semantic-html/slide_structureExample_browser.png" alt="Side by side on browser">
 </figure>
 
 <figure>
     <figcaption class="figure__caption">Div vs Semantic HTML, in Reader mode: similar, but semantic version has better headings and titles.</figcaption>
-    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.031.png" alt="Side by side in reader mode">
+    <img class="figure__image" src="/blog/semantic-html/slide_structureExample_readerMode.png" alt="Side by side in reader mode">
 </figure>
 
 <figure>
     <figcaption class="figure__caption">Div vs Semantic HTML, without JavaScript or CSS: both plain, but semantic version still has visually distinct sections.</figcaption>
-    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.041.png" alt="Side by side without JS or CSS">
+    <img class="figure__image" src="/blog/semantic-html/slide_structureExample_noCssJS.png" alt="Side by side without JS or CSS">
 </figure>
 <figure>
     <figcaption class="figure__caption">Div vs Semantic HTML, using VoiceOver Web Rotor: div version has only links, semantic version has links, landmarks, and headings</figcaption>
-    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.032.png" alt="Slide showing VoiceOver Web Rotor for div version">
-    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.033.png" alt="Slide showing VoiceOver Web Rotor for semantic HTML version">
+    <img class="figure__image" src="/blog/semantic-html/slide_structureExample_voiceOverDiv.png" alt="Slide showing VoiceOver Web Rotor for div version">
+    <img class="figure__image" src="/blog/semantic-html/slide_structureExample_voiceOverSemantic.png" alt="Slide showing VoiceOver Web Rotor for semantic HTML version">
 </figure>
 
 **Here are the HTML elements that make up this page.**
 <figure>
     <figcaption class="figure__caption">Semantic HTML web preview, with list of elements used on the right.</figcaption>
-    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.034.png" alt="Slide semantic HTML preview and list of elements in nested order.">
+    <img class="figure__image" src="/blog/semantic-html/slide_structureExample_breakdown.png" alt="Slide semantic HTML preview and list of elements in nested order.">
 </figure>
 
 **Skip to Section:**
@@ -281,7 +281,7 @@ You can see the source code yourself, or edit a copy of it, using this Glitch ap
 <div class="spacer"></div>
 
 <figure class="figure">
-    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.035.png" alt="Slide of main element">
+    <img class="figure__image" src="/blog/semantic-html/slide_main.png" alt="Slide of main element">
     <figcaption class="figure__caption" markdown="block">
 &lt;main&gt; element details slide, with code sample and power ups.
 </figcaption>
@@ -323,7 +323,7 @@ _Warning: Inconsistent in Internet Explorer_
 <div class="spacer"></div>
 
 <figure class="figure">
-    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.036.png" alt="Slide of article element">
+    <img class="figure__image" src="/blog/semantic-html/slide_article.png" alt="Slide of article element">
     <figcaption class="figure__caption" markdown="block">
 &lt;article&gt; element details slide, with code sample and power ups.
 </figcaption>
@@ -363,7 +363,7 @@ _Warning: Inconsistent in Internet Explorer_
 <div class="spacer"></div>
 
 <figure class="figure">
-    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.037.png" alt="Slide of section element">
+    <img class="figure__image" src="/blog/semantic-html/slide_section.png" alt="Slide of section element">
     <figcaption class="figure__caption" markdown="block">
 &lt;section&gt; element details slide, with code sample and power ups.
 </figcaption>
@@ -399,7 +399,7 @@ _Warning: Inconsistent in Internet Explorer_
 <div class="spacer"></div>
 
 <figure class="figure">
-    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.038.png" alt="Slide of aside element">
+    <img class="figure__image" src="/blog/semantic-html/slide_aside.png" alt="Slide of aside element">
     <figcaption class="figure__caption" markdown="block">
 &lt;aside&gt; element details slide, with code sample and power ups.
 </figcaption>
@@ -439,7 +439,7 @@ _Warning: Inconsistent in Internet Explorer_
 <div class="spacer"></div>
 
 <figure class="figure">
-    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.039.png" alt="Slide of nav element">
+    <img class="figure__image" src="/blog/semantic-html/slide_nav.png" alt="Slide of nav element">
     <figcaption class="figure__caption" markdown="block">
 &lt;nav&gt; element details slide, with code sample and power ups.
 </figcaption>
@@ -480,7 +480,7 @@ _Warning: Inconsistent in Internet Explorer_
 <div class="spacer"></div>
 
 <figure class="figure">
-    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.header.png" alt="Slide of header element">
+    <img class="figure__image" src="/blog/semantic-html/slide_header.png" alt="Slide of header element">
     <figcaption class="figure__caption" markdown="block">
 &lt;header&gt; element details slide, with code sample and power ups.
 </figcaption>
@@ -520,7 +520,7 @@ _Warning: Inconsistent in Internet Explorer_
 <div class="spacer"></div>
 
 <figure class="figure">
-    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.footer.png" alt="Slide of footer element">
+    <img class="figure__image" src="/blog/semantic-html/slide_footer.png" alt="Slide of footer element">
     <figcaption class="figure__caption" markdown="block">
 &lt;footer&gt; element details slide, with code sample and power ups.
 </figcaption>
@@ -556,7 +556,7 @@ _Warning: Inconsistent in Internet Explorer_
 <div class="spacer"></div>
 
 <figure class="figure">
-    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.042.png" alt="Slide of h1...h6 elements">
+    <img class="figure__image" src="/blog/semantic-html/slide_h1_h6.png" alt="Slide of h1...h6 elements">
     <figcaption class="figure__caption" markdown="block">
 &lt;h1&gt;...&lt;h6&gt; elements details slide, with code sample and power ups.
 </figcaption>
@@ -598,7 +598,7 @@ _Warning: Inconsistent in Internet Explorer_
 ## Forms & Inputs
 
 <figure class="figure">
-    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.044.png" alt="Slide of Forms & Inputs with HTML elements listed">
+    <img class="figure__image" src="/blog/semantic-html/slide_formsInputs.png" alt="Slide of Forms & Inputs with HTML elements listed">
     <figcaption class="figure__caption" markdown="block">
 Forms & Inputs section slide, with HTML elements &lt;form&gt;, &lt;fieldset&gt;, &lt;legend&gt;, &lt;input&gt;, &lt;label&gt;, &lt;select&gt;, &lt;optgroup&gt;, &lt;option&gt;, and  &lt;output&gt;.
 </figcaption>
@@ -638,37 +638,37 @@ You can see the source code yourself, or edit a copy of it, using this Glitch ap
 
 <figure>
     <figcaption class="figure__caption">Div vs Semantic HTML, on browser: visually the same.</figcaption>
-    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.045.png" alt="Side by side on browser">
+    <img class="figure__image" src="/blog/semantic-html/slide_formExample_browser.png" alt="Side by side on browser">
 </figure>
 
 <figure>
     <figcaption class="figure__caption">Div vs Semantic HTML, without JavaScript or CSS: both plain, but semantic version still has working inputs and is functional.</figcaption>
-    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.046.png" alt="Side by side without JS or CSS">
+    <img class="figure__image" src="/blog/semantic-html/slide_formExample_noCssJS.png" alt="Side by side without JS or CSS">
 </figure>
 
 <figure>
     <figcaption class="figure__caption">Div vs Semantic HTML, using VoiceOver Web Rotor: both versions show controls and state, but semantic version includes form labels and context</figcaption>
-    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.051.png" alt="Slide showing VoiceOver Web Rotor for div vs semantic HTML version">
+    <img class="figure__image" src="/blog/semantic-html/slide_formExample_voiceOver.png" alt="Slide showing VoiceOver Web Rotor for div vs semantic HTML version">
 </figure>
 
 <figure>
     <figcaption class="figure__caption">Div vs Semantic HTML, mobile: visually the same.</figcaption>
-    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.053.png" alt="Side by side on mobile">
+    <img class="figure__image" src="/blog/semantic-html/slide_formExample_mobile.png" alt="Side by side on mobile">
 </figure>
 
 <figure>
     <figcaption class="figure__caption">Div vs Semantic HTML, mobile, phone input: semantic version has phone specific keyboard.</figcaption>
-    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.054.png" alt="Side by side on mobile, with phone input">
+    <img class="figure__image" src="/blog/semantic-html/slide_formExample_mobilePhone.png" alt="Side by side on mobile, with phone input">
 </figure>
 
 <figure>
     <figcaption class="figure__caption">Div vs Semantic HTML, mobile, email input: semantic version has email specific keyboard.</figcaption>
-    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.055.png" alt="Side by side on mobile, with email input">
+    <img class="figure__image" src="/blog/semantic-html/slide_formExample_mobileEmail.png" alt="Side by side on mobile, with email input">
 </figure>
 
 <figure>
     <figcaption class="figure__caption">Div vs Semantic HTML, mobile, select input: semantic version has native dropdown menu with grouped options.</figcaption>
-    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.056.png" alt="Side by side on mobile, with select input">
+    <img class="figure__image" src="/blog/semantic-html/slide_formExample_mobileSelect.png" alt="Side by side on mobile, with select input">
 </figure>
 
 **Here are the HTML elements that make up this page.**
@@ -691,7 +691,7 @@ You can see the source code yourself, or edit a copy of it, using this Glitch ap
 <div class="spacer"></div>
 
 <figure class="figure">
-    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.050.png" alt="Slide of form element">
+    <img class="figure__image" src="/blog/semantic-html/slide_form.png" alt="Slide of form element">
     <figcaption class="figure__caption" markdown="block">
 &lt;form&gt; element details slide, with code sample and power ups.
 </figcaption>
@@ -729,7 +729,7 @@ JavaScript
 <div class="spacer"></div>
 
 <figure class="figure">
-    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.052.png" alt="Slide of fieldset and legend elements">
+    <img class="figure__image" src="/blog/semantic-html/slide_fieldset_legend.png" alt="Slide of fieldset and legend elements">
     <figcaption class="figure__caption" markdown="block">
 &lt;fieldset&gt; and &lt;legend&gt; elements details slide, with code sample and power ups.
 </figcaption>
@@ -767,7 +767,7 @@ caption
 <div class="spacer"></div>
 
 <figure class="figure">
-    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.057.png" alt="Slide of input and label elements">
+    <img class="figure__image" src="/blog/semantic-html/slide_input_label.png" alt="Slide of input and label elements">
     <figcaption class="figure__caption" markdown="block">
 &lt;input&gt; and &lt;label&gt; elements details slide, with code sample and power ups.
 </figcaption>
@@ -804,7 +804,7 @@ caption
 <div class="spacer"></div>
 
 <figure class="figure">
-    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.058.png" alt="Slide of input types">
+    <img class="figure__image" src="/blog/semantic-html/slide_inputTypes.png" alt="Slide of input types">
     <figcaption class="figure__caption" markdown="block">
 &lt;input&gt; type slides, split into Basic, Formatted, Date/Time, Special, and Form Controls categories.
 </figcaption>
@@ -852,7 +852,7 @@ __Warning: Inconsistent browser support, particularly for more complex types__
 <div class="spacer"></div>
 
 <figure class="figure">
-    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.060.png" alt="Slide of select and option elements">
+    <img class="figure__image" src="/blog/semantic-html/slide_select_option.png" alt="Slide of select and option elements">
     <figcaption class="figure__caption" markdown="block">
 &lt;select&gt; and &lt;option&gt; elements details slide, with code sample and power ups.
 </figcaption>
@@ -891,7 +891,7 @@ __Warning: Inconsistent browser support, particularly for more complex types__
 <div class="spacer"></div>
 
 <figure class="figure">
-    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.061.png" alt="Slide of optgroup element">
+    <img class="figure__image" src="/blog/semantic-html/slide_optgroup.png" alt="Slide of optgroup element">
     <figcaption class="figure__caption" markdown="block">
 &lt;optgroup&gt; element details slide, with code sample and power ups.
 </figcaption>
@@ -929,7 +929,7 @@ __Warning: Inconsistent browser support, particularly for more complex types__
 <div class="spacer"></div>
 
 <figure class="figure">
-    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.063.png" alt="Slide of output element">
+    <img class="figure__image" src="/blog/semantic-html/slide_output.png" alt="Slide of output element">
     <figcaption class="figure__caption" markdown="block">
 &lt;output&gt; element details slide, with code sample and power ups.
 </figcaption>
@@ -964,7 +964,7 @@ _Warning: Unsupported by Internet Explorer_
 ## Media & Figures
 
 <figure class="figure">
-    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.065.png" alt="Slide of Media & Figures with HTML elements listed">
+    <img class="figure__image" src="/blog/semantic-html/slide_mediaFigures.png" alt="Slide of Media & Figures with HTML elements listed">
     <figcaption class="figure__caption" markdown="block">
 Media & Figures section slide, with HTML elements &lt;figure&gt;, &lt;figcaption&gt;, &lt;video&gt;, &lt;audio&gt;, and &lt;track&gt;.
 </figcaption>
@@ -1004,7 +1004,7 @@ You can see the source code yourself, or edit a copy of it, using this Glitch ap
 
 <figure>
     <figcaption class="figure__caption">Div vs Semantic HTML, on browser: visually the same.</figcaption>
-    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.066.png" alt="Side by side on browser">
+    <img class="figure__image" src="/blog/semantic-html/slide_mediaExample_browser.png" alt="Side by side on browser">
 </figure>
 
 I didn't bother trying to implement my own video player library, so for the &lt;div&gt; version, we do a hack where we use JavaScript to display out an iFrame with the URL to the video inside it.
@@ -1013,7 +1013,7 @@ This obviously does not work without JavaScript enabled. And neither would fancy
 
 <figure>
     <figcaption class="figure__caption">Semantic HTML version: has built-in video player with captions.</figcaption>
-    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.068.png" alt="Video with captions and transcript">
+    <img class="figure__image" src="/blog/semantic-html/slide_mediaExample_video.png" alt="Video with captions and transcript">
 </figure>
 
 **Here are the HTML elements that make up this page.**
@@ -1033,7 +1033,7 @@ This obviously does not work without JavaScript enabled. And neither would fancy
 <div class="spacer"></div>
 
 <figure class="figure">
-    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.067.png" alt="Slide of figure and figcaption element">
+    <img class="figure__image" src="/blog/semantic-html/slide_figure_figcaption.png" alt="Slide of figure and figcaption element">
     <figcaption class="figure__caption" markdown="block">
 &lt;figure&gt; and &lt;figcaption&gt; elements details slide, with code sample and power ups.
 </figcaption>
@@ -1074,7 +1074,7 @@ This obviously does not work without JavaScript enabled. And neither would fancy
 <div class="spacer"></div>
 
 <figure class="figure">
-    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.069.png" alt="Slide of video element">
+    <img class="figure__image" src="/blog/semantic-html/slide_video.png" alt="Slide of video element">
     <figcaption class="figure__caption" markdown="block">
 &lt;video&gt; elements details slide, with code sample and power ups.
 </figcaption>
@@ -1113,7 +1113,7 @@ This obviously does not work without JavaScript enabled. And neither would fancy
 <div class="spacer"></div>
 
 <figure class="figure">
-    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.073.png" alt="Slide of audio element">
+    <img class="figure__image" src="/blog/semantic-html/slide_audio.png" alt="Slide of audio element">
     <figcaption class="figure__caption" markdown="block">
 &lt;audio&gt; elements details slide, with code sample and power ups.
 </figcaption>
@@ -1150,7 +1150,7 @@ This obviously does not work without JavaScript enabled. And neither would fancy
 <div class="spacer"></div>
 
 <figure class="figure">
-    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.070.png" alt="Slide of track element">
+    <img class="figure__image" src="/blog/semantic-html/slide_track.png" alt="Slide of track element">
     <figcaption class="figure__caption" markdown="block">
 &lt;track&gt; elements details slide, with code sample and power ups.
 </figcaption>
@@ -1235,7 +1235,7 @@ Si venimos aquí después de guardar nuestro archivo
 ## Text Formatting
 
 <figure class="figure">
-    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.078.png" alt="Slide of Text Formatting with HTML elements listed">
+    <img class="figure__image" src="/blog/semantic-html/slide_textFormatting.png" alt="Slide of Text Formatting with HTML elements listed">
     <figcaption class="figure__caption" markdown="block">
 Text Formatting section slide, with HTML elements &lt;pre&gt;, &lt;code&gt;, &lt;samp&gt;, &lt;kbd&gt;, &lt;var&gt;, &lt;q&gt;, &lt;blockquote&gt;, &lt;cite&gt;, &lt;abbr&gt;, &lt;dfn&gt;, &lt;address&gt;, and &lt;time&gt;.
 </figcaption>
@@ -1349,7 +1349,7 @@ _Note: many of these look very similar, but have different meanings. Pay attenti
 ## Summary
 
 <figure class="figure">
-    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.080.png" alt="Summary slide">
+    <img class="figure__image" src="/blog/semantic-html/slide_section_takeaways.png" alt="Summary slide">
     <figcaption class="figure__caption" markdown="block">
 Slide with title "Takeaways" and subtitle "Resources & important points to remember"
 </figcaption>
@@ -1358,7 +1358,7 @@ Slide with title "Takeaways" and subtitle "Resources & important points to remem
 That's a lot of content! Let's review the important points:
 
 <figure class="figure">
-    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.082.png" alt="Semantic HTML review slide">
+    <img class="figure__image" src="/blog/semantic-html/slide_whySemantic.png" alt="Semantic HTML review slide">
     <figcaption class="figure__caption" markdown="block">
 Semantic HTML gives more context with less code.
 </figcaption>
@@ -1377,7 +1377,7 @@ Gif of Paramore concert with lyrics "You are the only exception" overlaid on top
 But for every rule, there's an exception so... when **shouldn't** you use semantic HTML?
 
 <figure class="figure">
-    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.084.png" alt="When not to use Semantic HTMl slide">
+    <img class="figure__image" src="/blog/semantic-html/slide_whyNotSemantic.png" alt="When not to use Semantic HTMl slide">
     <figcaption class="figure__caption" markdown="block">
 Not every use case will work with the basic semantic HTML elements.
 </figcaption>
@@ -1392,7 +1392,7 @@ It's okay to write your own versions instead of using semantic HTML, but you nee
 **It is strongly suggested you use an existing open source library where multiple users can support patches and ensure it works broadly and consistently across browsers.**
 
 <figure class="figure">
-    <img class="figure__image" src="/blog/semantic-html/SemanticHTML.085.png" alt="Slide with questions before custom implementing">
+    <img class="figure__image" src="/blog/semantic-html/slide_questions.png" alt="Slide with questions before custom implementing">
     <figcaption class="figure__caption" markdown="block">
 But if you aren't going to use semantic HTML elements, make sure you're ready to take on the work yourself or support it.
 </figcaption>
