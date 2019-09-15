@@ -58,7 +58,7 @@ You may have heard the phrase or idea that <q>Semantic HTML is better for access
     </figcaption>
 </figure>
 
-That's still pretty abstract, so it might be eaiser to consider what __non-__ semantic HTML looks like.
+That's still pretty abstract, so it might be easier to consider what __non-__ semantic HTML looks like.
 
 <figure class="figure">
     <img class="figure__image" src="/blog/semantic-html/SemanticHTML.008.png" alt="Non-Semantic HTML examples">
@@ -126,13 +126,13 @@ We could always write all of that code ourselves... but someone already has. In 
 
 Providing context in your actual HTML means that anyone or anything that uses your code will be able to understand it better, and make better choices accordingly.
 
-- **Assitive Tech (AT)** like screen readers can provide people who use them with more precise information about the structure of your site, the state of any data, and ability to navigate more easily.
+- **Assistive Tech (AT)** like screen readers can provide people who use them with more precise information about the structure of your site, the state of any data, and ability to navigate more easily.
 
 - **Search Engines** indexing your site can determine the unique and relevant information on your page, which can improve your Search Engine Optimization (SEO) and ranking.
 
 - **Mobile Browsers** are better able to provide a user experience (UX) that is targeted at smaller screens. For example, bringing up a dedicated keyboard based on the type of text that will be input, or showing native interactive elements that are familiar to users and appropriately sized.
 
-- **Plugins or Tools** that use your site can better determine what to show. For example, many browsers offer a Reader Mode to show text in a simple format. Or browser extensions that save a website may be better able to extract interesting and relevant contnet.
+- **Plugins or Tools** that use your site can better determine what to show. For example, many browsers offer a Reader Mode to show text in a simple format. Or browser extensions that save a website may be better able to extract interesting and relevant content.
 
 - **People reading the code** (whether yourself or someone else) can more easily understand the meaning and context of a page.
 
@@ -154,7 +154,7 @@ Gif of Charles from Brooklyn 99 TV show nodding and saying "Sure sure sure, cool
 <figure class="figure">
     <img class="figure__image" src="/blog/semantic-html/where-to-start.gif" alt="Gif of School House Rock">
     <figcaption class="figure__caption" markdown="block">
-Gif of Hannah Brown from The Bachelerotte TV show looking frustrated and saying "I don't even know where to start" ([source](https://giphy.com/gifs/thebachelorette-hrk1vT9WDNSAMZydLf))
+Gif of Hannah Brown from The Bachelorette TV show looking frustrated and saying "I don't even know where to start" ([source](https://giphy.com/gifs/thebachelorette-hrk1vT9WDNSAMZydLf))
 </figcaption>
 </figure>
 
@@ -1049,7 +1049,7 @@ This obviously does not work without JavaScript enabled. And neither would fancy
 ```html
 <figure>
   <figcaption>How to say hello in JavaScript.</figcaption>
-  <!-- Code snipppet here -->
+  <!-- Code snippet here -->
 </figure>
 ```
 
@@ -1249,7 +1249,7 @@ May improve SEO, or trigger browser-supported tools.
 
 (Hint: check out the [&lt;figure&gt; + &lt;figcaption&gt; sample app source code](https://glitch.com/embed/#!/embed/semantic-html-examples?path=public/media/semantic.html&previewSize=0) to see these in action!)
 
-- [&lt;pre&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre): preformatted text, displayed in monospace font with white-space preserved
+- [&lt;pre&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre): pre-formatted text, displayed in monospace font with white-space preserved
 - [&lt;code&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code): text representing computer code, displayed in monospace font
 - [&lt;samp&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/samp): text representing sample output from a computer program, commonly displayed in monospace font
 - [&lt;kbd&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/kbd): text representing user input on a keyboard / other device, commonly displayed in monospace font
@@ -1261,7 +1261,7 @@ May improve SEO, or trigger browser-supported tools.
 - [&lt;cite&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite): citation to a creative work, commonly displayed in italics
 
 ### Terms and Definitions
-- [&lt;abbr&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/abbr): abbreviation or acronoym, may display a tooltip with full description
+- [&lt;abbr&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/abbr): abbreviation or acronym, may display a tooltip with full description
 - [&lt;dfn&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dfn): term being defined within the parent context, commonly displayed in italics
 
 ### Data
