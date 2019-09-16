@@ -16,6 +16,10 @@ The humble &lt;div&gt; is a powerful and flexible element. Throw enough CSS and 
 
 “Semantic HTML” is a method of using elements that best match what your content means and does. But how do you write better markup if you don’t know your options?
 
+Join the learning journey to fill your semantic HTML toolkit with the coolest elements you never knew existed. Learn specific elements to use in different scenarios and how to wield the full power of the HTML spec.
+
+You’ll write less code while making your pages more accessible and mobile-friendly!
+
 <!--more-->
 
 <figure class="figure">
@@ -24,10 +28,6 @@ The humble &lt;div&gt; is a powerful and flexible element. Throw enough CSS and 
 Slide with title "Don't Just Put a &lt;div&gt; On It! User the Power of the Browser", with attribution to @MarieChatfield.
 </figcaption>
 </figure>
-
-Join the learning journey to fill your semantic HTML toolkit with the coolest elements you never knew existed. Learn specific elements to use in different scenarios and how to wield the full power of the HTML spec.
-
-You’ll write less code while making your pages more accessible and mobile-friendly!
 
 ## Introduction to Semantic HTML
 
@@ -169,14 +169,19 @@ That's why we're going to learn all about *a bunch* of HTML elements that you ca
 
 The rest of this post goes over a few categories of HTML elements. You'll see a preview of the same site written with &lt;div&gt; elements and in semantic HTML, with side-by-side comparisons of how it behaves in different scenarios.
 
-<div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
-  <iframe
-    src="https://glitch.com/embed/#!/embed/semantic-html-examples?path=public/media/semantic.html&previewSize=100"
-    title="semantic-html-examples on Glitch"
-    allow="geolocation; microphone; camera; midi; vr; encrypted-media"
-    style="height: 100%; width: 100%; border: 0;">
-  </iframe>
-</div>
+<figure class="figure">
+  <figcaption class="figure__caption" markdown="block">
+Embedded [semantic-html-examples Glitch app](xhttps://glitch.com/~semantic-html-examples).
+</figcaption>
+  <div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
+    <iframe
+      src="https://glitch.com/embed/#!/embed/semantic-html-examples?path=public/media/semantic.html&previewSize=100"
+      title="semantic-html-examples on Glitch"
+      allow="geolocation; microphone; camera; midi; vr; encrypted-media"
+      style="height: 100%; width: 100%; border: 0;">
+    </iframe>
+  </div>
+</figure>
 
 **Skip to Section:**
 
@@ -312,8 +317,8 @@ _Warning: Inconsistent in Internet Explorer_
 
 #### Resources
 
-- [HTML Elements: `<main>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main), MDN
-- [HTML Elements: `<main>`: Skip Navigation](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main#Skip_navigation), MDN
+- [HTML Element: &lt;main&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main), MDN
+- [HTML Element: &lt;main&gt;: Skip Navigation](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main#Skip_navigation), MDN
 - [The main element](http://html5doctor.com/the-main-element/), Richard Clark for _HTML5 Doctor_
 - [ARIA: Main role](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Main_role), MDN
 - [Landmark 1: `main` landmark: at least one](https://fae.disability.illinois.edu/rulesets/LANDMARK_1/), University of Illinois
@@ -352,9 +357,9 @@ _Warning: Inconsistent in Internet Explorer_
 
 #### Resources
 
-- [HTML Elements: `<article>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article), MDN
+- [HTML Element: &lt;article&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article), MDN
 - [The article element](http://html5doctor.com/the-article-element/), Tom Leadbetter for _HTML5 Doctor_
-- [How To Correctly Use Semantic HTML5 `<article>`, `<main>` and `<section>` Tags](https://ilikekillnerds.com/2014/07/how-to-correctly-use-semantic-html5-article-main-and-section-tags/), Dwayne Charrington of _I Like Kill Nerds_
+- [How To Correctly Use Semantic HTML5 &lt;article&gt;, &lt;main&gt; and &lt;section&gt; Tags](https://ilikekillnerds.com/2014/07/how-to-correctly-use-semantic-html5-article-main-and-section-tags/), Dwayne Charrington of _I Like Kill Nerds_
 - [Building websites for Safari Reader Mode and other reading apps](https://medium.com/@mandy.michael/building-websites-for-safari-reader-mode-and-other-reading-apps-1562913c86c9), Mandy Michael on Medium
 - [The SEO Advantages of Machine-Readable HTML5 Semantic Markup](https://searchengineland.com/seo-advantages-of-machine-readable-html5-semantic-markup-314455), Detlef Johnson for _Search Engine Land_
 
@@ -373,7 +378,7 @@ _Warning: Inconsistent in Internet Explorer_
 
 - **Logical piece of content**
 - Typically have a heading to identify
-- If you can't think of a heading, it's probably not a `<section>` (not arbitrary)
+- If you can't think of a heading, it's probably not a &lt;section&gt; (not arbitrary)
 
 #### Code Sample
 
@@ -390,8 +395,8 @@ _Warning: Inconsistent in Internet Explorer_
 
 #### Resources
 
-- [HTML Elements: `<section>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section), MDN
-- [How To Correctly Use Semantic HTML5 `<article>`, `<main>` and `<section>` Tags](https://ilikekillnerds.com/2014/07/how-to-correctly-use-semantic-html5-article-main-and-section-tags/), Dwayne Charrington of _I Like Kill Nerds_
+- [HTML Element: &lt;section&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section), MDN
+- [How To Correctly Use Semantic HTML5 &lt;article&gt;, &lt;main&gt; and &lt;section&gt; Tags](https://ilikekillnerds.com/2014/07/how-to-correctly-use-semantic-html5-article-main-and-section-tags/), Dwayne Charrington of _I Like Kill Nerds_
 - [Building websites for Safari Reader Mode and other reading apps](https://medium.com/@mandy.michael/building-websites-for-safari-reader-mode-and-other-reading-apps-1562913c86c9), Mandy Michael on Medium
 
 <div class="spacer"></div>
@@ -428,7 +433,7 @@ _Warning: Inconsistent in Internet Explorer_
 
 #### Resources
 
-- [HTML Elements: `<aside>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside), MDN
+- [HTML Element: &lt;aside&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside), MDN
 - [ARIA: Complementary role](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Complementary_role), MDN
 - [Aside Revisted](http://html5doctor.com/aside-revisited/), Mike Robinson for _HTML5 Doctor_
 - [Sidebar and Aside are different!](https://aastudio.fr/Sidebar-and-Aside-are-different.html) by Aurélien Aries
@@ -450,7 +455,7 @@ _Warning: Inconsistent in Internet Explorer_
 - Important blocks of **navigation links** (use sparingly!)
 - Comes with “navigation” ARIA landmark role
 - Should use labels if there are more than one per page
-- Not all lists of links should go in a `<nav>`!
+- Not all lists of links should go in a &lt;nav&gt;!
 
 #### Code Sample
 
@@ -467,12 +472,12 @@ _Warning: Inconsistent in Internet Explorer_
 
 #### Resources
 
-- [HTML Elements: `<nav>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav), MDN
+- [HTML Element: &lt;nav&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav), MDN
 - [ARIA: Navigation role](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Navigation_Role), MDN
 - [Web Accessibility Tutorials: Menu Structure](https://www.w3.org/WAI/tutorials/menus/structure/), W3C WAI
 - [Web Accessibility Guidelines: Navigation](http://web-accessibility.carnegiemuseums.org/code/navigation/), Carnegie Museums of Pittsburgh
 - [Avoiding common HTML5 mistakes](http://html5doctor.com/avoiding-common-html5-mistakes/), Richard Clark for _HTML5 Doctor_
-  - See "Don’t wrap all lists of links in `<nav>`"
+  - See "Don’t wrap all lists of links in &lt;nav&gt;"
 - [Landmark 3: `navigation` landmark: at least one](https://fae.disability.illinois.edu/rulesets/LANDMARK_3/), University of Illinois
 
 <div class="spacer"></div>
@@ -489,8 +494,8 @@ _Warning: Inconsistent in Internet Explorer_
 ### &lt;header&gt;
 
 - **Introductory content** for its parent element
-- Often has ARIA landmark role “banner” if top-level in `<body>`
-- Can be used inside other elements to identify intro content for those (e.g. an `<article>` header)
+- Often has ARIA landmark role “banner” if top-level in &lt;body&gt;
+- Can be used inside other elements to identify intro content for those (e.g. an &lt;article&gt; header)
 
 #### Code Sample
 
@@ -509,7 +514,7 @@ _Warning: Inconsistent in Internet Explorer_
 
 #### Resources
 
-- [HTML Element: `<header>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header), MDN
+- [HTML Element: &lt;header&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header), MDN
 - [ARIA: Banner role](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Banner_role), MDN
 - [Landmark 4: `banner` landmark: identifies branding content](https://fae.disability.illinois.edu/rulesets/LANDMARK_4/), University of Illinois
 - [Landmark 5: `banner` landmark: no more than one](https://fae.disability.illinois.edu/rulesets/LANDMARK_5/), University of Illinois
@@ -529,7 +534,7 @@ _Warning: Inconsistent in Internet Explorer_
 ### &lt;footer&gt;
 
 - **Informational content** for its parent element
-- Often has landmark role “contentinfo” if top-level in `<body>` (except in VoiceOver)
+- Often has landmark role “contentinfo” if top-level in &lt;body&gt; (except in VoiceOver)
 
 #### Code Sample
 
@@ -546,7 +551,7 @@ _Warning: Inconsistent in Internet Explorer_
 
 #### Resources
 
-- [HTML Element: `<footer>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer), MDN
+- [HTML Element: &lt;footer&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer), MDN
 - [ARIA: contentinfo role](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Contentinfo_role), MDN
 - [Landmark 6: `contentinfo` landmark: identifies admin content](https://fae.disability.illinois.edu/rulesets/LANDMARK_6/), University of Illinois
 - [Landmark 7: `contentinfo` landmark: no more than one](https://fae.disability.illinois.edu/rulesets/LANDMARK_7/), University of Illinois
@@ -566,7 +571,7 @@ _Warning: Inconsistent in Internet Explorer_
 
 - **Section headings** that split the document into nested groups
 - Do not skip! Do not use out of order!
-- Only one `<h1>` per page
+- Only one &lt;h1&gt; per page
 - **Most consistent and correct method to communicate document hierarchy**
 
 #### Code Sample
@@ -587,7 +592,7 @@ _Warning: Inconsistent in Internet Explorer_
 
 #### Resources
 
-- [`<h1>`-`<h6>`: The HTML Section Heading Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements), MDN
+- [&lt;h1&gt;-&lt;h6&gt;: The HTML Section Heading Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements), MDN
 - [Web Accessibility Tutorials: Headings](https://www.w3.org/WAI/tutorials/page-structure/headings/), W3C WAI
 - [Web Accessibility Tutorials: Page Structure Concepts](https://www.w3.org/WAI/tutorials/page-structure/), W3C WAI
 
@@ -722,7 +727,7 @@ JavaScript
 
 #### Resources
 
-- [HTML Element: `form`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form), MDN
+- [HTML Element: &lt;form&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form), MDN
 
 <div class="spacer"></div>
 ---
@@ -739,7 +744,7 @@ JavaScript
 
 - Group of **related controls** inside a form, with a
 caption
-- **Must have a** `<legend>` **caption** as the first child - Most commonly used for checkboxes or radio inputs
+- **Must have a** &lt;legend&gt; **caption** as the first child - Most commonly used for checkboxes or radio inputs
 
 #### Code Sample 
 ```html
@@ -757,8 +762,8 @@ caption
 
 #### Resources
 
-- [HTML Element: `fieldset`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset), MDN
-- [HTML Element: `legend`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/legend), MDN
+- [HTML Element: &lt;fieldset&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset), MDN
+- [HTML Element: &lt;legend&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/legend), MDN
 - [HTML5: The `fieldset` element](https://www.w3.org/TR/2011/WD-html5-author-20110809/the-fieldset-element.html), W3C
 - [Accessible Form Controls](https://webaim.org/techniques/forms/controls#checkbox), WebAIM
 
@@ -776,7 +781,7 @@ caption
 ### &lt;input&gt; + &lt;label&gt; 
 
 - A single **interactive control**, with a caption
-- Formats its data inside parent `<form>` using the "name" attribute
+- Formats its data inside parent &lt;form&gt; using the "name" attribute
 - Using HTML5 type attributes can give custom behavior
 
 #### Code Sample 
@@ -794,8 +799,8 @@ caption
 
 #### Resources
 
-- [HTML Element: `input`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input), MDN
-- [HTML Element: `label`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label), MDN
+- [HTML Element: &lt;input&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input), MDN
+- [HTML Element: &lt;label&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label), MDN
 - [Accessible Form Controls](https://webaim.org/techniques/forms/controls#input), WebAIM
 - [Mobile Input Types](http://mobileinputtypes.com/), Jack Holmes
 
@@ -861,7 +866,7 @@ __Warning: Inconsistent browser support, particularly for more complex types__
 ### &lt;select&gt; + &lt;option&gt;
 
 - An input with a **menu of options**, a.k.a. a dropdown
-- `<option>` can provide value attribute or use text inside
+- &lt;option&gt; can provide value attribute or use text inside
 
 #### Code Sample 
 ```html
@@ -882,8 +887,8 @@ __Warning: Inconsistent browser support, particularly for more complex types__
 
 #### Resources
 
-- [HTML Element: `select`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select), MDN
-- [HTML Element: `option`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option), MDN
+- [HTML Element: &lt;select&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select), MDN
+- [HTML Element: &lt;option&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option), MDN
 - [Accessible Form Controls](https://webaim.org/techniques/forms/controls#select), WebAIM
 
 <div class="spacer"></div>
@@ -922,7 +927,7 @@ __Warning: Inconsistent browser support, particularly for more complex types__
 
 #### Resources
 
-- [HTML Element: `optgroup`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/optgroup), MDN
+- [HTML Element: &lt;optgroup&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/optgroup), MDN
 
 <div class="spacer"></div>
 ---
@@ -955,7 +960,7 @@ _Warning: Unsupported by Internet Explorer_
 
 #### Resources
 
-- [HTML Element: `output`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/output), MDN
+- [HTML Element: &lt;output&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/output), MDN
 
 <div class="spacer--xxl"></div>
 ---
@@ -1043,7 +1048,7 @@ This obviously does not work without JavaScript enabled. And neither would fancy
 
 - Self contained **unit of content** that is referenced by the main content
 - Can contain illustrations, diagrams, video, audio, etc.
-- Should have a `<figcaption>`, ideally before content
+- Should have a &lt;figcaption&gt;, ideally before content
 
 #### Code Sample 
 ```html
@@ -1060,12 +1065,12 @@ This obviously does not work without JavaScript enabled. And neither would fancy
 
 #### Resources
 
-- [HTML Element: `figure`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure), MDN
-- [HTML Element: `figcaption`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption), MDN
+- [HTML Element: &lt;figure&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure), MDN
+- [HTML Element: &lt;figcaption&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption), MDN
 - [HTML5 Accessibility Chops: the figure and figcaption elements](https://developer.paciellogroup.com/blog/2011/08/html5-accessibility-chops-the-figure-and-figcaption-elements/), Steve Faulkner for _The Paciello Group_
   - _Note: published in 2011, before common browser support was implemented_
 - [The figure & figcaption elements](http://html5doctor.com/the-figure-figcaption-elements/), Richard Clark for _HTML5 Doctor_
-  - See "Differences between `<figure>` and `<aside>`"
+  - See "Differences between &lt;figure&gt; and &lt;aside&gt;"
 - [Web Accessibility Tutorials: Complex images](https://www.w3.org/WAI/tutorials/images/complex/), W3C WAI
 - [Web Accessibility Tutorials: Groups of images](https://www.w3.org/WAI/tutorials/images/groups/), W3C WAI
 
@@ -1085,7 +1090,7 @@ This obviously does not work without JavaScript enabled. And neither would fancy
 - Embedded video player—no JavaScript needed!
 - Displays controls to users in familiar, platform-consistent manner
 - Can include multiple sources for different video types
-- Should include captions/subtitles with `<track>`
+- Should include captions/subtitles with &lt;track&gt;
 
 #### Code Sample 
 ```html
@@ -1106,7 +1111,7 @@ This obviously does not work without JavaScript enabled. And neither would fancy
 
 #### Resources
 
-- [HTML Element: `video`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video), MDN
+- [HTML Element: &lt;video&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video), MDN
 
 <div class="spacer"></div>
 ---
@@ -1124,7 +1129,7 @@ This obviously does not work without JavaScript enabled. And neither would fancy
 - Embedded audio player—no JavaScript needed!
 - Displays controls to users in familiar, platform-consistent manner
 - Can include multiple sources for different audio types
-- Can include captions with `<track>`, but appears unsupported in most browsers
+- Can include captions with &lt;track&gt;, but appears unsupported in most browsers
 
 #### Code Sample 
 ```html
@@ -1143,7 +1148,7 @@ This obviously does not work without JavaScript enabled. And neither would fancy
 
 #### Resources
 
-- [HTML Element: `audio`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio), MDN
+- [HTML Element: &lt;audio&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio), MDN
 
 <div class="spacer"></div>
 ---
@@ -1222,11 +1227,11 @@ Si venimos aquí después de guardar nuestro archivo
 
 #### Resources
 
-- [HTML Element: `track`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track), MDN
+- [HTML Element: &lt;track&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track), MDN
 - [WebVTT and Video Subtitles](https://iandevlin.com/blog/2011/05/html5/webvtt-and-video-subtitles/), Ian Devlin
   - _Note: published in 2011, before common browser support was implemented_
 - [WebVTT and Audio](https://www.iandevlin.com/blog/2015/12/html5/webvtt-and-audio/), Ian Devlin
-  - Suggests workaround for audio captions by using `<video>` instead
+  - Suggests workaround for audio captions by using &lt;video&gt; instead
 
 <div class="spacer--xxl"></div>
 ---
@@ -1265,7 +1270,7 @@ May improve SEO, or trigger browser-supported tools.
 - [&lt;dfn&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dfn): term being defined within the parent context, commonly displayed in italics
 
 ### Data
-- [&lt;address&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address): text representing contact information, in any preferred form; typically placed within a `<footer>`
+- [&lt;address&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address): text representing contact information, in any preferred form; typically placed within a &lt;footer&gt;
 - [&lt;time&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time): text representing time; may include machine-readable format for SEO or browser support for adding calendar events / reminders
 
 <div class="spacer--xxl"></div>
