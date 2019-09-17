@@ -32,7 +32,7 @@ This talk has been given at [EmberCamp 2019](http://embercamp.com/) in Chicago.
 
   __Resources:__
 
-  [Blog Post: Don't Just Put a &lt;div&gt; On It](/blog/semantic-html/): Long-form blog post version, with extensive resource and examples.
+  [Blog Post: Don't Just Put a &lt;div&gt; On It](/blog/semantic-html): Long-form blog post version, with extensive resource and examples.
 
   [Slides from EmberCamp Chicago, September 2019](https://drive.google.com/file/d/1oRF9lvjEyWTAcmWW0THLmcdM95nate1x/view?usp=sharing)
   </div>
