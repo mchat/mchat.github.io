@@ -217,7 +217,7 @@ Let's look at a sample blog post page, implemented using mostly &lt;div&gt; elem
 
 <figure class="figure">
     <figcaption class="figure__caption">Side by side comparison of div vs semantic HTML implementations of a blog post.</figcaption>
-    <div class="side-by-side" style="height: 420px; width: 100%;">
+    <div class="side-by-side" style="width: 100%">
         <iframe class="site-iframe" src="https://semantic-html-examples.glitch.me/emojis/divified.html"></iframe>
         <iframe class="site-iframe" src="https://semantic-html-examples.glitch.me/emojis/semantic.html"></iframe>
     </div>
@@ -619,7 +619,7 @@ Let's look at a sample page that has a form with multiple sections, implemented 
 
 <figure class="figure">
     <figcaption class="figure__caption">Side by side comparison of div vs semantic HTML implementations of a web form.</figcaption>
-    <div class="side-by-side" style="height: 420px; width: 100%;">
+    <div class="side-by-side" style="width: 100%">
         <iframe class="site-iframe" src="https://semantic-html-examples.glitch.me/forms/divified.html"></iframe>
         <iframe class="site-iframe" src="https://semantic-html-examples.glitch.me/forms/semantic.html"></iframe>
     </div>
@@ -985,7 +985,7 @@ Let's look at a sample page that has sample code implementations along with audi
 
 <figure class="figure">
     <figcaption class="figure__caption">Side by side comparison of div vs semantic HTML implementations of a multimedia page.</figcaption>
-    <div class="side-by-side" style="height: 420px; width: 100%;">
+    <div class="side-by-side" style="width: 100%">
         <iframe class="site-iframe" src="https://semantic-html-examples.glitch.me/media/divified.html"></iframe>
         <iframe class="site-iframe" src="https://semantic-html-examples.glitch.me/media/semantic.html"></iframe>
     </div>
