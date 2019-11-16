@@ -9,7 +9,7 @@ image_alt: 'Slide which reads Low Power Mode: managing your emotional and creati
 medium:  https://medium.com/@mariechatfield/low-power-mode-managing-your-emotional-and-creative-energy-3ce6faad74a8
 ---
 
-Also available as a [video recording](https://www.youtube.com/watch?v=cFYsKX83gis).
+Also available as a [video recording](https://www.youtube.com/watch?v=cFYsKX83gis). Learn more about [this talk](/talks/#low-power-mode).
 
 <!--more-->
 

@@ -135,9 +135,8 @@ __Resources:__
 + EmberFest 2017
   - [Slides](https://drive.google.com/open?id=0B6Gxc6eHorNkcndnelZEb2h4YlU)
   - [Video](https://pusher.com/sessions/meetup/emberfest/deep-dive-on-ember-events)
-
-The blog post that inspired the talk, [Deep Dive on Ember Events](https://medium.com/square-corner-blog/deep-dive-on-ember-events-cf684fd3b808), is available on the [Square Corner blog](https://medium.com/square-corner-blog).
-  </div>
++ Blog Post: [Deep Dive on Ember Events](/blog/deep-dive-on-ember-events)
+</div>
 </div>
 
 <div class="spacer--xl"></div>
@@ -158,7 +157,9 @@ Do you ever finish your work for the day feeling absolutely drained, exhausted t
 
 This talk was originally given at [AlterConf Portland 2016](https://www.alterconf.com/conferences/portland-or-2016).
 
-[Slides and speaker notes](https://medium.com/square-corner-blog/low-power-mode-managing-your-emotional-and-creative-energy-3ce6faad74a8#.hfr89hph4) are available on the [Square Corner blog](https://medium.com/square-corner-blog).
+ __Resources:__
+
+Blog Post: [Low Power Mode slides and speaker notes](/blog/low-power-mode)
 
   </div>
 </div>

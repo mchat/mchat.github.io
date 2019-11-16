@@ -9,7 +9,7 @@ image_alt: 'Gif of Taraji P. Henson writing math equations on a chalkboard in Hi
 medium:  https://medium.com/@mariechatfield/deep-dive-on-ember-events-cf684fd3b808
 ---
 
-Also available as a recorded talk from [EmberConf 2018](https://www.youtube.com/watch?v=G9hXjjHFJVs).
+Also available as a recorded talk from [EmberConf 2018](https://www.youtube.com/watch?v=G9hXjjHFJVs). Learn more about [this talk](/talks/#ember-events) or the [general JavaScript events talk](/talks/#an-event-ful-evening-with-javascript).
 
 **Disclaimer:** This blog post specifically references Ember 2.14. Some information and code samples may be out of date!
 
