@@ -25,11 +25,13 @@ Gif of Blanche from TV show The Golden Girls laughing with the caption “Damn, 
 
 Just because you do the work doesn’t mean people will magically know about it (even if it’s open source). Someone has to tell them why what you do matters, and it might as well be you.
 
-> You are the only person with complete insight into everything you do. You are the person who can most accurately and effectively hype yourself.
+> **You are the only person with complete insight into everything you do. You are the person who can most accurately and effectively hype yourself.**
 
 Hyping yourself isn’t about pride. It’s not about puffing yourself up, or making yourself look better than you actually are.
 
 Hyping yourself is about accurately explaining the value that you contribute. It’s about saying, “Here are all my accomplishments; here is what I’ve been up to; here are the ways that I’ve been growing and will continue to grow.” You demonstrate to others why you’re worth it and you show up with the receipts to back every claim you make.
+
+<div class="spacer--xl"></div>
 
 ## Keeping a Hype Doc prepares you to advocate for yourself well.
 
@@ -44,6 +46,7 @@ Clip from music video for “Alpha Girl” by JRSCK, featuring three women on a 
 </figcaption>
 </figure>
 
+<div class="spacer--xl"></div>
 
 ### What goes in a Hype Doc?
 
@@ -74,6 +77,8 @@ Gif of Vanessa from TV show East Los High dancing and brushing her shoulders off
 </figcaption>
 </figure>
 
+<div class="spacer--xl"></div>
+
 ### How do you keep a Hype Doc?
 
 Ultimately, a Hype Doc is only useful if it works for you, so follow whatever process and format suits you best. That said, a few things to consider:
@@ -86,7 +91,11 @@ Ultimately, a Hype Doc is only useful if it works for you, so follow whatever pr
 
 *   **Use whatever format works best for you.** Your doc might just be a running list of bullet points, or it could be split up by goals or projects. If your company has a well-defined framework for levels or career growth, you could use that to format your doc. Your doc could be a spreadsheet, a markdown file, or a presentation filled with gifs. Pick whatever will make it easiest and most exciting for you to keep it up to date!
 
+<div class="spacer--xxl"></div>
+
 ## Don’t just take my word for it — lots of other Squares also keep Hype Docs!
+
+<div class="spacer--xl"></div>
 
 ### Aubrey Knudson, Software Engineer
 
@@ -100,6 +109,8 @@ Ultimately, a Hype Doc is only useful if it works for you, so follow whatever pr
 > My hype doc is the place I record my contributions at work. It’s important to keep track of everything I’ve done, yet difficult for me to remember what I did a month (or six) ago. Mine is set up like a table: on the left are the requirements for promotion; on the right are bullet points with links to design docs I’ve written, fabulous PRs I’ve authored, etc, which correspond to the promotion requirement. When it comes time for promotion, all of my achievements and proof are ready to go in one doc. And, along my journey, if I notice an area that is lacking, I can talk to my manager about it, and we can find projects to boost my skills.
 
 > Anecdotally, my manager shared my doc with my skip level manager. He commented on one of my links, “This is a great design doc.” It was validating to see his feedback, which I wouldn’t have received if he hadn’t clicked the link in my hype doc. _🙂_
+
+<div class="spacer--xl"></div>
 
 ### Casey Wessel, Hardware Engineer
 
@@ -116,6 +127,8 @@ Headshot of [Casey Wessel](https://www.linkedin.com/in/cwessel/).
 
 > Also, I have a monthly recurring hype doc lunch with a fellow WomEng who actually does not work at Square. We use it as a time to hold each other accountable to updating our docs, but also sharing ideas and resources for improvement. _🙂_
 
+<div class="spacer--xl"></div>
+
 ### Ameya Acharya, Software Engineer
 
 <figure class="figure">
@@ -126,6 +139,8 @@ Headshot of [Ameya Acharya](https://twitter.com/ameyaacharya).
 </figure>
 
 > I find my hype doc most useful for noting the small fixes I’ve made that I’m not expected to do, like upgrading the Ruby version of an app, updating a poorly written test when I see it, etc. Typically I find I won’t forget which big projects, PRs or design docs I worked on. The hype doc serves as a way for me to track the extra ways that I contribute, especially since these “small wins” are not usually tracked in formal level requirements.
+
+<div class="spacer--xl"></div>
 
 ### Eric Muller, Software Engineer / Engineering Manager
 
@@ -142,6 +157,8 @@ Headshot of [Eric Muller](https://twitter.com/theprofessor22).
 
 > \> WHEN WERE YOU GOING TO TELL US ABOUT THIS???  
 > \> Our lives are forever changed. On behalf of the entire staff….THANK YOU!!!
+
+<div class="spacer--xl"></div>
 
 ---
 
