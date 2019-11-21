@@ -7,7 +7,6 @@ date: '2018-02-26T20:36:46.713Z'
 image: '/blog/hype/damn-im-good.gif'
 image_alt: 'Gif of Blanche from TV show The Golden Girls laughing with the caption “Damn, I’m good.”'
 medium:  https://medium.com/@mariechatfield/you-are-your-own-best-hype-person-cf1e3a83c0c2
-published: false
 ---
 
 At some point in your career, you’re going to have to prove to someone that you’re worth it: worth hiring, worth promoting, worth the raise, worth taking a risk on. If you’re lucky, you might have someone who has seen your work first hand, who believes in you and can vouch for you.
@@ -94,38 +93,6 @@ Ultimately, a Hype Doc is only useful if it works for you, so follow whatever pr
 <div class="spacer--xxl"></div>
 
 ## Don’t just take my word for it — lots of other Squares also keep Hype Docs!
-
-<div class="spacer--xl"></div>
-
-### Aubrey Knudson, Software Engineer
-
-<figure class="figure">
-    <img class="figure__image" src="/blog/hype/aubrey.png" alt="Headshot of Aubrey">
-    <figcaption class="figure__caption" markdown="block">Headshot of Aubrey Knudson.
-</figcaption>
-</figure>
-
-
-> My hype doc is the place I record my contributions at work. It’s important to keep track of everything I’ve done, yet difficult for me to remember what I did a month (or six) ago. Mine is set up like a table: on the left are the requirements for promotion; on the right are bullet points with links to design docs I’ve written, fabulous PRs I’ve authored, etc, which correspond to the promotion requirement. When it comes time for promotion, all of my achievements and proof are ready to go in one doc. And, along my journey, if I notice an area that is lacking, I can talk to my manager about it, and we can find projects to boost my skills.
-
-> Anecdotally, my manager shared my doc with my skip level manager. He commented on one of my links, “This is a great design doc.” It was validating to see his feedback, which I wouldn’t have received if he hadn’t clicked the link in my hype doc. _🙂_
-
-<div class="spacer--xl"></div>
-
-### Casey Wessel, Hardware Engineer
-
-<figure class="figure">
-    <img class="figure__image" src="/blog/hype/casey.jpeg" alt="Headshot of Casey">
-    <figcaption class="figure__caption" markdown="block">
-Headshot of [Casey Wessel](https://www.linkedin.com/in/cwessel/).
-</figcaption>
-</figure>
-
-> My team gives weekly updates to our manager for a weekly email that goes to the hardware team. So we have a specific slack channel where we post updates once a week and we have a slack bot reminder setup to remind us to do so. The updates I give there, I paste directly in my hype doc.
-
-> My manager was really grateful I had my hype doc when we put me up for promotion, and he had me discuss hype docs with our whole team.
-
-> Also, I have a monthly recurring hype doc lunch with a fellow WomEng who actually does not work at Square. We use it as a time to hold each other accountable to updating our docs, but also sharing ideas and resources for improvement. _🙂_
 
 <div class="spacer--xl"></div>
 
