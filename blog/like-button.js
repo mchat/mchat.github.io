@@ -109,13 +109,7 @@
 
   function initializeFirebase() {
     const firebaseConfig = {
-      apiKey: "AIzaSyBxf-SOS84o3ZYzc3CXocAv6ewb_sBBZxE",
-      authDomain: "likes-dfaad.firebaseapp.com",
-      databaseURL: "https://likes-dfaad.firebaseio.com",
-      projectId: "likes-dfaad",
-      storageBucket: "likes-dfaad.appspot.com",
-      messagingSenderId: "121961913296",
-      appId: "1:121961913296:web:a1aa317f92cdf6aceff7d5"
+      projectId: "like-clicky-button",
     };
 
     firebase.initializeApp(firebaseConfig);
