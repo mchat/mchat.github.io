@@ -26,6 +26,13 @@ minutes %}{{ words | divided_by: 275 }}{% endcapture %}
   {{ content}}
 </div>
 
+<div class="spacer">
+  <button class="like-button" type="button">
+    <i class="fa fa-heart-o"></i>&nbsp;
+    <span class="like-count">0 People Like This Post</span>
+  </button>
+</div>
+
 <div class="spacer"><hr /></div>
 
 <div class="side-by-side">
@@ -47,3 +54,10 @@ minutes %}{{ words | divided_by: 275 }}{% endcapture %}
     {% endif %}
   </div>
 </div>
+
+
+<!-- Like Button! -->
+<script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-functions.js"></script>
+<script src="/blog/like-button.js"></script>

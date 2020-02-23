@@ -4,6 +4,10 @@ body {
   --font-body: 'Crimson Text';
   --font-mono: 'Fira Mono';
 
+  --color-gray-lighter: #F7F7F7;
+  --color-gray-darker: #CACACA;
+  --color-red: #A81025;
+
   --color-background--light: #F6F6F6;
 
   --color-display: #3FA89F;
@@ -411,4 +415,27 @@ Contact Section
   margin: 0 0.5em;
   height: 420px;
   width: 100%;
+}
+
+/*********************************************************/
+
+.like-button {
+  background-color: var(--color-gray-lighter);
+  border: 1px solid var(--color-gray-darker);
+  border-radius: 0.5em;
+  cursor: pointer;
+  font-family: var(--font-body), serif;
+  line-height: 1.15;
+  padding: 1em;
+  margin: 0;
+}
+
+.like-button .fa-heart,
+.like-button .fa-heart-o {
+  color: var(--color-red);
+}
+
+.like-button:hover,
+.like-button:active {
+  background-color: var(--color-gray-darker);
 }
