@@ -1,1 +1,1 @@
-## a portfolio of projects created by marie chatfield
+## a portfolio of projects created by marie chatfield rivas

@@ -5,11 +5,11 @@ permalink: /
 
 <div class="content__section">
   <div class="content__section__media align-center" markdown="block">
-![Profile picture of Marie Chatfield.](/public/resources/images/profile.jpg){: .content__section__image }
+![Profile picture of Marie Chatfield Rivas.](/public/resources/images/profile.jpg){: .content__section__image }
   </div>
   <div class="content__section__text content__section__text--align-title" markdown="block">
 
-Marie Chatfield writes code and poetry, sometimes at the same time. As a front-end engineer, she is passionate about creating inclusive experiences and understanding foundational web technologies at a deeper level.
+Marie Chatfield Rivas writes code and poetry, sometimes at the same time. As a senior front-end engineer, she is passionate about creating inclusive experiences and understanding foundational web technologies at a deeper level.
 
 Some of Marie's areas of expertise include:
 
@@ -30,6 +30,6 @@ I love whimsy of all sorts and emojis in particular.
 
 <big>🧗‍♀️</big> I started rock climbing when I moved to Austin and now I'm a Certified Enthusiast™.
 <br><big>📚</big> In my free time I sit in coffee shops writing poetry, journaling, and reading novels.
-<br><big>🏕</big> I love swing dancing, nature strolling, camping, and Jesus.
+<br><big>🏕</big> I love nature strolling, camping, bluebonnets, cute video games, and Jesus.
 <br><big>💁🏻‍♀️</big> I started <a href="https://dear.mariechatfield.com">an advice column</a> on a whim.
 </div>
