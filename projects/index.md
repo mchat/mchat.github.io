@@ -9,8 +9,8 @@ title: Side Projects
   </div>
 
   <div class="content__section__text" markdown="block">
-#### [CallMyCongress.com](https://www.callmycongress.com)
-##### November 2016
+#### CallMyCongress.com
+##### November 2016—December 2019
 
 __Quick and easy access to your congressional representatives.__
 
