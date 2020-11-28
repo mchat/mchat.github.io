@@ -374,6 +374,7 @@ Contact Section
 @media only screen and (max-width: 450px) {
   .navigation__name {
     text-align: center;
+    max-width: 100%;
   }
 
   .navigation__list {
