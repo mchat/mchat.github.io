@@ -5,7 +5,7 @@ permalink: /
 
 <div class="content__section">
   <div class="content__section__media align-center" markdown="block">
-![Profile picture of Marie Chatfield Rivas, smiling in a blue dress in front of a green backdrop.](/public/resources/images/marie_chatfield_rivas.jpeg){: .content__section__image }
+![Profile picture of Marie Chatfield Rivas, smiling in a blue dress in front of a green backdrop.](/public/resources/images/marie_chatfield_rivas.jpeg){: .content__section__image .profile-image }
   </div>
   <div class="content__section__text content__section__text--align-title" markdown="block">
 
