@@ -189,7 +189,7 @@ At times, like let's say, you're using a single page app framework, so where you
 
 <div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
   <iframe
-    src="https://glitch.com/embed/#!/embed/html-vs-dom?path=views/index.html&previewSize=0"
+    src="https://glitch.com/embed/#!/embed/html-vs-dom?path=index.html&previewSize=0"
     alt="html-vs-dom on Glitch"
     style="height: 100%; width: 100%; border: 0;">
   </iframe>
